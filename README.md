@@ -6,16 +6,16 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 - [General](#general)
 
-- [Packages](#packages)
-  - [Libraries](#interfaces)  Programming Language Specific Libs for Lucene.
-  - [Tools](#tools) Applications / Tools that work with Lucene.
-  - [Projects](#projects) Other projects that use Lucene.
+- PROGRESS [Packages](#packages)
+  - [Libraries](#interfaces)  Programming Language Specific Libs for Cassandra.
+  - [Tools](#tools) Applications / Tools that work with Cassandra.
+  - [Projects](#projects) Other projects that use Cassandra.
   
-- [Resources](#resources)
+- TODO [Resources](#resources) 
   - [Documentation](#documentation) Official / unofficial documentation. 
-  - [Books](#books) Popular books about Solr.
-  - [Tutorials](#tutorials) Step by step tutorials on Lucene.
-  - [Web Sites](#web-sites) Sites ( not blogs ) on Lucene.
+  - [Books](#books) Popular books about Cassandra.
+  - [Tutorials](#tutorials) Step by step tutorials on Cassandra.
+  - [Web Sites](#web-sites) Sites ( not blogs ) on Cassandra.
   - [Blogs](#blogs) from Lucene experts.
   - [Videos](#videos) Videos on Lucene.
 
@@ -37,19 +37,20 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Libraries 
 - [DataStax Java Driver](https://github.com/datastax/java-driver): A Java client driver for Apache Cassandra. 
-- [DataStax C++ Driver](https://github.com/datastax/cpp-driver): DataStax C/C++ Driver for Apache Cassandra (http://datastax.github.io/cpp-driver/)
+- [DataStax C++ Driver](https://github.com/datastax/cpp-driver): A modern, feature-rich, and highly tunable C/C++ client library for Apache Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively Cassandra's native protocol and Cassandra Query Language v3. http://datastax.github.io/cpp-driver/
 - TODO : C#
-- (DataStax Python Driver)[https://github.com/datastax/python-driver]: DataStax Python Driver for Apache Cassandra
-- ...
+- [DataStax Python Driver](https://github.com/datastax/python-driver): A modern, feature-rich and highly-tunable Python client library for Apache Cassandra (2.1+) using exclusively Cassandra's binary protocol and Cassandra Query Language v3.
+- [DataStax Ruby Driver](https://github.com/datastax/ruby-driver) : A Ruby client driver for Apache Cassandra. This driver works exclusively with the Cassandra Query Language version 3 (CQL3) and Cassandra's native protocol.
+- [DataStax NodeJS Driver](https://github.com/datastax/nodejs-driver): A modern, feature-rich and highly tunable Node.js client library for Apache Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively Cassandra's binary protocol and Cassandra Query Language v3.
+- [DataStax C# Driver](https://github.com/datastax/csharp-driver) A modern, feature-rich and highly tunable C# client library for Apache Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively Cassandra's binary protocol and Cassandra Query Language v3.
 
 ### Tools 
 
-
-- Uses Thrift [Netflix Astyanax](https://github.com/Netflix/astyanax): Astyanax is a high level Java client for Apache Cassandra, based with Thrift protocal.
-- OLD [Hector](https://github.com/hector-client/hector) : Hector is a high level Java client for Apache Cassandra, based with Thrift protocal.
+- [trireme](https://github.com/o19s/trireme): Migration tool providing support for Apache Cassandra, DataStax Enterprise Cassandra, & DataStax Enterprise Solr.
+- [Netflix Astyanax](https://github.com/Netflix/astyanax): Astyanax is a high level Java client for Apache Cassandra, based with Thrift protocal.
+- [Hector](https://github.com/hector-client/hector) : Hector is a high level Java client for Apache Cassandra, based with Thrift protocal.
 - [Caffinitas](http://caffinitas.org/mapper/): Caffinitas is an advanced object mapper for Apache Cassandra which has been especially designed to work with Datastax Java Driver 2.1+ against Apache Cassandra 2.1, 2.0 or 1.2.
 - [Achilles](http://doanduyhai.github.io/Achilles/): Achilles is an open source Persistence Manager for Apache Cassandra,with the features like Advanced bean mapping (compound primary key, composite partition key, timeUUID...),Native collections and map support,and so.
-- [trireme](https://github.com/o19s/trireme): Migration tool providing support for Apache Cassandra, DataStax Enterprise Cassandra, & DataStax Enterprise Solr.
 
 ## Projects
 
