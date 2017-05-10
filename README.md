@@ -16,8 +16,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
   - [Books](#books) Popular books about Cassandra.
   - [Tutorials](#tutorials) Step by step tutorials on Cassandra.
   - [Web Sites](#web-sites) Sites ( not blogs ) on Cassandra.
-  - [Blogs](#blogs) from Lucene experts.
-  - [Videos](#videos) Videos on Lucene.
+  - [Blogs](#blogs) from Cassandra experts.
+  - [Videos](#videos) Videos on Cassandra.
 
 ## General
 
@@ -44,8 +44,14 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [DataStax NodeJS Driver](https://github.com/datastax/nodejs-driver): A modern, feature-rich and highly tunable Node.js client library for Apache Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively Cassandra's binary protocol and Cassandra Query Language v3.
 - [DataStax C# Driver](https://github.com/datastax/csharp-driver) A modern, feature-rich and highly tunable C# client library for Apache Cassandra (1.2+) and DataStax Enterprise (3.1+) using exclusively Cassandra's binary protocol and Cassandra Query Language v3.
 
-### Tools 
 
+https://github.com/datastax/php-driver DataStax PHP Driver for Apache Cassandra http://datastax.github.io/php-driver/
+
+https://github.com/datastax/spark-cassandra-stress A tool for testing the DataStax Spark Connector against Apache Cassandra or DSE
+
+
+### Tools 
+- https://github.com/datastax/cstar_perf Apache Cassandra performance testing platform
 - [trireme](https://github.com/o19s/trireme): Migration tool providing support for Apache Cassandra, DataStax Enterprise Cassandra, & DataStax Enterprise Solr.
 - [Netflix Astyanax](https://github.com/Netflix/astyanax): Astyanax is a high level Java client for Apache Cassandra, based with Thrift protocal.
 - [Hector](https://github.com/hector-client/hector) : Hector is a high level Java client for Apache Cassandra, based with Thrift protocal.
@@ -72,3 +78,9 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [CassieQ](https://github.com/paradoxical-io/cassieq): A Distributed queue built off of Cassandra.
 - [Cherami](https://eng.uber.com/cherami/) : Distributed, scalable, durable, and highly available message queue system.
 - [scheduler](https://github.com/PagerDuty/scheduler) : A Scala library for scheduling arbitrary code to run at an arbitrary time.
+
+https://github.com/datastax/cassandra-log4j-appender
+
+## Resources 
+
+### 
