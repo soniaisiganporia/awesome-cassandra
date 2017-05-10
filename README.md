@@ -11,7 +11,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
   - [Tools](#tools) Applications / Tools that work with Cassandra.
   - [Projects](#projects) Other projects that use Cassandra.
   
-- TODO [Resources](#resources) 
+- PROGRESS [Resources](#resources) 
   - [Documentation](#documentation) Official / unofficial documentation. 
   - [Books](#books) Popular books about Cassandra.
   - [Tutorials](#tutorials) Step by step tutorials on Cassandra.
@@ -21,10 +21,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ## General
 
-### Documentation 
+### Cassandra 
 - [Apache Cassandra](http://cassandra.apache.org/) Manage massive amounts of data, fast, without losing sleep.
-- [Apache Cassandra Documentation](http://cassandra.apache.org/doc/) Definitive documentation for all published versions. 
-- [DataStax Documentation](http://docs.datastax.com/en/landing_page/doc/landing_page/current.html) Documentation and Drivers from DataStax 
 
 ### Relational -> Cassandra
 - [RDBMS to NoSQL](http://www.datastax.com/relational-database-to-nosql): Your roadmap to understanding whether NoSQL is right for you.
@@ -64,14 +62,14 @@ https://github.com/datastax/spark-cassandra-stress A tool for testing the DataSt
 - [DataStax Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector): This library lets you expose Cassandra tables as Spark RDDs, write Spark RDDs to Cassandra tables, and execute arbitrary CQL queries in your Spark applications.
 - [Stratio Deep](https://github.com/Stratio/stratio-deep): Deep is a thin integration layer between Apache Spark and several NoSQL datastores. We actually support Apache Cassandra and MongoDB, but in the near future we will add support for sever other datastores.
 
-### Search Engine
+### Search / Secondary Indexes 
 - [Elassandra](http://www.elassandra.io/): Elassandra = Elasticsearch as a Cassandra secondary index.
 - OLD - [Solandra](https://github.com/tjake/Solandra): Solandra is a real-time distributed search engine built on Apache Solr and Apache Cassandra.
 
-### Admin and Monitor
+### Admin / Monitor
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter): Simplified management for DataStax Enterprise and Cassandra database clusters.
 - [Cassandra Cluster Admin](https://github.com/sebgiroux/Cassandra-Cluster-Admin): Cassandra Cluster Admin is a GUI tool to help people administrate their Apache Cassandra cluster.
-- [How to Monitor Cassandra](https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/): A guide to help you monitor Cassandra performance and work metrics regardles of which monitoring tool you choose to use.
+- [Cassandra StatD Agent](https://github.com/lookout/cassandra-statsd-agent): Java Agent for Cassandra integration with StatsD 
 
 ### Queues / Schedulers
 - [CMB](https://github.com/Comcast/cmb): A highly available, horizontally scalable queuing and notification service compatible with AWS SQS and SNS
@@ -79,8 +77,15 @@ https://github.com/datastax/spark-cassandra-stress A tool for testing the DataSt
 - [Cherami](https://eng.uber.com/cherami/) : Distributed, scalable, durable, and highly available message queue system.
 - [scheduler](https://github.com/PagerDuty/scheduler) : A Scala library for scheduling arbitrary code to run at an arbitrary time.
 
-https://github.com/datastax/cassandra-log4j-appender
+### Logging 
+- [cassandra-log4j-appender](https://github.com/datastax/cassandra-log4j-appender): Cassandra appenders for Log4j
 
 ## Resources 
 
-### 
+### Documentation 
+- [Apache Cassandra Documentation](http://cassandra.apache.org/doc/) Definitive documentation for all published versions. 
+- [DataStax Documentation](http://docs.datastax.com/en/landing_page/doc/landing_page/current.html) Documentation and Drivers from DataStax 
+
+### Tutorials 
+- [Tuning DSE Search](http://www.datastax.com/dev/blog/tuning-dse-search) Tuning DSE Search – Indexing latency and query latency
+- [How to Monitor Cassandra](https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/): A guide to help you monitor Cassandra performance and work metrics regardles of which monitoring tool you choose to use.
