@@ -28,8 +28,6 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [RDBMS to NoSQL](http://www.datastax.com/relational-database-to-nosql): Your roadmap to understanding whether NoSQL is right for you.
 - [MySQL to C*](http://planetcassandra.org/mysql-to-cassandra-migration/): mysql to cassandra migration guide
 
-### Distributed Processsing w/ Cassandra
-- OLD [Install Cassandra and Spark](http://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html): quick user guide for integration with Cassandra and Spark
 
 ## Packages
 
@@ -74,6 +72,10 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Cherami](https://eng.uber.com/cherami/) : Distributed, scalable, durable, and highly available message queue system.
 - [scheduler](https://github.com/PagerDuty/scheduler) : A Scala library for scheduling arbitrary code to run at an arbitrary time.
 
+### Frameworks 
+- [fluxcapacitor/pipeline](https://github.com/fluxcapacitor/pipeline): End-to-End, Real-time, Advanced Analytics Big Data Reference Pipeline using Spark, Spark SQL, Spark ML, GraphX, Spark Streaming, Kafka, NiFi, Cassandra, ElasticSearch, Redis, Tachyon, HDFS, Zeppelin, iPython/Jupyter Notebook, Tableau, Twitter Algebird.
+
+
 ### Logging 
 - [cassandra-log4j-appender](https://github.com/datastax/cassandra-log4j-appender): Cassandra appenders for Log4j
 
@@ -84,5 +86,17 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [DataStax Documentation](http://docs.datastax.com/en/landing_page/doc/landing_page/current.html) Documentation and Drivers from DataStax 
 
 ### Tutorials 
+- [Building a Streaming Data Hub with Elasticsearch, Kafka and Cassandra](http://thenewstack.io/building-streaming-data-hub-elasticsearch-kafka-cassandra/)
 - [Tuning DSE Search](http://www.datastax.com/dev/blog/tuning-dse-search) Tuning DSE Search – Indexing latency and query latency
 - [How to Monitor Cassandra](https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/): A guide to help you monitor Cassandra performance and work metrics regardles of which monitoring tool you choose to use.
+- [Install Cassandra and Spark](http://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html): quick user guide for integration with Cassandra and Spark
+
+### Blogs
+- [Datastax](https://www.datastax.com/blog)
+- [Codecentric](https://blog.codecentric.de/)
+- [Pythian](https://www.pythian.com/blog/)
+- [Instaclustr](https://www.instaclustr.com/blog/) 
+
+### Videos 
+- [Best Practices for Running Cassandra on AWS](https://m.youtube.com/watch?v=IuJldwJLyFM)
+- 
