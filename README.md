@@ -36,18 +36,20 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 ## Packages
 
 ### Libraries 
-- TODO : Java
+- [DataStax Java Driver](https://github.com/datastax/java-driver): A Java client driver for Apache Cassandra. 
+- [DataStax C++ Driver](https://github.com/datastax/cpp-driver): DataStax C/C++ Driver for Apache Cassandra (http://datastax.github.io/cpp-driver/)
 - TODO : C#
-- TODO : Python
+- (DataStax Python Driver)[https://github.com/datastax/python-driver]: DataStax Python Driver for Apache Cassandra
 - ...
 
 ### Tools 
 
-- [DataStax Java Driver](https://github.com/datastax/java-driver): A Java client driver for Apache Cassandra. This driver works exclusively with the Cassandra Query Language version 3 (CQL3) and Cassandra's binary protocol.
+
 - Uses Thrift [Netflix Astyanax](https://github.com/Netflix/astyanax): Astyanax is a high level Java client for Apache Cassandra, based with Thrift protocal.
 - OLD [Hector](https://github.com/hector-client/hector) : Hector is a high level Java client for Apache Cassandra, based with Thrift protocal.
 - [Caffinitas](http://caffinitas.org/mapper/): Caffinitas is an advanced object mapper for Apache Cassandra which has been especially designed to work with Datastax Java Driver 2.1+ against Apache Cassandra 2.1, 2.0 or 1.2.
 - [Achilles](http://doanduyhai.github.io/Achilles/): Achilles is an open source Persistence Manager for Apache Cassandra,with the features like Advanced bean mapping (compound primary key, composite partition key, timeUUID...),Native collections and map support,and so.
+- [trireme](https://github.com/o19s/trireme): Migration tool providing support for Apache Cassandra, DataStax Enterprise Cassandra, & DataStax Enterprise Solr.
 
 ## Projects
 
@@ -65,6 +67,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [How to Monitor Cassandra](https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/): A guide to help you monitor Cassandra performance and work metrics regardles of which monitoring tool you choose to use.
 
 ### Queues / Schedulers
-- [CMB]
+- [CMB](https://github.com/Comcast/cmb): A highly available, horizontally scalable queuing and notification service compatible with AWS SQS and SNS
 - [CassieQ](https://github.com/paradoxical-io/cassieq): A Distributed queue built off of Cassandra.
-- [Cherami]
+- [Cherami](https://eng.uber.com/cherami/) : Distributed, scalable, durable, and highly available message queue system.
+- [scheduler](https://github.com/PagerDuty/scheduler) : A Scala library for scheduling arbitrary code to run at an arbitrary time.
