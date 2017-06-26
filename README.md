@@ -4,7 +4,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ## Contents
 
-- [General](#general)
+- [General](#general) 
 
 - PROGRESS [Packages](#packages)
   - [Libraries](#interfaces)  Programming Language Specific Libs for Cassandra.
