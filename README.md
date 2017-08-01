@@ -18,6 +18,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
   - [Web Sites](#web-sites) Sites ( not blogs ) on Cassandra.
   - [Blogs](#blogs) from Cassandra experts.
   - [Videos](#videos) Videos on Cassandra.
+  - [Slides](#slides) Slides on Cassandra / related technologies.
 
 ## General
 
@@ -99,4 +100,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Videos 
 - [Best Practices for Running Cassandra on AWS](https://m.youtube.com/watch?v=IuJldwJLyFM)
-- 
+
+### Slides
+- [Cassandra DataTables Using Restful API](https://www.slideshare.net/SimranKedia2/cassandra-datatables-using-restful-api) A case on how to create a performant API using Python / Flash.
+- [HAPI Cassandra](https://github.com/victorcouste/hapi-cassandra) A simple REST API with hapi nodejs framework on top of a Apache Cassandra database  
