@@ -52,6 +52,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Caffinitas](http://caffinitas.org/mapper/): Caffinitas is an advanced object mapper for Apache Cassandra which has been especially designed to work with Datastax Java Driver 2.1+ against Apache Cassandra 2.1, 2.0 or 1.2.
 - [Achilles](http://doanduyhai.github.io/Achilles/): Achilles is an open source Persistence Manager for Apache Cassandra,with the features like Advanced bean mapping (compound primary key, composite partition key, timeUUID...),Native collections and map support,and so.
 - [phpcassa](https://github.com/thobbs/phpcassa): PHP client library for Apache Cassandra
+- [Web: Cassandra Calculatpr](https://www.ecyrd.com/cassandracalculator/): A simple calculator to see how size / replication factor affect the system's consistency.
 
 ## Projects
 
