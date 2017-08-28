@@ -54,10 +54,6 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [phpcassa](https://github.com/thobbs/phpcassa): PHP client library for Apache Cassandra
 - [Web: Cassandra Calculatpr](https://www.ecyrd.com/cassandracalculator/): A simple calculator to see how size / replication factor affect the system's consistency.
 - [Docker-Cassandra](https://github.com/nicolasff/docker-cassandra): A set of scripts and config files to run a Cassandra cluster from Docker.
-- [Cassandra-Tools](https://github.com/CrowdStrike/cassandra-tools): Python Fabric scripts to help automate the launching and managing of cluster testing on AWS. 
-- [Cassandra Opstools](https://github.com/spotify/cassandra-opstools): Generic scripts to review and monitor cassandra, from Spotify.  
-- [CCM: Cassandra Cluster Manager)](https://github.com/pcmanus/ccm): A script/library to create, launch and remove an Apache Cassandra cluster on localhost.
-- [Cassandra Nagios](https://github.com/causes/cassandra-nagios): Perl Based scripts to get metrics for monitoring using Jolokia.
 
 ### With Spark
 - [DataStax Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector): This library lets you expose Cassandra tables as Spark RDDs, write Spark RDDs to Cassandra tables, and execute arbitrary CQL queries in your Spark applications.
@@ -71,6 +67,12 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter): Simplified management for DataStax Enterprise and Cassandra database clusters.
 - [Cassandra Cluster Admin](https://github.com/sebgiroux/Cassandra-Cluster-Admin): Cassandra Cluster Admin is a GUI tool to help people administrate their Apache Cassandra cluster.
 - [Cassandra StatD Agent](https://github.com/lookout/cassandra-statsd-agent): Java Agent for Cassandra integration with StatsD 
+- [Cassandra Scripts](https://github.com/bart613/cassandra): Python based cassandra ops scripts to monitor cfstats. 
+- [Cassandra-Tools](https://github.com/CrowdStrike/cassandra-tools): Python Fabric scripts to help automate the launching and managing of cluster testing on AWS. 
+- [Cassandra Opstools](https://github.com/spotify/cassandra-opstools): Generic scripts to review and monitor cassandra, from Spotify.  
+- [CCM: Cassandra Cluster Manager)](https://github.com/pcmanus/ccm): A script/library to create, launch and remove an Apache Cassandra cluster on localhost.
+- [Cassandra Nagios](https://github.com/causes/cassandra-nagios): Perl Based scripts to get metrics for monitoring using Jolokia.
+
 
 ### Queues / Schedulers
 - [CMB](https://github.com/Comcast/cmb): A highly available, horizontally scalable queuing and notification service compatible with AWS SQS and SNS
