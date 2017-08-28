@@ -54,6 +54,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [phpcassa](https://github.com/thobbs/phpcassa): PHP client library for Apache Cassandra
 - [Web: Cassandra Calculatpr](https://www.ecyrd.com/cassandracalculator/): A simple calculator to see how size / replication factor affect the system's consistency.
 - [Docker-Cassandra](https://github.com/nicolasff/docker-cassandra): A set of scripts and config files to run a Cassandra cluster from Docker.
+- [Cassandra & Zeppelin Notebook on Docker](https://github.com/academyofdata/cassandra-zeppelin): Docker-Compose script for Cassandra + Zeppelin setup.
 
 ### With Spark
 - [DataStax Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector): This library lets you expose Cassandra tables as Spark RDDs, write Spark RDDs to Cassandra tables, and execute arbitrary CQL queries in your Spark applications.
