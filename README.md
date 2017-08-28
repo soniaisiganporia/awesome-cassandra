@@ -56,6 +56,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Docker-Cassandra](https://github.com/nicolasff/docker-cassandra): A set of scripts and config files to run a Cassandra cluster from Docker.
 - [Cassandra-Tools](https://github.com/CrowdStrike/cassandra-tools): Python Fabric scripts to help automate the launching and managing of cluster testing on AWS. 
 - [Cassandra Opstools](https://github.com/spotify/cassandra-opstools): Generic scripts to review and monitor cassandra, from Spotify.  
+- [CCM: Cassandra Cluster Manager)](https://github.com/pcmanus/ccm): A script/library to create, launch and remove an Apache Cassandra cluster on localhost.
 
 ### With Spark
 - [DataStax Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector): This library lets you expose Cassandra tables as Spark RDDs, write Spark RDDs to Cassandra tables, and execute arbitrary CQL queries in your Spark applications.
