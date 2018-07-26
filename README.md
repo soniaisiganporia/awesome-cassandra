@@ -37,6 +37,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Using Cassandra
 - TODO: cassandra installation tutorials in local, docker, cloud (do, aws, azure, gcp)
+- [Installing the Cassandra / Spark OSS Stack](https://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html)
+- [Install Cassandra and Spark](http://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html): quick user guide for integration with Cassandra and Spark
 - TODO: compiling cassandra
 - TODO: running cassandra
 - TODO: using cql
@@ -135,6 +137,10 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 ### Deploying Cassandra
 - TODO: Planning a Cluster Deployment
 - TODO: Container Deployment
+- [Docker-Cassandra](https://github.com/nicolasff/docker-cassandra): A set of scripts and config files to run a Cassandra cluster from Docker.
+- [Cassandra & Zeppelin Notebook on Docker](https://github.com/academyofdata/cassandra-zeppelin): Docker-Compose script for Cassandra + Zeppelin setup.
+- [Packer: Cassandra Image](https://github.com/cloudurable/cassandra-image) - Cassandra Image using Packer for Docker and EC2 AMI. Covers managing EC2 Cassandra clusters with Ansible.
+
 - TODO: Container Orchestration
 - TODO: Cloud Deployment
 - [How To Setup A Highly Available Multi-AZ Cassandra Cluster On AWS EC2](http://highscalability.com/blog/2016/8/1/how-to-setup-a-highly-available-multi-az-cassandra-cluster-o.html)
@@ -172,8 +178,6 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Spark Cassandra Stress](https://github.com/datastax/spark-cassandra-stress) A tool for testing the DataStax Spark Connector against Apache Cassandra or DSE
 - [trireme](https://github.com/o19s/trireme): Migration tool providing support for Apache Cassandra, DataStax Enterprise Cassandra, & DataStax Enterprise Solr.
 - [Web: Cassandra Calculator](https://www.ecyrd.com/cassandracalculator/): A simple calculator to see how size / replication factor affect the system's consistency.
-- [Docker-Cassandra](https://github.com/nicolasff/docker-cassandra): A set of scripts and config files to run a Cassandra cluster from Docker.
-- [Cassandra & Zeppelin Notebook on Docker](https://github.com/academyofdata/cassandra-zeppelin): Docker-Compose script for Cassandra + Zeppelin setup.
 
 ### With Spark
 - [DataStax Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector): This library lets you expose Cassandra tables as Spark RDDs, write Spark RDDs to Cassandra tables, and execute arbitrary CQL queries in your Spark applications.
@@ -224,29 +228,32 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [DataStax Academy](https://academy.datastax.com/): Free online courses on Cassandra
 - [Building a Streaming Data Hub with Elasticsearch, Kafka and Cassandra](http://thenewstack.io/building-streaming-data-hub-elasticsearch-kafka-cassandra/)
 - [Tuning DSE Search](http://www.datastax.com/dev/blog/tuning-dse-search) Tuning DSE Search – Indexing latency and query latency
-
-- [Install Cassandra and Spark](http://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html): quick user guide for integration with Cassandra and Spark
 - [Building a Performant API using Go and Cassandra](https://getstream.io/blog/building-a-performant-api-using-go-and-cassandra/)
 - [DataStax: Basic Rules of Data Modeling](http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling)
 
 ### Communities
-- TODO: Apache Cassandra List Serve
-- TODO: Datastax Academy Slack
-- TODO: Quora
-- TODO: Meetups
-- TODO: StackOverflow
-- TODO: Cassandra Slack
-
+- [Apache Cassandra Users Mailing List](http://www.mail-archive.com/user@cassandra.apache.org/)
+- [Apache Cassandra Developers Mailing List](http://www.mail-archive.com/dev@cassandra.apache.org/)
+- [Apache Cassandra Commits Mailing List](http://www.mail-archive.com/commits@cassandra.apache.org/)
+- [Datastax Academy Slack](https://academy.datastax.com/slack)
+- [Cassandra Slack](https://cassandra-slack.herokuapp.com/)
+- [StackOverflow: Cassandra](https://stackoverflow.com/questions/tagged/cassandra)
+- [StackOverflow: cql](https://stackoverflow.com/questions/tagged/cql)
+- [StackOverflow: spark-cassandra-connector](https://stackoverflow.com/questions/tagged/spark-cassandra-connector)
+- [Quora: Cassandra](https://www.quora.com/topic/Cassandra-database)
+- [Meetups: Cassandra](https://www.meetup.com/topics/cassandra/?_cookie-check=mHgLvBy3N6Cke1RU)
 
 ### Blogs
 - [Datastax](https://www.datastax.com/blog)
 - [Codecentric](https://blog.codecentric.de/)
 - [Pythian](https://www.pythian.com/blog/)
 - [Instaclustr](https://www.instaclustr.com/blog/) 
+- [Anant](https://blog.anant.us/tag/datastax/)
 
 ### Videos 
 - [Best Practices for Running Cassandra on AWS](https://www.youtube.com/watch?v=IuJldwJLyFM)
 - [Monitoring Cassandra: Don't Miss a Thing (Alain Rodriguez, The Last Pickle) | C* Summit 2016](https://www.youtube.com/watch?v=Q9AAR4UQzMk)
+- [GumGum: Multi-Region Cassandra in AWS](https://academy.datastax.com/resources/Multi-Region-Cassandra-in-AWS)
 
 ### Slides
 - [Cassandra DataTables Using Restful API](https://www.slideshare.net/SimranKedia2/cassandra-datatables-using-restful-api) A case on how to create a performant API using Python / Flash.
