@@ -109,7 +109,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 ### Cassandra Performance Tuning
 - [Jon Haddad: Cassandra Summit Recap - Diagnosing Problems in Production](http://rustyrazorblade.com/2014/09/cassandra-summit-recap-diagnosing-problems-in-production/)
 - [Ryan Svihla's Cassandra 2.0 checklist](https://medium.com/@foundev/my-cassandra-diagnostics-checklist-brain-dump-599a2b95b118)
-- [Al's Cassandra 2.1 tuning guide](https://tobert.github.io/pages/als-cassandra-21-tuning-guide.html)
+- [Amy's Cassandra 2.1 tuning guide](https://tobert.github.io/pages/als-cassandra-21-tuning-guide.html)
 - [Secret HotSpot option improving GC pauses on large heaps](http://blog.ragozin.info/2012/03/secret-hotspot-option-improving-gc.html)
 - [DSE 5.1: Tuning Java Resource](https://docs.datastax.com/en/dse/5.1/dse-admin/datastax_enterprise/operations/opsTuneJVM.html)
 
@@ -152,7 +152,6 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: Streaming
 - TODO: ETL
 - TODO: CDC
-
 
 
 ## Packages
@@ -245,9 +244,17 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Blogs
 - [Datastax](https://www.datastax.com/blog)
+- [Datastax Academy](https://academy.datastax.com/developer-blog)
 - [Codecentric](https://blog.codecentric.de/)
 - [Pythian](https://www.pythian.com/blog/)
 - [Instaclustr](https://www.instaclustr.com/blog/) 
+- [Cassandra Zone](https://cassandra-zone.com/) - Findings and musings on Apache Cassandra
+- [Altheroot:Cassandra](https://blog.alteroot.org/categories/cassandra/index.html)
+- [OpenCredo:Cassandra](https://opencredo.com/tag/cassandra/)
+- [Amy Tobert](https://tobert.github.io/)
+- [Christopher Batey: Cassandra](http://batey.info/cassandra.html)
+- [Distributed Bytes:Cassandra](https://distributedbytes.timojo.com/search/label/cassandra)
+- [The Netflix Tech Blog](https://medium.com/netflix-techblog)
 - [Anant](https://blog.anant.us/tag/datastax/)
 
 ### Videos 
