@@ -26,12 +26,14 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Apache Cassandra](http://cassandra.apache.org/) Manage massive amounts of data, fast, without losing sleep.
 - TODO: some articles on cassandra history 
 - TODO: some articles on cassandra use cases 
+- [Kaa application based on Raspberry Pi and DHT11 sensor](https://github.com/pyroalf/kaa-cassandra-sample) - Cassandra IoT usecase with Raspberry Pi and a DHT11 Sensor
 - TODO: cassandra disributions
 
 
-### Relational -> Cassandra
+### Relational / Other -> Cassandra
 - [RDBMS to NoSQL](http://www.datastax.com/relational-database-to-nosql): Your roadmap to understanding whether NoSQL is right for you.
 - [MySQL to C*](http://planetcassandra.org/mysql-to-cassandra-migration/): mysql to cassandra migration guide
+- [Real-Time Replication from MySQL to Cassandra](https://mcbguru.blog/2014/02/27/real-time-replication-from-mysql-to-cassandra/)
 
 ### Using Cassandra
 - TODO: cassandra installation tutorials in local, docker, cloud (do, aws, azure, gcp)
@@ -40,16 +42,108 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: using cql
 - TODO: using zeppelin with cassandra
 - TODO: getting data in / out of cassandra
+- [Cassandra Data Copy Tool](https://github.com/wildengineer/cassandra-data-copy-tool)- Java tool to copy data from one cassandra table to another
+- [Spring Data Cassandra Examples](https://github.com/jxblum/spring-data-cassandra-examples) - Examples for the Spring Data Cassandra Project.
+- TODO: using spark with cassandra
+- [Introduction to Spark & Cassandra](http://rustyrazorblade.com/post/2015/2015-01-02-intro-to-spark-and-cassandra/) 
+
+- [From Cassandra to S3, with Spark](https://objectpartners.com/2016/11/30/from-cassandra-to-s3-with-spark/)
+- [Import CSV files with spark](https://github.com/markthebault/importCSVSparkCassandra) - How to import a file from S3 into cassandra using spark
 
 ### Cassandra Data Modeling
 - TODO: sql v. cql
 - TODO: query driven methodology 
 - TODO: schema designs / examples
-- [Common Problems in Cassandra Data Models](https://blog.anant.us/common-problems-cassandra-data-models/)
+- [killrvideo-sample-schema](https://github.com/pmcfadin/killrvideo-sample-schema) - Sample Cassandra CQL Schema for a Youtube clone.
+- [](https://github.com/jxblum/spring-data-cassandra-examples/blob/master/src/main/resources/cassandra-example-schema.cql)
+- TODO: data modeling problems
+- [Common Problems in Cassandra Data Models](https://blog.anant.us/common-problems-cassandra-data-models/) - Presentation and Article on wide partions, tombstones, and data skew.
+
+### Cassandra Architecture
+- TODO - Data Centers and Racks
+- TODO - Gossip and Failure Detection
+- TODO - Snitches
+- TODO - Rings and Tokens
+- TODO - Virtual Nodes
+- TODO - Partitioners
+- TODO - Replication Strategies
+- TODO - Consistency Levels
+- TODO - Queries and Coordinator Nodes
+- TODO - Memtables, SSTables, and Commit Logs
+- TODO - Caching
+- TODO - Hinted Handoff
+- TODO - Lightweight Transactions and Paxos
+- TODO - Tombstones
+- [Deletes an Tombstones](http://thelastpickle.com/blog/2011/05/15/Deletes-and-Tombstones.html) - Explains how deletes create tombstones in Cassandra and what they are. 
+- [Null bindings on prepared statements and undesired tombstone creation](http://thelastpickle.com/blog/2016/09/15/Null-bindings-on-prepared-statements-and-undesired-tombstone-creation.html) - Good follow up to the last article on Tombstones.
+- [Common Problems with Cassandra Tombstones](https://opencredo.com/cassandra-tombstones-common-issues/) - "Large Number of Tombstones Causes Latency and Heap Pressure"
+- TODO - Bloom Filters
+- TODO - Compaction
+- TODO - Anti-Entropy, Repair, and Merkle Trees
+- TODO - Staged Event-Driven Architecture (SEDA)
+- TODO - Managers and Services
+- TODO - System Keyspaces
+
+### Cassandra Monitoring
+- [Resources for Monitoring Datastax, Cassandra, Spark, & Solr Performance](https://blog.anant.us/resources-for-monitoring-datastax-cassandra-spark-solr-performance/)
+- [How to Monitor Cassandra](https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/): A guide to help you monitor Cassandra performance and work metrics regardles of which monitoring tool you choose to use.
+- [Cassandra metrics and their use in Grafana](https://medium.com/@mlowicki/cassandra-metrics-and-their-use-in-grafana-1f0dc33f9cca)
+- [Monitoring Cassandra with Prometheus](https://www.robustperception.io/monitoring-cassandra-with-prometheus)
+- [Monitoring Cassandra With Grafana And Influx DB](https://blog.pythian.com/monitoring-cassandra-grafana-influx-db/)
+
+### Cassandra Maintenance
+- TODO: Health Check
+- TODO: Basic Maintenance
+- TODO: Adding Nodes
+- TODO: Handling Node Failure
+- TODO: Upgrading Cassandra
+- TODO: Backup and Recovery
+- TODO: SSTable Utilities
+- TODO: Maintenance Tools
+  - OpsCenter
+  - Reaper
+  - TableAnalyzer
+
+### Cassandra Performance Tuning
+- [Jon Haddad: Cassandra Summit Recap - Diagnosing Problems in Production](http://rustyrazorblade.com/2014/09/cassandra-summit-recap-diagnosing-problems-in-production/)
+- TODO: Managing Performance
+- TODO: Caching
+- TODO: Memtables
+- TODO: Commit Logs
+- TODO: SSTables
+- TODO: Hinted Handoff
+- TODO: Compaction
+- TODO: Concurrency and Threading
+- TODO: Networking and Timeouts
+- TODO: JVM Settings
+- TODO: Using cassandra-stress
+- TODO: Using Gatling
+
+### Cassandra Security
+- TODO: Authentication and Authorization
+- TODO: Encryption
+- TODO: JMX Security
+- TODO: Disk
+- TODO: System
+- TODO: Network
+
+### Deploying Cassandra
+- TODO: Planning a Cluster Deployment
+- TODO: Container Deployment
+- TODO: Container Orchestration
+- TODO: Cloud Deployment
+- TODO: Cloud Automations
+
+### Integrating with Cassandra
+- TODO: ESB
+- TODO: Streaming
+- TODO: ETL
+- TODO: CDC
 
 
 
 ## Packages
+
 
 ### Libraries
 - [DataStax Java Driver](https://github.com/datastax/java-driver): A Java client driver for Apache Cassandra. 
@@ -62,6 +156,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Achilles](http://doanduyhai.github.io/Achilles/): Achilles is an open source Persistence Manager for Apache Cassandra,with the features like Advanced bean mapping (compound primary key, composite partition key, timeUUID...),Native collections and map support,and so.
 - [phpcassa](https://github.com/thobbs/phpcassa): PHP client library for Apache Cassandra
 - [Caffinitas](http://caffinitas.org/mapper/): Caffinitas is an advanced object mapper for Apache Cassandra which has been especially designed to work with Datastax Java Driver 2.1+ against Apache Cassandra 2.1, 2.0 or 1.2.
+- [Spring Data for Apache Cassandra](http://projects.spring.io/spring-data-cassandra/) -  Spring Data for Apache Cassandra offers a familiar interface to those who have used other Spring Data modules in the past.
 - OLD - [Netflix Astyanax](https://github.com/Netflix/astyanax): Astyanax is a high level Java client for Apache Cassandra, based on Thrift protocol. Not maintained.
 
 ### Tools
@@ -104,9 +199,12 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 ### Frameworks 
 - [fluxcapacitor/pipeline](https://github.com/fluxcapacitor/pipeline): End-to-End, Real-time, Advanced Analytics Big Data Reference Pipeline using Spark, Spark SQL, Spark ML, GraphX, Spark Streaming, Kafka, NiFi, Cassandra, ElasticSearch, Redis, Tachyon, HDFS, Zeppelin, iPython/Jupyter Notebook, Tableau, Twitter Algebird.
 
-
 ### Logging 
 - [cassandra-log4j-appender](https://github.com/datastax/cassandra-log4j-appender): Cassandra appenders for Log4j
+
+### Open Source Applications 
+- [Twissandra](https://github.com/twissandra/twissandra) - Twissandra is an example project, created to learn and demonstrate how to use Cassandra. Running the project will present a website that has similar functionality to Twitter.
+- [FiloDB](https://github.com/filodb/FiloDB) - High-performance distributed analytical database + Spark SQL queries + built for streaming.
 
 ## Resources 
 
@@ -118,18 +216,25 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [DataStax Academy](https://academy.datastax.com/): Free online courses on Cassandra
 - [Building a Streaming Data Hub with Elasticsearch, Kafka and Cassandra](http://thenewstack.io/building-streaming-data-hub-elasticsearch-kafka-cassandra/)
 - [Tuning DSE Search](http://www.datastax.com/dev/blog/tuning-dse-search) Tuning DSE Search – Indexing latency and query latency
-- [How to Monitor Cassandra](https://www.datadoghq.com/blog/how-to-monitor-cassandra-performance-metrics/): A guide to help you monitor Cassandra performance and work metrics regardles of which monitoring tool you choose to use.
+
 - [Install Cassandra and Spark](http://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html): quick user guide for integration with Cassandra and Spark
 - [Building a Performant API using Go and Cassandra](https://getstream.io/blog/building-a-performant-api-using-go-and-cassandra/)
 - [DataStax: Basic Rules of Data Modeling](http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling)
 
+### Communities
+- TODO: Apache Cassandra List Serve
+- TODO: Datastax Academy Slack
+- TODO: Quora
+- TODO: Meetups
+- TODO: StackOverflow
+- TODO: Cassandra Slack
 
 ### Troubleshooting and tuning
 - [Ryan Svihla's Cassandra 2.0 checklist](https://medium.com/@foundev/my-cassandra-diagnostics-checklist-brain-dump-599a2b95b118)
 - [Al's Cassandra 2.1 tuning guide](https://tobert.github.io/pages/als-cassandra-21-tuning-guide.html)
 - [Secret HotSpot option improving GC pauses on large heaps](http://blog.ragozin.info/2012/03/secret-hotspot-option-improving-gc.html)
 - [DSE 5.1: Tuning Java Resource](https://docs.datastax.com/en/dse/5.1/dse-admin/datastax_enterprise/operations/opsTuneJVM.html)
-- [Jon Haddad: Cassandra Summit Recap - Diagnosing Problems in Production](http://rustyrazorblade.com/2014/09/cassandra-summit-recap-diagnosing-problems-in-production/)
+
 
 ### Blogs
 - [Datastax](https://www.datastax.com/blog)
@@ -138,8 +243,10 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Instaclustr](https://www.instaclustr.com/blog/) 
 
 ### Videos 
-- [Best Practices for Running Cassandra on AWS](https://m.youtube.com/watch?v=IuJldwJLyFM)
+- [Best Practices for Running Cassandra on AWS](https://www.youtube.com/watch?v=IuJldwJLyFM)
+- [Monitoring Cassandra: Don't Miss a Thing (Alain Rodriguez, The Last Pickle) | C* Summit 2016](https://www.youtube.com/watch?v=Q9AAR4UQzMk)
 
 ### Slides
 - [Cassandra DataTables Using Restful API](https://www.slideshare.net/SimranKedia2/cassandra-datatables-using-restful-api) A case on how to create a performant API using Python / Flash.
 - [HAPI Cassandra](https://github.com/victorcouste/hapi-cassandra) A simple REST API with hapi nodejs framework on top of a Apache Cassandra database  
+
