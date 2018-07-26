@@ -137,7 +137,9 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: Container Deployment
 - TODO: Container Orchestration
 - TODO: Cloud Deployment
+- [How To Setup A Highly Available Multi-AZ Cassandra Cluster On AWS EC2](http://highscalability.com/blog/2016/8/1/how-to-setup-a-highly-available-multi-az-cassandra-cluster-o.html)
 - TODO: Cloud Automations
+- [CloudFormation Cassandra AWS](https://github.com/LoyaltyOne/cassandra-aws)- A cassandra cluster for development using Cloud Formation
 
 ### Integrating with Cassandra
 - TODO: ESB
@@ -210,6 +212,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 ### Open Source Applications 
 - [Twissandra](https://github.com/twissandra/twissandra) - Twissandra is an example project, created to learn and demonstrate how to use Cassandra. Running the project will present a website that has similar functionality to Twitter.
 - [FiloDB](https://github.com/filodb/FiloDB) - High-performance distributed analytical database + Spark SQL queries + built for streaming.
+- [ChronoServer](https://github.com/cyngn/ChronoServer) - A test server for sampling how long it takes mobile & web clients to make various types of requests to a server doing common request patterns. 
 
 ## Resources 
 
@@ -235,8 +238,6 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: Cassandra Slack
 
 
-
-
 ### Blogs
 - [Datastax](https://www.datastax.com/blog)
 - [Codecentric](https://blog.codecentric.de/)
@@ -250,4 +251,4 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 ### Slides
 - [Cassandra DataTables Using Restful API](https://www.slideshare.net/SimranKedia2/cassandra-datatables-using-restful-api) A case on how to create a performant API using Python / Flash.
 - [HAPI Cassandra](https://github.com/victorcouste/hapi-cassandra) A simple REST API with hapi nodejs framework on top of a Apache Cassandra database  
-
+- [GumGum: Multi-Region Cassandra in AWS](https://www.slideshare.net/planetcassandra/gumgum-multiregion-cassandra-in-aws)
