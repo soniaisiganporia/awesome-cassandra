@@ -24,13 +24,16 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Cassandra 
 - [Apache Cassandra](http://cassandra.apache.org/) Manage massive amounts of data, fast, without losing sleep.
+- TODO: some articles on cassandra history 
+- TODO: some articles on cassandra use cases 
+- TODO: cassandra disributions
+
 
 ### Relational -> Cassandra
 - [RDBMS to NoSQL](http://www.datastax.com/relational-database-to-nosql): Your roadmap to understanding whether NoSQL is right for you.
 - [MySQL to C*](http://planetcassandra.org/mysql-to-cassandra-migration/): mysql to cassandra migration guide
 
 
-## Packages
 
 ### Libraries
 - [DataStax Java Driver](https://github.com/datastax/java-driver): A Java client driver for Apache Cassandra. 
