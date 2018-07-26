@@ -41,6 +41,12 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: using zeppelin with cassandra
 - TODO: getting data in / out of cassandra
 
+### Cassandra Data Modeling
+- TODO: sql v. cql
+- TODO: query driven methodology 
+- TODO: schema designs / examples
+- [Common Problems in Cassandra Data Models](https://blog.anant.us/common-problems-cassandra-data-models/)
+
 
 
 ## Packages
