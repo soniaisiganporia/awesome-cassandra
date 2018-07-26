@@ -33,7 +33,17 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [RDBMS to NoSQL](http://www.datastax.com/relational-database-to-nosql): Your roadmap to understanding whether NoSQL is right for you.
 - [MySQL to C*](http://planetcassandra.org/mysql-to-cassandra-migration/): mysql to cassandra migration guide
 
+### Using Cassandra
+- TODO: cassandra installation tutorials in local, docker, cloud (do, aws, azure, gcp)
+- TODO: compiling cassandra
+- TODO: running cassandra
+- TODO: using cql
+- TODO: using zeppelin with cassandra
+- TODO: getting data in / out of cassandra
 
+
+
+## Packages
 
 ### Libraries
 - [DataStax Java Driver](https://github.com/datastax/java-driver): A Java client driver for Apache Cassandra. 
