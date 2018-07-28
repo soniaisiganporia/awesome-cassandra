@@ -251,6 +251,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Cassandra Zone](https://cassandra-zone.com/) - Findings and musings on Apache Cassandra
 - [Altheroot:Cassandra](https://blog.alteroot.org/categories/cassandra/index.html)
 - [OpenCredo:Cassandra](https://opencredo.com/tag/cassandra/)
+- [DOAN DuyHai's Blog: Cassandra](http://www.doanduyhai.com/blog/?cat=57)
 - [Amy Tobert](https://tobert.github.io/)
 - [Christopher Batey: Cassandra](http://batey.info/cassandra.html)
 - [Distributed Bytes:Cassandra](https://distributedbytes.timojo.com/search/label/cassandra)
