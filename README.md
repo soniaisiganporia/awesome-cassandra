@@ -24,8 +24,10 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Cassandra 
 - [Apache Cassandra](http://cassandra.apache.org/) Manage massive amounts of data, fast, without losing sleep.
-- TODO: some articles on cassandra history 
+- [IDG: 10 Years of Apache Cassandra](https://www.idgconnect.com/abstract/30973/apache-cassandra)
+- [ZDNet: Apache Cassandra Turns 10](https://www.zdnet.com/article/apache-cassandra-turns-10/)
 - TODO: some articles on cassandra use cases 
+- [Datastax Academy: Brief Introduction to Apache Cassandra](https://academy.datastax.com/resources/brief-introduction-apache-cassandra)
 - [Kaa application based on Raspberry Pi and DHT11 sensor](https://github.com/pyroalf/kaa-cassandra-sample) - Cassandra IoT usecase with Raspberry Pi and a DHT11 Sensor
 - TODO: cassandra disributions
 
@@ -42,6 +44,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: compiling cassandra
 - TODO: running cassandra
 - TODO: using cql
+- [The Cassandra Query Language](http://cassandra.apache.org/doc/latest/cql/)
 - TODO: using zeppelin with cassandra
 - TODO: getting data in / out of cassandra
 - [Cassandra Data Copy Tool](https://github.com/wildengineer/cassandra-data-copy-tool)- Java tool to copy data from one cassandra table to another
@@ -54,6 +57,9 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Cassandra Data Modeling
 - TODO: sql v. cql
+- [Cassandra Query Language : CQL vs. SQL](https://medium.com/@alexbmeng/cassandra-query-language-cql-vs-sql-7f6ed7706b4c)
+- [CQL: This is not the SQL you are Looking For](https://www.slideshare.net/aploetz/cql-this-is-not-the-sql-you-are-loooking-for)
+- [A Deep Look at the CQL Where Clause](https://www.datastax.com/dev/blog/a-deep-look-to-the-cql-where-clause)
 - TODO: query driven methodology 
 - TODO: schema designs / examples
 - [killrvideo-sample-schema](https://github.com/pmcfadin/killrvideo-sample-schema) - Sample Cassandra CQL Schema for a Youtube clone.
@@ -92,6 +98,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Cassandra metrics and their use in Grafana](https://medium.com/@mlowicki/cassandra-metrics-and-their-use-in-grafana-1f0dc33f9cca)
 - [Monitoring Cassandra with Prometheus](https://www.robustperception.io/monitoring-cassandra-with-prometheus)
 - [Monitoring Cassandra With Grafana And Influx DB](https://blog.pythian.com/monitoring-cassandra-grafana-influx-db/)
+- [Cassandra Monitoring - Introduction (1/2)](https://softwaremill.com/cassandra-monitoring-part-1/)
+- [Cassandra Monitoring - Graphite/InfluxDB & Grafana on Docker (1/2)](https://softwaremill.com/cassandra-monitoring-part-2/)
 
 ### Cassandra Maintenance
 - TODO: Health Check
@@ -267,3 +275,4 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Cassandra DataTables Using Restful API](https://www.slideshare.net/SimranKedia2/cassandra-datatables-using-restful-api) A case on how to create a performant API using Python / Flash.
 - [HAPI Cassandra](https://github.com/victorcouste/hapi-cassandra) A simple REST API with hapi nodejs framework on top of a Apache Cassandra database  
 - [GumGum: Multi-Region Cassandra in AWS](https://www.slideshare.net/planetcassandra/gumgum-multiregion-cassandra-in-aws)
+- [CQL: This is not the SQL you are Looking For](https://www.slideshare.net/aploetz/cql-this-is-not-the-sql-you-are-loooking-for)
