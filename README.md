@@ -54,6 +54,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: using cql
 - [The Cassandra Query Language](http://cassandra.apache.org/doc/latest/cql/)
 - TODO: using zeppelin with cassandra
+- [tghe LIMIT Clause in Apache Cassandra might not work as you think](http://thelastpickle.com/blog/2017/03/07/The-limit-clause-in-cassandra-might-not-work-as-you-think.html)
 - TODO: getting data in / out of cassandra
 - [Cassandra Data Copy Tool](https://github.com/wildengineer/cassandra-data-copy-tool)- Java tool to copy data from one cassandra table to another
 - [Spring Data Cassandra Examples](https://github.com/jxblum/spring-data-cassandra-examples) - Examples for the Spring Data Cassandra Project.
@@ -75,6 +76,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [](https://github.com/jxblum/spring-data-cassandra-examples/blob/master/src/main/resources/cassandra-example-schema.cql)
 - TODO: data modeling problems
 - [Common Problems in Cassandra Data Models](https://blog.anant.us/common-problems-cassandra-data-models/) - Presentation and Article on wide partions, tombstones, and data skew.
+- [Casandra Time Series Data Modeling for Massive Scale](http://thelastpickle.com/blog/2017/08/02/time-series-data-modeling-massive-scale.html)
 
 ### Cassandra Architecture
 - TODO - Data Centers and Racks
@@ -98,6 +100,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Common Problems with Cassandra Tombstones](https://opencredo.com/cassandra-tombstones-common-issues/) - "Large Number of Tombstones Causes Latency and Heap Pressure"
 - TODO - Bloom Filters
 - TODO - Compaction
+- [Understanding the Nuance of Compaction in Apache Cassandra][http://thelastpickle.com/blog/2017/03/16/compaction-nuance.html] - Overview of how Cassandra manages data on disk.
 - TODO - Anti-Entropy, Repair, and Merkle Trees
 - TODO - Staged Event-Driven Architecture (SEDA)
 - TODO - Managers and Services
@@ -111,13 +114,16 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Monitoring Cassandra With Grafana And Influx DB](https://blog.pythian.com/monitoring-cassandra-grafana-influx-db/)
 - [Cassandra Monitoring - Introduction (1/2)](https://softwaremill.com/cassandra-monitoring-part-1/)
 - [Cassandra Monitoring - Graphite/InfluxDB & Grafana on Docker (1/2)](https://softwaremill.com/cassandra-monitoring-part-2/)
+- [Monitoring Cassandra using Intel Snap and Grafana](http://thelastpickle.com/blog/2017/04/13/monitoring-cassandra-using-intel-snap.html) - This blog post describes how to monitor Apache Cassandra using the Intel Snap open source telemetry framework.
 
 ### Cassandra Maintenance
 - TODO: Health Check
 - TODO: Basic Maintenance
+- [Limiting Nodetool Parallel Threads](http://thelastpickle.com/blog/2017/08/14/limiting-nodetool-parallel-threads.html) - Little known tool to do nodetool operations with less resources.
 - TODO: Adding Nodes
-- [Node Replacement without Bootstrapping](http://thelastpickle.com/blog/2018/02/21/replace-node-without-bootstrapping.html) - How to avoid the long bootstrapping process.
+- [Bootstrapping Cassandra Nodes](http://thelastpickle.com/blog/2017/05/23/auto-bootstrapping-part1.html) - Indepth article on how to add nodes to a running Cassandra cluster.
 - TODO: Handling Node Failure
+- [Node Replacement without Bootstrapping](http://thelastpickle.com/blog/2018/02/21/replace-node-without-bootstrapping.html) - How to avoid the long bootstrapping process.
 - TODO: Upgrading Cassandra
 - TODO: Backup and Recovery
 - [Cassandra Backup and Restore - Backup in AWS using EBS Volumes](http://thelastpickle.com/blog/2018/04/03/cassandra-backup-and-restore-aws-ebs.html) - Indepth article about Backup and recovery in AWS.
