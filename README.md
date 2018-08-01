@@ -116,6 +116,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: Health Check
 - TODO: Basic Maintenance
 - TODO: Adding Nodes
+- [Node Replacement without Bootstrapping](http://thelastpickle.com/blog/2018/02/21/replace-node-without-bootstrapping.html) - How to avoid the long bootstrapping process.
 - TODO: Handling Node Failure
 - TODO: Upgrading Cassandra
 - TODO: Backup and Recovery
@@ -159,6 +160,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 ### Deploying Cassandra
 - TODO: Planning a Cluster Deployment
 - TODO: Container Deployment
+- [Docker Meet Cassandra. Cassandra Meet Docker](http://thelastpickle.com/blog/2018/01/23/docker-meet-cassandra.html) Article reviewing how to setup a complete Cassandra application with monitoring on Docker.
+- [Example code from the Docker Meet Cassandra Article](https://github.com/thelastpickle/docker-cassandra-bootstrap)
 - [Docker-Cassandra](https://github.com/nicolasff/docker-cassandra): A set of scripts and config files to run a Cassandra cluster from Docker.
 - [Cassandra & Zeppelin Notebook on Docker](https://github.com/academyofdata/cassandra-zeppelin): Docker-Compose script for Cassandra + Zeppelin setup.
 - [Packer: Cassandra Image](https://github.com/cloudurable/cassandra-image) - Cassandra Image using Packer for Docker and EC2 AMI. Covers managing EC2 Cassandra clusters with Ansible.
