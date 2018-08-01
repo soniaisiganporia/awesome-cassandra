@@ -64,6 +64,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Import CSV files with spark](https://github.com/markthebault/importCSVSparkCassandra) - How to import a file from S3 into cassandra using spark
 
 ### Cassandra Data Modeling
+- [Basic Rules Of Cassandra Data Modeling](http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling): Picking the right data model is the hardest part of using Cassandra. If you have a relational background, CQL will look familiar, but the way you use it can be very different.
 - TODO: sql v. cql
 - [Cassandra Query Language : CQL vs. SQL](https://medium.com/@alexbmeng/cassandra-query-language-cql-vs-sql-7f6ed7706b4c)
 - [CQL: This is not the SQL you are Looking For](https://www.slideshare.net/aploetz/cql-this-is-not-the-sql-you-are-loooking-for)
@@ -214,6 +215,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Cassandra Nagios](https://github.com/causes/cassandra-nagios): Perl Based scripts to get metrics for monitoring using Jolokia.
 - [Cassandra Log Tools](https://github.com/erickramirezDSE/cass_log_tools): Simple scripts for working with Apache Cassandra logs.
 - [Cassandra CFStats to CSV Parser](https://github.com/jlacefie/cfstats-csv-parser): Converts the output of CFStats to CSV. 
+- [Netflix-Priam](https://github.com/Netflix/Priam)Co-Process for backup/recovery, Token Management, and Centralized Configuration management for Cassandra.
 
 
 ### Queues / Schedulers
