@@ -172,6 +172,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: Encryption
 - TODO: JMX Security
 - TODO: Disk
+- [Encrypting EC2 ephemeral volumes with LUKS and AWS KMS](https://www.whaletech.co/2016/04/07/encryption-ephemeral-volumes-with-kms.html) - The example used here is Cassandra data stored on ephemeral disks.
 - TODO: System
 - TODO: Network
 
