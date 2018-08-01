@@ -314,3 +314,4 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [GumGum: Multi-Region Cassandra in AWS](https://www.slideshare.net/planetcassandra/gumgum-multiregion-cassandra-in-aws)
 - [CQL: This is not the SQL you are Looking For](https://www.slideshare.net/aploetz/cql-this-is-not-the-sql-you-are-loooking-for)
 - [Hardening cassandra for compliance or paranoia](https://www.slideshare.net/zznate/hardening-cassandra-for-compliance-or-paranoia)
+- [Securing Cassandra](https://www.slideshare.net/planetcassandra/securing-cassandra-the-right-way)
