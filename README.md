@@ -24,13 +24,21 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Cassandra 
 - [Apache Cassandra](http://cassandra.apache.org/) Manage massive amounts of data, fast, without losing sleep.
+
+### Cassandra History
 - [IDG: 10 Years of Apache Cassandra](https://www.idgconnect.com/abstract/30973/apache-cassandra)
 - [ZDNet: Apache Cassandra Turns 10](https://www.zdnet.com/article/apache-cassandra-turns-10/)
-- TODO: some articles on cassandra use cases 
+
+### Cassandra Use Cases 
 - [Datastax Academy: Brief Introduction to Apache Cassandra](https://academy.datastax.com/resources/brief-introduction-apache-cassandra)
 - [Kaa application based on Raspberry Pi and DHT11 sensor](https://github.com/pyroalf/kaa-cassandra-sample) - Cassandra IoT usecase with Raspberry Pi and a DHT11 Sensor
-- TODO: cassandra disributions
 
+### Cassandra Distributions
+- [Datastax](https://www.datastax.com/) - Most widely used commercial distribution of Apache Cassandra, integrated with Apache Spark (for SparkSQL, analytics), Apache Solr (for secondary index), Apache TinkerPop based Graph stored in Cassandra, and OpsCenter.
+- [Elassandra](http://www.elassandra.io/): Elassandra = Elasticsearch as a Cassandra secondary index.
+- [ScyllaDB](https://github.com/scylladb/scylla)- NoSQL data store using the seastar framework, compatible with Apache Cassandra 
+- [YugaByte Database](https://github.com/YugaByte/yugabyte-db) - YugaByteDB is a transactional, high-performance database for building distributed cloud services. It supports Cassandra-compatible and Redis-compatible APIs, with PostgreSQL in Beta.
+- [Microsoft Azure Cosmos DB: Apache Cassandra API](https://docs.microsoft.com/en-us/azure/cosmos-db/cassandra-introduction) - Azure Cosmos DB provides the Cassandra API (preview) for applications that are written for Apache Cassandra that need premium capabilities.
 
 ### Relational / Other -> Cassandra
 - [RDBMS to NoSQL](http://www.datastax.com/relational-database-to-nosql): Your roadmap to understanding whether NoSQL is right for you.
