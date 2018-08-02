@@ -56,6 +56,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - TODO: using zeppelin with cassandra
 - [tghe LIMIT Clause in Apache Cassandra might not work as you think](http://thelastpickle.com/blog/2017/03/07/The-limit-clause-in-cassandra-might-not-work-as-you-think.html)
 - TODO: getting data in / out of cassandra
+- [Building a Performant API using Go and Cassandra](https://getstream.io/blog/building-a-performant-api-using-go-and-cassandra/)
 - [Cassandra Data Copy Tool](https://github.com/wildengineer/cassandra-data-copy-tool)- Java tool to copy data from one cassandra table to another
 - [Spring Data Cassandra Examples](https://github.com/jxblum/spring-data-cassandra-examples) - Examples for the Spring Data Cassandra Project.
 - TODO: using spark with cassandra
@@ -193,6 +194,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [CloudFormation Cassandra AWS](https://github.com/LoyaltyOne/cassandra-aws)- A cassandra cluster for development using Cloud Formation
 
 ### Integrating with Cassandra
+- [Building a Streaming Data Hub with Elasticsearch, Kafka and Cassandra](http://thenewstack.io/building-streaming-data-hub-elasticsearch-kafka-cassandra/)
+
 - TODO: ESB
 - TODO: Streaming
 - TODO: ETL
@@ -222,12 +225,17 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Spark Cassandra Stress](https://github.com/datastax/spark-cassandra-stress) A tool for testing the DataStax Spark Connector against Apache Cassandra or DSE
 - [trireme](https://github.com/o19s/trireme): Migration tool providing support for Apache Cassandra, DataStax Enterprise Cassandra, & DataStax Enterprise Solr.
 - [Web: Cassandra Calculator](https://www.ecyrd.com/cassandracalculator/): A simple calculator to see how size / replication factor affect the system's consistency.
+- [Cassandra-web](http://avalanche123.com/cassandra-web/) - A web interface for Apache Cassandra
+https://github.com/rohitsakala/CassandraRestfulAPI
+- [CassanddraRestfulAPI](https://github.com/rohitsakala/CassandraRestfulAPI) - CassandraRestfulAPI project exposes the cassandra data tables with the help of Restful API.
+- [Netflix: Staash](https://github.com/Netflix/staash) - A language-agnostic as well as storage-agnostic web interface for storing data into persistent storage systems, the metadata layer abstracts a lot of storage details and the pattern automation APIs take care of automating common data access patterns.
 
 ### With Spark
 - [DataStax Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector): This library lets you expose Cassandra tables as Spark RDDs, write Spark RDDs to Cassandra tables, and execute arbitrary CQL queries in your Spark applications.
 - [Stratio Deep](https://github.com/Stratio/stratio-deep): Deep is a thin integration layer between Apache Spark and several NoSQL datastores. We actually support Apache Cassandra and MongoDB, but in the near future we will add support for sever other datastores.
 
 ### Search / Secondary Indexes 
+- [Tuning DSE Search](http://www.datastax.com/dev/blog/tuning-dse-search) Tuning DSE Search – Indexing latency and query latency
 - [Elassandra](http://www.elassandra.io/): Elassandra = Elasticsearch as a Cassandra secondary index.
 - [Cassandra Lucene Index](https://github.com/Stratio/cassandra-lucene-index):  Lucene based secondary indexes for Cassandra
 - OLD - [Solandra](https://github.com/tjake/Solandra): Solandra is a real-time distributed search engine built on Apache Solr and Apache Cassandra.
@@ -269,12 +277,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Apache Cassandra Documentation](http://cassandra.apache.org/doc/) Definitive documentation for all published versions. 
 - [DataStax Documentation](http://docs.datastax.com/en/landing_page/doc/landing_page/current.html) Documentation and Drivers from DataStax 
 
-### Tutorials 
+### Courses 
 - [DataStax Academy](https://academy.datastax.com/): Free online courses on Cassandra
-- [Building a Streaming Data Hub with Elasticsearch, Kafka and Cassandra](http://thenewstack.io/building-streaming-data-hub-elasticsearch-kafka-cassandra/)
-- [Tuning DSE Search](http://www.datastax.com/dev/blog/tuning-dse-search) Tuning DSE Search – Indexing latency and query latency
-- [Building a Performant API using Go and Cassandra](https://getstream.io/blog/building-a-performant-api-using-go-and-cassandra/)
-- [DataStax: Basic Rules of Data Modeling](http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling)
 
 ### Communities
 - [Apache Cassandra Users Mailing List](http://www.mail-archive.com/user@cassandra.apache.org/)
