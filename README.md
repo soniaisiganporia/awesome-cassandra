@@ -76,7 +76,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 <!-- - TODO:: query driven methodology -->
 <!-- - TODO:: schema designs / examples-->
 - [killrvideo-sample-schema](https://github.com/pmcfadin/killrvideo-sample-schema) - Sample Cassandra CQL Schema for a Youtube clone.
-- [](https://github.com/jxblum/spring-data-cassandra-examples/blob/master/src/main/resources/cassandra-example-schema.cql)
+- [Spring Data Cassandra Examples](https://github.com/jxblum/spring-data-cassandra-examples/blob/master/src/main/resources/cassandra-example-schema.cql)
 <!-- - TODO:: data modeling problems -->
 - [Common Problems in Cassandra Data Models](https://blog.anant.us/common-problems-cassandra-data-models/) - Presentation and Article on wide partions, tombstones, and data skew.
 - [Casandra Time Series Data Modeling for Massive Scale](http://thelastpickle.com/blog/2017/08/02/time-series-data-modeling-massive-scale.html)
@@ -92,10 +92,13 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 <!-- - TODO: - Consistency Levels -->
 <!-- - TODO: - Queries and Coordinator Nodes -->
 <!-- - TODO: - Memtables, SSTables, and Commit Logs -->
+
 - [Introduction To The Apache Cassandra 3.x Storage Engine](http://thelastpickle.com/blog/2016/03/04/introductiont-to-the-apache-cassandra-3-storage-engine.html) - The 3.x storage engine makes it easier for Cassandra to get bytes off disk.
 - [Dropping columns in Apache Cassandra 3.0](http://thelastpickle.com/blog/2016/02/18/dropping-columns.html)
+
 <!-- - TODO: - Caching -->
 <!-- - TODO: - Hinted Handoff -->
+
 - [Hinted Handoff and GC Grace Demystified](http://thelastpickle.com/blog/2018/03/21/hinted-handoff-gc-grace-demystified.html) - Tuning the balance between GC Grace and Hinted Handoff.
 <!-- - TODO: - Lightweight Transactions and Paxos -->
 <!-- - TODO: - Tombstones -->
@@ -106,7 +109,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Common Problems with Cassandra Tombstones](https://opencredo.com/cassandra-tombstones-common-issues/) - "Large Number of Tombstones Causes Latency and Heap Pressure"
 <!-- - TODO: - Bloom Filters -->
 <!-- - TODO: - Compaction -->
-- [Understanding the Nuance of Compaction in Apache Cassandra][http://thelastpickle.com/blog/2017/03/16/compaction-nuance.html] - Overview of how Cassandra manages data on disk.
+- [Understanding the Nuance of Compaction in Apache Cassandra](http://thelastpickle.com/blog/2017/03/16/compaction-nuance.html) - Overview of how Cassandra manages data on disk.
 <!-- - TODO: - Anti-Entropy, Repair, and Merkle Trees -->
 <!-- - TODO: - Staged Event-Driven Architecture (SEDA) -->
 <!-- - TODO: - Managers and Services -->
