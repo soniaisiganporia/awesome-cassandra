@@ -5,13 +5,13 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 ## Contents
 
 - [General](#general) 
-
-- PROGRESS [Packages](#packages)
+<!-- TODO: list out concept subject titles here and link -->
+- [Packages](#packages)
   - [Libraries](#interfaces)  Programming Language Specific Libs for Cassandra.
   - [Tools](#tools) Applications / Tools that work with Cassandra.
   - [Projects](#projects) Other projects that use Cassandra.
   
-- PROGRESS [Resources](#resources) 
+- [Resources](#resources) 
   - [Documentation](#documentation) Official / unofficial documentation. 
   - [Books](#books) Popular books about Cassandra.
   - [Tutorials](#tutorials) Step by step tutorials on Cassandra.
