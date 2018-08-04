@@ -141,11 +141,11 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 <!-- - TODO:: SSTable Utilities -->
 - [sstable tools](https://github.com/tolbertam/sstable-tools) - A toolkit for parsing, creating and doing other fun stuff with Cassandra 3.x SSTables.
 - [cassandra-sstable-tools](https://github.com/instaclustr/cassandra-sstable-tools) - Tools for working with sstables
-<!-- - TODO:: Maintenance Tools 
-  - OpsCenter
-  - Reaper
-  - TableAnalyzer
--->
+<!-- - TODO:: Maintenance Tools  -->
+<!--  - OpsCenter  -->
+<!--  - Reaper  -->
+<!--  - TableAnalyzer  -->
+
 ### Cassandra Performance Tuning
 - [Jon Haddad: Cassandra Summit Recap - Diagnosing Problems in Production](http://rustyrazorblade.com/2014/09/cassandra-summit-recap-diagnosing-problems-in-production/)
 - [Ryan Svihla's Cassandra 2.0 checklist](https://medium.com/@foundev/my-cassandra-diagnostics-checklist-brain-dump-599a2b95b118)
@@ -178,12 +178,17 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Cassandra Security
 - [Hardening Cassandra Step by Step: Part 1](http://thelastpickle.com/blog/2015/09/30/hardening-cassandra-step-by-step-part-1-server-to-server.html) - Inter-Node Encryption (And a Gentle Intro to Certificates)
+
 <!-- - TODO:: Authentication and Authorization -->
+
 - [LDAP Authenticator for Apache Cassandra](https://github.com/instaclustr/cassandra-ldap) - This is a pluggable authentication implementation for Apache Cassandra, providing a way to authenticate and create users based on a configured LDAP server. 
+
 <!-- - TODO:: Encryption -->
 <!-- - TODO:: JMX Security -->
 <!-- - TODO:: Disk -->
+
 - [Encrypting EC2 ephemeral volumes with LUKS and AWS KMS](https://www.whaletech.co/2016/04/07/encryption-ephemeral-volumes-with-kms.html) - The example used here is Cassandra data stored on ephemeral disks.
+
 <!-- - TODO:: System -->
 <!-- - TODO:: Network -->
 
