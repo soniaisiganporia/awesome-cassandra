@@ -184,6 +184,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [LDAP Authenticator for Apache Cassandra](https://github.com/instaclustr/cassandra-ldap) - This is a pluggable authentication implementation for Apache Cassandra, providing a way to authenticate and create users based on a configured LDAP server. 
 
 <!-- - TODO:: Encryption -->
+- [Securing Apache Cassandra with Application Level Encryption](https://www.instaclustr.com/securing-apache-cassandra-with-application-level-encryption/) - Discusses how to do application level data encryption to properly manage secure information in Cassandra. 
 <!-- - TODO:: JMX Security -->
 <!-- - TODO:: Disk -->
 
