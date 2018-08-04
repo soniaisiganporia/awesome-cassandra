@@ -46,20 +46,22 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Real-Time Replication from MySQL to Cassandra](https://mcbguru.blog/2014/02/27/real-time-replication-from-mysql-to-cassandra/)
 
 ### Using Cassandra
-- TODO: cassandra installation tutorials in local, docker, cloud (do, aws, azure, gcp)
+
+<!-- <!-- - TODO:: cassandra installation tutorials in local, docker, cloud (do, aws, azure, gcp)) -->
+
 - [Installing the Cassandra / Spark OSS Stack](https://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html)
 - [Install Cassandra and Spark](http://tobert.github.io/post/2014-07-15-installing-cassandra-spark-stack.html): quick user guide for integration with Cassandra and Spark
-- TODO: compiling cassandra
-- TODO: running cassandra
-- TODO: using cql
+<!-- - TODO:: compiling cassandra -->
+<!-- - TODO:: running cassandra -->
+<!-- - TODO:: using cql -->
 - [The Cassandra Query Language](http://cassandra.apache.org/doc/latest/cql/)
-- TODO: using zeppelin with cassandra
+<!-- - TODO:: using zeppelin with cassandra -->
 - [tghe LIMIT Clause in Apache Cassandra might not work as you think](http://thelastpickle.com/blog/2017/03/07/The-limit-clause-in-cassandra-might-not-work-as-you-think.html)
-- TODO: getting data in / out of cassandra
+<!-- - TODO:: getting data in / out of cassandra -->
 - [Building a Performant API using Go and Cassandra](https://getstream.io/blog/building-a-performant-api-using-go-and-cassandra/)
 - [Cassandra Data Copy Tool](https://github.com/wildengineer/cassandra-data-copy-tool)- Java tool to copy data from one cassandra table to another
 - [Spring Data Cassandra Examples](https://github.com/jxblum/spring-data-cassandra-examples) - Examples for the Spring Data Cassandra Project.
-- TODO: using spark with cassandra
+<!-- - TODO:: using spark with cassandra -->
 - [Introduction to Spark & Cassandra](http://rustyrazorblade.com/post/2015/2015-01-02-intro-to-spark-and-cassandra/) 
 
 - [From Cassandra to S3, with Spark](https://objectpartners.com/2016/11/30/from-cassandra-to-s3-with-spark/)
@@ -67,48 +69,48 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Cassandra Data Modeling
 - [Basic Rules Of Cassandra Data Modeling](http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling): Picking the right data model is the hardest part of using Cassandra. If you have a relational background, CQL will look familiar, but the way you use it can be very different.
-- TODO: sql v. cql
+<!-- - TODO:: sql v. cql-->
 - [Cassandra Query Language : CQL vs. SQL](https://medium.com/@alexbmeng/cassandra-query-language-cql-vs-sql-7f6ed7706b4c)
 - [CQL: This is not the SQL you are Looking For](https://www.slideshare.net/aploetz/cql-this-is-not-the-sql-you-are-loooking-for)
 - [A Deep Look at the CQL Where Clause](https://www.datastax.com/dev/blog/a-deep-look-to-the-cql-where-clause)
-- TODO: query driven methodology 
-- TODO: schema designs / examples
+<!-- - TODO:: query driven methodology -->
+<!-- - TODO:: schema designs / examples-->
 - [killrvideo-sample-schema](https://github.com/pmcfadin/killrvideo-sample-schema) - Sample Cassandra CQL Schema for a Youtube clone.
 - [](https://github.com/jxblum/spring-data-cassandra-examples/blob/master/src/main/resources/cassandra-example-schema.cql)
-- TODO: data modeling problems
+<!-- - TODO:: data modeling problems -->
 - [Common Problems in Cassandra Data Models](https://blog.anant.us/common-problems-cassandra-data-models/) - Presentation and Article on wide partions, tombstones, and data skew.
 - [Casandra Time Series Data Modeling for Massive Scale](http://thelastpickle.com/blog/2017/08/02/time-series-data-modeling-massive-scale.html)
 
 ### Cassandra Architecture
-- TODO - Data Centers and Racks
-- TODO - Gossip and Failure Detection
-- TODO - Snitches
-- TODO - Rings and Tokens
-- TODO - Virtual Nodes
-- TODO - Partitioners
-- TODO - Replication Strategies
-- TODO - Consistency Levels
-- TODO - Queries and Coordinator Nodes
-- TODO - Memtables, SSTables, and Commit Logs
+<!-- - TODO: - Data Centers and Racks -->
+<!-- - TODO: - Gossip and Failure Detection -->
+<!-- - TODO: - Snitches -->
+<!-- - TODO: - Rings and Tokens -->
+<!-- - TODO: - Virtual Nodes -->
+<!-- - TODO: - Partitioners -->
+<!-- - TODO: - Replication Strategies -->
+<!-- - TODO: - Consistency Levels -->
+<!-- - TODO: - Queries and Coordinator Nodes -->
+<!-- - TODO: - Memtables, SSTables, and Commit Logs -->
 - [Introduction To The Apache Cassandra 3.x Storage Engine](http://thelastpickle.com/blog/2016/03/04/introductiont-to-the-apache-cassandra-3-storage-engine.html) - The 3.x storage engine makes it easier for Cassandra to get bytes off disk.
 - [Dropping columns in Apache Cassandra 3.0](http://thelastpickle.com/blog/2016/02/18/dropping-columns.html)
-- TODO - Caching
-- TODO - Hinted Handoff
+<!-- - TODO: - Caching -->
+<!-- - TODO: - Hinted Handoff -->
 - [Hinted Handoff and GC Grace Demystified](http://thelastpickle.com/blog/2018/03/21/hinted-handoff-gc-grace-demystified.html) - Tuning the balance between GC Grace and Hinted Handoff.
-- TODO - Lightweight Transactions and Paxos
-- TODO - Tombstones
+<!-- - TODO: - Lightweight Transactions and Paxos -->
+<!-- - TODO: - Tombstones -->
 - [Deletes an Tombstones](http://thelastpickle.com/blog/2011/05/15/Deletes-and-Tombstones.html) - Explains how deletes create tombstones in Cassandra and what they are. 
 - [About Deletes and Tombstones in Cassandra](http://thelastpickle.com/blog/2016/07/27/about-deletes-and-tombstones.html) - Deleting distributed and replicated data from a system such as Apache Cassandra is far trickier than in a relational database.
 - [Null bindings on prepared statements and undesired tombstone creation](http://thelastpickle.com/blog/2016/09/15/Null-bindings-on-prepared-statements-and-undesired-tombstone-creation.html) - Good follow up to the last article on Tombstones.
 - [Undetecetable tombstones in Apache Cassandra](http://thelastpickle.com/blog/2018/07/05/undetectable-tombstones-in-apache-cassandra.html) - Indepth analysis of cell and range tombstones. 
 - [Common Problems with Cassandra Tombstones](https://opencredo.com/cassandra-tombstones-common-issues/) - "Large Number of Tombstones Causes Latency and Heap Pressure"
-- TODO - Bloom Filters
-- TODO - Compaction
+<!-- - TODO: - Bloom Filters -->
+<!-- - TODO: - Compaction -->
 - [Understanding the Nuance of Compaction in Apache Cassandra][http://thelastpickle.com/blog/2017/03/16/compaction-nuance.html] - Overview of how Cassandra manages data on disk.
-- TODO - Anti-Entropy, Repair, and Merkle Trees
-- TODO - Staged Event-Driven Architecture (SEDA)
-- TODO - Managers and Services
-- TODO - System Keyspaces
+<!-- - TODO: - Anti-Entropy, Repair, and Merkle Trees -->
+<!-- - TODO: - Staged Event-Driven Architecture (SEDA) -->
+<!-- - TODO: - Managers and Services -->
+<!-- - TODO: - System Keyspaces -->
 
 ### Cassandra Monitoring
 - [Resources for Monitoring Datastax, Cassandra, Spark, & Solr Performance](https://blog.anant.us/resources-for-monitoring-datastax-cassandra-spark-solr-performance/)
@@ -122,25 +124,25 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Cassandra Maintenance
 - [Running commands cluster-wide without any management tool](http://thelastpickle.com/blog/2016/03/21/running-commands-cluster-wide.html) - Some tips and tricks to do basic Cluster operations without tools like Chef, Ansible, or Salt.
-- TODO: Health Check
-- TODO: Basic Maintenance
+<!-- - TODO:: Health Check -->
+<!-- - TODO:: Basic Maintenance -->
 - [Limiting Nodetool Parallel Threads](http://thelastpickle.com/blog/2017/08/14/limiting-nodetool-parallel-threads.html) - Little known tool to do nodetool operations with less resources.
-- TODO: Adding Nodes
+<!-- - TODO:: Adding Nodes -->
 - [Bootstrapping Cassandra Nodes](http://thelastpickle.com/blog/2017/05/23/auto-bootstrapping-part1.html) - Indepth article on how to add nodes to a running Cassandra cluster.
-- TODO: Handling Node Failure
+<!-- - TODO:: Handling Node Failure -->
 - [Node Replacement without Bootstrapping](http://thelastpickle.com/blog/2018/02/21/replace-node-without-bootstrapping.html) - How to avoid the long bootstrapping process.
-- TODO: Upgrading Cassandra
-- TODO: Backup and Recovery
+<!-- - TODO:: Upgrading Cassandra -->
+<!-- - TODO:: Backup and Recovery -->
 - [Cassandra Backup and Restore - Backup in AWS using EBS Volumes](http://thelastpickle.com/blog/2018/04/03/cassandra-backup-and-restore-aws-ebs.html) - Indepth article about Backup and recovery in AWS.
 - [Cassandra backup util](https://github.com/instaclustr/cassandra-backup) - https://github.com/instaclustr/cassandra-backup
-- TODO: SSTable Utilities
+<!-- - TODO:: SSTable Utilities -->
 - [sstable tools](https://github.com/tolbertam/sstable-tools) - A toolkit for parsing, creating and doing other fun stuff with Cassandra 3.x SSTables.
 - [cassandra-sstable-tools](https://github.com/instaclustr/cassandra-sstable-tools) - Tools for working with sstables
-- TODO: Maintenance Tools
+<!-- - TODO:: Maintenance Tools 
   - OpsCenter
   - Reaper
   - TableAnalyzer
-
+-->
 ### Cassandra Performance Tuning
 - [Jon Haddad: Cassandra Summit Recap - Diagnosing Problems in Production](http://rustyrazorblade.com/2014/09/cassandra-summit-recap-diagnosing-problems-in-production/)
 - [Ryan Svihla's Cassandra 2.0 checklist](https://medium.com/@foundev/my-cassandra-diagnostics-checklist-brain-dump-599a2b95b118)
@@ -150,41 +152,41 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Analyzing Cassandra Performance with Flame Graphs](http://thelastpickle.com/blog/2018/01/16/cassandra-flame-graphs.html) - Visually examining Cassandra performance visually using Flamegraphs. 
 - [Garbage Collection Tuning for Cassandra](http://thelastpickle.com/blog/2018/04/11/gc-tuning.html) - Optimizing garbage collection for better performance.
 
-- TODO: Managing Performance
+<!-- - TODO:: Managing Performance -->
 - [Cassandra Node Diagnostics Tools](https://github.com/smartcat-labs/cassandra-diagnostics) - Monitoring and audit power kit for Apache Cassandra.
-- TODO: Caching
-- TODO: Memtables
-- TODO: Commit Logs
-- TODO: SSTables
-- TODO: Hinted Handoff
-- TODO: Compaction
+<!-- - TODO:: Caching -->
+<!-- - TODO:: Memtables -->
+<!-- - TODO:: Commit Logs -->
+<!-- - TODO:: SSTables -->
+<!-- - TODO:: Hinted Handoff -->
+<!-- - TODO:: Compaction -->
 - [TWCS part 1 - how does it work and when should you use it?](http://thelastpickle.com/blog/2016/12/08/TWCS-part1.html) - Best suited for time series data that expires, Time Window Compaction Strategy comes with some caveats.
 - [Performing User Defined Compactions in Apache Cassandra](http://thelastpickle.com/blog/2016/10/18/user-defined-compaction.html) - This is a process by which we tell Cassandra to create a compaction task for one or more tables explicitly. 
-- TODO: Concurrency and Threading
-- TODO: Networking and Timeouts
-- TODO: JVM Settings
-- TODO: Using cassandra-stress
+<!-- - TODO:: Concurrency and Threading -->
+<!-- - TODO:: Networking and Timeouts -->
+<!-- - TODO:: JVM Settings -->
+<!-- - TODO:: Using cassandra-stress -->
 - [Graphing cassandra-stress](http://thelastpickle.com/blog/2015/10/23/cassandra-stress-and-graphs.html) - Benchmarking schemas and configuration changes using the cassandra-stress tool, before pushing such changes out to production is one of the things every Cassandra developer should know and regularly practice.
 - [Modeling real life workloads with cassandra-stress is hard](http://thelastpickle.com/blog/2017/02/08/Modeling-real-life-workloads-with-cassandra-stress.html) - 
-- TODO: Using Gatling
+<!-- - TODO:: Using Gatling -->
 - [Gatling DSE Stress](https://github.com/datastax/gatling-dse-stress)
 - [Gatling DSE Plugin for Gatling Load injector](https://github.com/datastax/gatling-dse-plugin) - This project is a plugin for the Gatling load injector. It adds CQL support in Gatling for Datastax Enterprise. It allows for benchmarking Datastax Enterprise features, including DSE Graph Fluent API.
 - [Gatling DSE Stress Simulation Catalog](https://github.com/datastax/gatling-dse-simcatalog) - The goal of the repo is to provide a sample of the Gatling DSE Stress Framework's usage. Feel free to submit a pull request with example simulations.
 
 ### Cassandra Security
 - [Hardening Cassandra Step by Step: Part 1](http://thelastpickle.com/blog/2015/09/30/hardening-cassandra-step-by-step-part-1-server-to-server.html) - Inter-Node Encryption (And a Gentle Intro to Certificates)
-- TODO: Authentication and Authorization
+<!-- - TODO:: Authentication and Authorization -->
 - [LDAP Authenticator for Apache Cassandra](https://github.com/instaclustr/cassandra-ldap) - This is a pluggable authentication implementation for Apache Cassandra, providing a way to authenticate and create users based on a configured LDAP server. 
-- TODO: Encryption
-- TODO: JMX Security
-- TODO: Disk
+<!-- - TODO:: Encryption -->
+<!-- - TODO:: JMX Security -->
+<!-- - TODO:: Disk -->
 - [Encrypting EC2 ephemeral volumes with LUKS and AWS KMS](https://www.whaletech.co/2016/04/07/encryption-ephemeral-volumes-with-kms.html) - The example used here is Cassandra data stored on ephemeral disks.
-- TODO: System
-- TODO: Network
+<!-- - TODO:: System -->
+<!-- - TODO:: Network -->
 
 ### Deploying Cassandra
-- TODO: Planning a Cluster Deployment
-- TODO: Container Deployment
+<!-- - TODO:: Planning a Cluster Deployment -->
+<!-- - TODO:: Container Deployment -->
 - [Docker Meet Cassandra. Cassandra Meet Docker](http://thelastpickle.com/blog/2018/01/23/docker-meet-cassandra.html) Article reviewing how to setup a complete Cassandra application with monitoring on Docker.
 - [Example code from the Docker Meet Cassandra Article](https://github.com/thelastpickle/docker-cassandra-bootstrap)
 - [Docker-Cassandra](https://github.com/nicolasff/docker-cassandra): A set of scripts and config files to run a Cassandra cluster from Docker.
@@ -193,12 +195,12 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Cassandra Docker](https://github.com/instaclustr/cassandra-docker) - This is the Instaclustr public docker image for Apache Cassandra. It contains docker images for Cassandra 3.0 and 3.11.1.
 - [Cassandra / Elassandra Docker](https://github.com/zegelin/cassandra-docker) - Apache Cassandra and Elassandra docker images.
 
-- TODO: Container Orchestration
+<!-- - TODO:: Container Orchestration -->
 - [Kubernetes Cassandra Operator](https://github.com/instaclustr/cassandra-operator) - The Cassandra operator manages Cassandra clusters deployed to Kubernetes and automates tasks related to operating an Cassandra cluster.
 - [Running Cassandra on DC/OS (Mesos)](http://thelastpickle.com/blog/2016/05/07/dcos.html) -  This blog will show how to setup DC/OS in the Amazon cloud, how to install Apache Cassandra on a DC/OS cluster, and finally new ways to interact with and Apache Cassandra after it is installed.
-- TODO: Cloud Deployment
+<!-- - TODO:: Cloud Deployment -->
 - [How To Setup A Highly Available Multi-AZ Cassandra Cluster On AWS EC2](http://highscalability.com/blog/2016/8/1/how-to-setup-a-highly-available-multi-az-cassandra-cluster-o.html)
-- TODO: Cloud Automations
+<!-- - TODO:: Cloud Automations -->
 - [CloudFormation Cassandra AWS](https://github.com/LoyaltyOne/cassandra-aws)- A cassandra cluster for development using Cloud Formation
 
 ### Integrating with Cassandra
@@ -209,10 +211,10 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 
 
-- TODO: ESB
-- TODO: Streaming
-- TODO: ETL
-- TODO: CDC
+<!-- - TODO:: ESB -->
+<!-- - TODO:: Streaming -->
+<!-- - TODO:: ETL -->
+<!-- - TODO:: CDC -->
 
 #### Spark
 - [DataStax Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector): This library lets you expose Cassandra tables as Spark RDDs, write Spark RDDs to Cassandra tables, and execute arbitrary CQL queries in your Spark applications.
