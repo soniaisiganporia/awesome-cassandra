@@ -265,6 +265,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [cqlmigrate](https://github.com/sky-uk/cqlmigrate) -  Cassandra CQL migration tool. cqlmigrate is a library for performing schema migrations on a cassandra cluster.
 - [cassandra-migration-tool-java](https://github.com/smartcat-labs/cassandra-migration-tool-java) - Cassandra migration tool for java is a lightweight tool used to execute schema and data migration on Cassandra database. 
 - [cassalog](https://github.com/hawkular/cassalog) - Cassalog is a schema change management library and tool for Apache Cassandra that can be used with applications running on the JVM.
+- [cdeploy](https://github.com/rackerlabs/cdeploy) - cdeploy is a simple tool to manage your Cassandra schema migrations in the style of dbdeploy.
 - [Web: Cassandra Calculator](https://www.ecyrd.com/cassandracalculator/): A simple calculator to see how size / replication factor affect the system's consistency.
 - [Cassandra-web](http://avalanche123.com/cassandra-web/) - A web interface for Apache Cassandra
 https://github.com/rohitsakala/CassandraRestfulAPI
