@@ -181,6 +181,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 <!-- - TODO:: Authentication and Authorization -->
 <!-- - TODO:: Encryption -->
+- [Securing Apache Cassandra with Application Level Encryption](https://www.instaclustr.com/securing-apache-cassandra-with-application-level-encryption/) - Discusses how to do application level data encryption to properly manage secure information in Cassandra. 
 <!-- - TODO:: JMX Security -->
 <!-- - TODO:: Disk -->
 <!-- - TODO:: System -->
