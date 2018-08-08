@@ -182,7 +182,6 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 <!-- - TODO:: Authentication and Authorization -->
 <!-- - TODO:: Encryption -->
-- [Securing Apache Cassandra with Application Level Encryption](https://www.instaclustr.com/securing-apache-cassandra-with-application-level-encryption/) - Discusses how to do application level data encryption to properly manage secure information in Cassandra. 
 <!-- - TODO:: JMX Security -->
 <!-- - TODO:: Disk -->
 <!-- - TODO:: System -->
@@ -190,6 +189,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 
 ### Cassandra Security
+- [Securing Apache Cassandra with Application Level Encryption](https://www.instaclustr.com/securing-apache-cassandra-with-application-level-encryption/) - Discusses how to do application level data encryption to properly manage secure information in Cassandra. 
 - [Hardening Cassandra Step by Step: Part 1](http://thelastpickle.com/blog/2015/09/30/hardening-cassandra-step-by-step-part-1-server-to-server.html) - Inter-Node Encryption (And a Gentle Intro to Certificates)
 - [LDAP Authenticator for Apache Cassandra](https://github.com/instaclustr/cassandra-ldap) - This is a pluggable authentication implementation for Apache Cassandra, providing a way to authenticate and create users based on a configured LDAP server. 
 - [Encrypting EC2 ephemeral volumes with LUKS and AWS KMS](https://www.whaletech.co/2016/04/07/encryption-ephemeral-volumes-with-kms.html) - The example used here is Cassandra data stored on ephemeral disks.
