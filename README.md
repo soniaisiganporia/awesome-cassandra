@@ -166,6 +166,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 
 ### Cassandra Performance Tuning
 - [Jon Haddad: Cassandra Summit Recap - Diagnosing Problems in Production](http://rustyrazorblade.com/2014/09/cassandra-summit-recap-diagnosing-problems-in-production/)
+- [A Deeper Dive - Diagnosing DSE Performance Issues with Ttop and Multidump](https://academy.datastax.com/support-blog/deeper-dive-diagnosing-dse-performance-issues-ttop-and-multidump) - A good review of how to look deeper into Cassandra threads. 
 - [Ryan Svihla's Cassandra 2.0 checklist](https://medium.com/@foundev/my-cassandra-diagnostics-checklist-brain-dump-599a2b95b118)
 - [Amy's Cassandra 2.1 tuning guide](https://tobert.github.io/pages/als-cassandra-21-tuning-guide.html)
 - [Secret HotSpot option improving GC pauses on large heaps](http://blog.ragozin.info/2012/03/secret-hotspot-option-improving-gc.html)
@@ -180,6 +181,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Gatling DSE Stress](https://github.com/datastax/gatling-dse-stress)
 - [Gatling DSE Plugin for Gatling Load injector](https://github.com/datastax/gatling-dse-plugin) - This project is a plugin for the Gatling load injector. It adds CQL support in Gatling for Datastax Enterprise. It allows for benchmarking Datastax Enterprise features, including DSE Graph Fluent API.
 - [Gatling DSE Stress Simulation Catalog](https://github.com/datastax/gatling-dse-simcatalog) - The goal of the repo is to provide a sample of the Gatling DSE Stress Framework's usage. Feel free to submit a pull request with example simulations.
+
 
 <!-- - TODO:: Authentication and Authorization -->
 <!-- - TODO:: Encryption -->
@@ -341,6 +343,7 @@ https://github.com/rohitsakala/CassandraRestfulAPI
 - [Christopher Batey: Cassandra](http://batey.info/cassandra.html)
 - [Distributed Bytes:Cassandra](https://distributedbytes.timojo.com/search/label/cassandra)
 - [The Netflix Tech Blog](https://medium.com/netflix-techblog)
+- [Ryan Svilha](https://lostechies.com/ryansvihla/tags)
 - [Anant](https://blog.anant.us/tag/datastax/)
 
 ### Videos 
