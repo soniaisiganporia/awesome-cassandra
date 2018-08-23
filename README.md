@@ -264,6 +264,9 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - OLD - [Netflix Astyanax](https://github.com/Netflix/astyanax): Astyanax is a high level Java client for Apache Cassandra, based on Thrift protocol. Not maintained.
 
 ### Tools
+- [DbSchema - Cassandra Designer](https://www.dbschema.com/cassandra-designer-tool.html) - DbSchema: Cassandra Diagram Designer & GUI Admin Tool which can do Cassandra amongst other databases. 
+- [DBEaver - Free Universal Database Tool](https://dbeaver.io/) - A third party tool for dealing with all sorts of databases including Cassandra. 
+- [KDM - The Kashlev Data Modeler](http://kdm.dataview.org/) - An automated big data modeling tool for Apache Cassandra
 - [Cassandra Reaper](http://cassandra-reaper.io/): Automated repairs for Apache Cassandra. Supports all versions. 
 - [cstar perf](https://github.com/datastax/cstar_perf) Apache Cassandra performance testing platform
 - [Spark Cassandra Stress](https://github.com/datastax/spark-cassandra-stress) A tool for testing the DataStax Spark Connector against Apache Cassandra or DSE
