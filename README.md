@@ -42,13 +42,6 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [YugaByte Database](https://github.com/YugaByte/yugabyte-db) - YugaByteDB is a transactional, high-performance database for building distributed cloud services. It supports Cassandra-compatible and Redis-compatible APIs, with PostgreSQL in Beta.
 - [Microsoft Azure Cosmos DB: Apache Cassandra API](https://docs.microsoft.com/en-us/azure/cosmos-db/cassandra-introduction) - Azure Cosmos DB provides the Cassandra API (preview) for applications that are written for Apache Cassandra that need premium capabilities.
 
-### Cassandra Data Modeling - Relational to Cassandra
-- [RDBMS to NoSQL](http://www.datastax.com/relational-database-to-nosql): Your roadmap to understanding whether NoSQL is right for you.
-- [MySQL to C*](http://planetcassandra.org/mysql-to-cassandra-migration/): mysql to cassandra migration guide
-- [Real-Time Replication from MySQL to Cassandra](https://mcbguru.blog/2014/02/27/real-time-replication-from-mysql-to-cassandra/)
-- [Cassandra Schemas for Beginners (like me)](https://medium.com/@jochasinga/cassandra-schemas-for-beginners-like-me-9714cee9236a) - Great rticle for new developers to Cassandra.
-- [Cassandra and Relational database schema comparison – Query vs relationship modeling](https://blog.rdx.com/cassandra-and-relational-database-schema-comparison-query-vs-relationship-modeling/) 
-
 ### Using Cassandra
 
 <!-- - TODO:: cassandra installation tutorials in local, docker, cloud (do, aws, azure, gcp)) -->
@@ -69,12 +62,21 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Introduction to Spark & Cassandra](http://rustyrazorblade.com/post/2015/2015-01-02-intro-to-spark-and-cassandra/)
 - [From Cassandra to S3, with Spark](https://objectpartners.com/2016/11/30/from-cassandra-to-s3-with-spark/)
 - [Import CSV files with spark](https://github.com/markthebault/importCSVSparkCassandra) - How to import a file from S3 into cassandra using spark
+- [Using Apache Cassandra — A few things before you start](https://hackernoon.com/using-apache-cassandra-a-few-things-before-you-start-ac599926e4b8) - Great advice to read before diving deep into Cassandra. 
+- [Top 5 reasons to use the Apache Cassandra Database](https://towardsdatascience.com/top-5-reasons-to-use-the-apache-cassandra-database-d541c6448557) - Few good reasons why you'd want to consider Apache Cassandra. 
 
 <!-- - TODO:: sql v. cql-->
 <!-- - TODO:: query driven methodology -->
 <!-- - TODO:: schema designs / examples-->
 <!-- - TODO:: data modeling problems -->
 
+### Cassandra from Relational
+- [RDBMS to NoSQL](http://www.datastax.com/relational-database-to-nosql): Your roadmap to understanding whether NoSQL is right for you.
+- [MySQL to C*](http://planetcassandra.org/mysql-to-cassandra-migration/): mysql to cassandra migration guide
+- [Real-Time Replication from MySQL to Cassandra](https://mcbguru.blog/2014/02/27/real-time-replication-from-mysql-to-cassandra/)
+- [Cassandra Schemas for Beginners (like me)](https://medium.com/@jochasinga/cassandra-schemas-for-beginners-like-me-9714cee9236a) - Great rticle for new developers to Cassandra.
+- [Cassandra and Relational database schema comparison – Query vs relationship modeling](https://blog.rdx.com/cassandra-and-relational-database-schema-comparison-query-vs-relationship-modeling/) 
+- [Cassandra Query Language: CQL vs SQL](https://medium.com/@alexbmeng/cassandra-query-language-cql-vs-sql-7f6ed7706b4c) 
 
 ### Cassandra Data Modeling
 - [Basic Rules Of Cassandra Data Modeling](http://www.datastax.com/dev/blog/basic-rules-of-cassandra-data-modeling): Picking the right data model is the hardest part of using Cassandra. If you have a relational background, CQL will look familiar, but the way you use it can be very different.
@@ -281,7 +283,7 @@ https://github.com/rohitsakala/CassandraRestfulAPI
 - [CassanddraRestfulAPI](https://github.com/rohitsakala/CassandraRestfulAPI) - CassandraRestfulAPI project exposes the cassandra data tables with the help of Restful API.
 - [Netflix: Staash](https://github.com/Netflix/staash) - A language-agnostic as well as storage-agnostic web interface for storing data into persistent storage systems, the metadata layer abstracts a lot of storage details and the pattern automation APIs take care of automating common data access patterns.
 - [cql-vim](https://github.com/elubow/cql-vim) - Cassandra CQL Syntax Highlighter for Vim
-
+- [Presto](https://prestodb.io/) - Distributed SQL Query Engine for Big Data. Presto allows querying data where it lives, including Hive, Cassandra, relational databases or even proprietary data stores. 
 
 ### Admin / Monitor
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter): Simplified management for DataStax Enterprise and Cassandra database clusters.
