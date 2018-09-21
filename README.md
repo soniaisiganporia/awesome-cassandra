@@ -321,6 +321,10 @@ https://github.com/rohitsakala/CassandraRestfulAPI
 - [Apache Cassandra Documentation](http://cassandra.apache.org/doc/) Definitive documentation for all published versions. 
 - [DataStax Documentation](http://docs.datastax.com/en/landing_page/doc/landing_page/current.html) Documentation and Drivers from DataStax 
 
+### Books
+- [Cassandra: The Definitive Guide, 2nd Edition](http://shop.oreilly.com/product/0636920043041.do)
+- [Cassandra High Availability](https://www.packtpub.com/big-data-and-business-intelligence/cassandra-high-availability)
+
 ### Courses 
 - [DataStax Academy](https://academy.datastax.com/): Free online courses on Cassandra
 
