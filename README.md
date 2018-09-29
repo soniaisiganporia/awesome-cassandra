@@ -297,6 +297,7 @@ https://github.com/rohitsakala/CassandraRestfulAPI
 - [Cassandra Log Tools](https://github.com/erickramirezDSE/cass_log_tools): Simple scripts for working with Apache Cassandra logs.
 - [Cassandra CFStats to CSV Parser](https://github.com/jlacefie/cfstats-csv-parser): Converts the output of CFStats to CSV. 
 - [Netflix-Priam](https://github.com/Netflix/Priam)Co-Process for backup/recovery, Token Management, and Centralized Configuration management for Cassandra.
+- [CStar](https://github.com/spotify/cstar) - Apache Cassandra cluster orchestration tool for the command line.
 
 
 ### Queues / Schedulers
