@@ -350,8 +350,8 @@ https://github.com/rohitsakala/CassandraRestfulAPI
 ### Blogs
 - [Datastax](https://www.datastax.com/blog)
 - [Datastax Academy](https://academy.datastax.com/developer-blog)
-- [Codecentric](https://blog.codecentric.de/)
-- [Pythian](https://www.pythian.com/blog/)
+- [Codecentric: Cassandra](https://blog.codecentric.de/en/tag/cassandra/)
+- [Pythian: Cassandra](https://blog.pythian.com/technical-track/cassandra-2/)
 - [Instaclustr](https://www.instaclustr.com/blog/) 
 - [Cassandra Zone](https://cassandra-zone.com/) - Findings and musings on Apache Cassandra
 - [Altheroot:Cassandra](https://blog.alteroot.org/categories/cassandra/index.html)
