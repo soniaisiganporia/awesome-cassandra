@@ -272,6 +272,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 ### Tools
 - [DbSchema - Cassandra Designer](https://www.dbschema.com/cassandra-designer-tool.html) - DbSchema: Cassandra Diagram Designer & GUI Admin Tool which can do Cassandra amongst other databases. 
 - [DBEaver - Free Universal Database Tool](https://dbeaver.io/) - A third party tool for dealing with all sorts of databases including Cassandra. 
+- [RazorSQL - Multi DB Manager Tool](https://razorsql.com/) - A multi-db tool for Linux, Mac, and Windows that works with Apache Cassandra. 
 - [KDM - The Kashlev Data Modeler](http://kdm.dataview.org/) - An automated big data modeling tool for Apache Cassandra
 - [Cassandra Reaper](http://cassandra-reaper.io/): Automated repairs for Apache Cassandra. Supports all versions. 
 - [cstar perf](https://github.com/datastax/cstar_perf) Apache Cassandra performance testing platform
@@ -290,6 +291,8 @@ https://github.com/rohitsakala/CassandraRestfulAPI
 - [Presto](https://prestodb.io/) - Distributed SQL Query Engine for Big Data. Presto allows querying data where it lives, including Hive, Cassandra, relational databases or even proprietary data stores. 
 - [Sstable Tools](https://github.com/tolbertam/sstable-tools) - A toolkit for parsing, creating and doing other fun stuff with Cassandra 3.x SSTables. 
 - [Cassandra SStable Tools](https://github.com/instaclustr/cassandra-sstable-tools) - A few different tools combined into one that helps admins get summaries, metadata, partition info, cell info. 
+- [Cassandra-Client](https://github.com/Kindrat/cassandra-client) - A simple gui tool for browsing tables and data in Cassandra. 
+
 
 ### Admin / Monitor
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter): Simplified management for DataStax Enterprise and Cassandra database clusters.
