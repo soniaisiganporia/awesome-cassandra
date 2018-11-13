@@ -294,7 +294,7 @@ https://github.com/rohitsakala/CassandraRestfulAPI
 - [cassandra-exporter](https://github.com/masumsoft/cassandra-exporter) - Simple Tool to Export / Import Cassandra Tables into JSON
 - [Cassandra SStable Tools](https://github.com/instaclustr/cassandra-sstable-tools) - A few different tools combined into one that helps admins get summaries, metadata, partition info, cell info. 
 - [Cassandra-Client](https://github.com/Kindrat/cassandra-client) - A simple gui tool for browsing tables and data in Cassandra. 
-
+- [CQL Data Modeler](https://www.sestevez.com/sestevez/CassandraDataModeler/) - A very useful tool to test out a CQL schema and visualize what the partition would like in relationship to the columns and rows. 
 
 ### Admin / Monitor
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter): Simplified management for DataStax Enterprise and Cassandra database clusters.
