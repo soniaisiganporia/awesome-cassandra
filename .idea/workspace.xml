@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50b0e1d1-c2f6-4b37-a0f3-2f9c16e8d243" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,8 +21,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="257">
-                <caret line="276" column="116" selection-start-line="276" selection-start-column="116" selection-end-line="276" selection-end-column="116" />
+              <first_editor relative-caret-position="268">
+                <caret line="219" column="188" selection-start-line="219" selection-start-column="188" selection-end-line="219" selection-end-column="188" />
               </first_editor>
               <second_editor />
             </state>
@@ -103,12 +102,12 @@
       <updated>1563298863772</updated>
       <workItem from="1563298865043" duration="404000" />
       <workItem from="1563301587397" duration="661000" />
-      <workItem from="1563374209169" duration="257000" />
+      <workItem from="1563374209169" duration="728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1322000" />
+    <option name="totallyTimeSpent" value="1793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -151,8 +150,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="257">
-            <caret line="276" column="116" selection-start-line="276" selection-start-column="116" selection-end-line="276" selection-end-column="116" />
+          <first_editor relative-caret-position="268">
+            <caret line="219" column="188" selection-start-line="219" selection-start-column="188" selection-end-line="219" selection-end-column="188" />
           </first_editor>
           <second_editor />
         </state>
