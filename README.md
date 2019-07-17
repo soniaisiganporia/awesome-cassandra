@@ -274,6 +274,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - OLD - [Netflix Astyanax](https://github.com/Netflix/astyanax): Astyanax is a high level Java client for Apache Cassandra, based on Thrift protocol. Not maintained.
 
 ### Tools
+- [CassandraCAS](https://github.com/Datomic/CassandraCAS) - A compare-and-swap tool for Cassandra created by Datomic.
+- [peloton](https://github.com/uber/peloton) - A unified resource scheduler created by Uber. This tool can handle many nodes and clusters through resource management and scalability.
 - [ansible-dse](https://github.com/rackerlabs/ansible-dse) - A set of Ansible playbooks that will build a Datastax Enterprise cluster.
 - [DbSchema - Cassandra Designer](https://www.dbschema.com/cassandra-designer-tool.html) - DbSchema: Cassandra Diagram Designer & GUI Admin Tool which can do Cassandra amongst other databases. 
 - [DBEaver - Free Universal Database Tool](https://dbeaver.io/) - A third party tool for dealing with all sorts of databases including Cassandra. 
