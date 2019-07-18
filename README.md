@@ -353,6 +353,7 @@ https://github.com/rohitsakala/CassandraRestfulAPI
 - [Apache Cassandra Users Mailing List](http://www.mail-archive.com/user@cassandra.apache.org/)
 - [Apache Cassandra Developers Mailing List](http://www.mail-archive.com/dev@cassandra.apache.org/)
 - [Apache Cassandra Commits Mailing List](http://www.mail-archive.com/commits@cassandra.apache.org/)
+- [Apache Software Foundation Slack](https://s.apache.org/slack-invite) The #cassandra and #cassandra-dev channels are official slack channels migrating from IRC?
 - [Datastax Academy Slack](https://academy.datastax.com/slack)
 - [Cassandra Slack](https://cassandra-slack.herokuapp.com/)
 - [StackOverflow: Cassandra](https://stackoverflow.com/questions/tagged/cassandra)
