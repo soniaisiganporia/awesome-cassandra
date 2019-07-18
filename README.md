@@ -65,6 +65,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Import CSV files with spark](https://github.com/markthebault/importCSVSparkCassandra) - How to import a file from S3 into cassandra using spark
 - [Using Apache Cassandra — A few things before you start](https://hackernoon.com/using-apache-cassandra-a-few-things-before-you-start-ac599926e4b8) - Great advice to read before diving deep into Cassandra. 
 - [Top 5 reasons to use the Apache Cassandra Database](https://towardsdatascience.com/top-5-reasons-to-use-the-apache-cassandra-database-d541c6448557) - Few good reasons why you'd want to consider Apache Cassandra. 
+- [Cloud DevOps with Cassandra](http://cloudurable.com/blog/aws-ansible-packer-ssh-for-devops/index.html): Using Packer, Ansible/SSH and AWS command line tools to create and DBA manage EC2 Cassandra instances in AWS.
+- [How to install Cassandra 2 on CentOS 7 / RHEL 7](https://sharadchhetri.com/2015/04/25/how-to-install-cassandra-2-on-centos-7-rhel-7/) - A guide on hwo to install Cassandra on the popular linux distributions RedHat and CentOS.
 
 <!-- - TODO:: sql v. cql-->
 <!-- - TODO:: query driven methodology -->
@@ -215,6 +217,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 <!-- - TODO:: Cloud Automations -->
 
 ### Deploying Cassandra
+- [Setting Up Cassandra Cluster Through Ansible](https://blog.knoldus.com/setting-up-cassandra-cluster-through-ansible/) - A guide detailing how to set up a Cassandra cluster with automation using Ansible.
 - [Docker Meet Cassandra. Cassandra Meet Docker](http://thelastpickle.com/blog/2018/01/23/docker-meet-cassandra.html) Article reviewing how to setup a complete Cassandra application with monitoring on Docker.
 - [Example code from the Docker Meet Cassandra Article](https://github.com/thelastpickle/docker-cassandra-bootstrap)
 - [Docker-Cassandra](https://github.com/nicolasff/docker-cassandra): A set of scripts and config files to run a Cassandra cluster from Docker.
@@ -274,6 +277,9 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - OLD - [Netflix Astyanax](https://github.com/Netflix/astyanax): Astyanax is a high level Java client for Apache Cassandra, based on Thrift protocol. Not maintained.
 
 ### Tools
+- [CassandraCAS](https://github.com/Datomic/CassandraCAS) - A compare-and-swap tool for Cassandra created by Datomic.
+- [peloton](https://github.com/uber/peloton) - A unified resource scheduler created by Uber. This tool can handle many nodes and clusters through resource management and scalability.
+- [ansible-dse](https://github.com/rackerlabs/ansible-dse) - A set of Ansible playbooks that will build a Datastax Enterprise cluster.
 - [DbSchema - Cassandra Designer](https://www.dbschema.com/cassandra-designer-tool.html) - DbSchema: Cassandra Diagram Designer & GUI Admin Tool which can do Cassandra amongst other databases. 
 - [DBEaver - Free Universal Database Tool](https://dbeaver.io/) - A third party tool for dealing with all sorts of databases including Cassandra. 
 - [RazorSQL - Multi DB Manager Tool](https://razorsql.com/) - A multi-db tool for Linux, Mac, and Windows that works with Apache Cassandra. 
@@ -310,7 +316,7 @@ https://github.com/rohitsakala/CassandraRestfulAPI
 - [Cassandra Nagios](https://github.com/causes/cassandra-nagios): Perl Based scripts to get metrics for monitoring using Jolokia.
 - [Cassandra Log Tools](https://github.com/erickramirezDSE/cass_log_tools): Simple scripts for working with Apache Cassandra logs.
 - [Cassandra CFStats to CSV Parser](https://github.com/jlacefie/cfstats-csv-parser): Converts the output of CFStats to CSV. 
-- [Netflix-Priam](https://github.com/Netflix/Priam)Co-Process for backup/recovery, Token Management, and Centralized Configuration management for Cassandra.
+- [Netflix-Priam](https://github.com/Netflix/Priam) - Co-Process for backup/recovery, Token Management, and Centralized Configuration management for Cassandra.
 - [CStar](https://github.com/spotify/cstar) - Apache Cassandra cluster orchestration tool for the command line.
 - [ctop](https://github.com/pixonic/ctop) - This is a very simple console tool for monitoring column families read/write activities at remote cassandra host.
 
