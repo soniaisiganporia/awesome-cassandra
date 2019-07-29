@@ -7,15 +7,18 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [General](#general) 
 <!-- TODO: list out concept subject titles here and link -->
 - [Packages](#packages)
-  - [Libraries](#interfaces)  Programming Language Specific Libs for Cassandra.
+  - [Libraries](#libraries)  Programming Language Specific Libs for Cassandra.
   - [Tools](#tools) Applications / Tools that work with Cassandra.
   - [Projects](#projects) Other projects that use Cassandra.
+  - [Queues / Schedulers](#queues--schedulers) 
+  - [Logging](#logging)
+  - [Open Source Applications](#open-source-applications)
   
 - [Resources](#resources) 
   - [Documentation](#documentation) Official / unofficial documentation. 
   - [Books](#books) Popular books about Cassandra.
-  - [Tutorials](#tutorials) Step by step tutorials on Cassandra.
-  - [Web Sites](#web-sites) Sites ( not blogs ) on Cassandra.
+  - [Courses](#courses) Step by step tutorials on Cassandra.
+  - [Communities](#communities) Sites ( not blogs ) on Cassandra.
   - [Blogs](#blogs) from Cassandra experts.
   - [Videos](#videos) Videos on Cassandra.
   - [Slides](#slides) Slides on Cassandra / related technologies.
@@ -304,7 +307,7 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Cassandra-Client](https://github.com/Kindrat/cassandra-client) - A simple gui tool for browsing tables and data in Cassandra. 
 - [CQL Data Modeler](https://www.sestevez.com/sestevez/CassandraDataModeler/) - A very useful tool to test out a CQL schema and visualize what the partition would like in relationship to the columns and rows. 
 
-### Admin / Monitor
+### Projects
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) - Simplified management for DataStax Enterprise and Cassandra database clusters.
 - [Cassandra Cluster Admin](https://github.com/sebgiroux/Cassandra-Cluster-Admin) - Cassandra Cluster Admin is a GUI tool to help people administrate their Apache Cassandra cluster.
 - [Cassandra StatD Agent](https://github.com/lookout/cassandra-statsd-agent) - Java Agent for Cassandra integration with StatsD.
