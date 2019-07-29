@@ -281,7 +281,8 @@ A curated list of awesome [Apache Cassandra](http://cassandra.apache.org/) packa
 - [Caffinitas](https://bitbucket.org/snazy/caffinitas/src/develop/) - Caffinitas is an advanced object mapper for Apache Cassandra which has been especially designed to work with Datastax Java Driver 2.1+ against Apache Cassandra 2.1, 2.0 or 1.2.
 - [Spring Data for Apache Cassandra](http://projects.spring.io/spring-data-cassandra/) -  Spring Data for Apache Cassandra offers a familiar interface to those who have used other Spring Data modules in the past.
 - [gocql](https://github.com/gocql/gocql) - Package gocql implements a fast and robust Cassandra client for the Go programming language.
-- OLD - [Netflix Astyanax](https://github.com/Netflix/astyanax) - Astyanax is a high level Java client for Apache Cassandra, based on Thrift protocol. Not maintained.
+- [Netflix Astyanax](https://github.com/Netflix/astyanax): This is an old library. Astyanax was a high level Java client for Apache Cassandra, based on Thrift protocol. Not maintained any more. 
+- [Scalar DB](https://github.com/scalar-labs/scalardb) - Transaction library for Cassandra
 
 ### Tools
 - [CassandraCAS](https://github.com/Datomic/CassandraCAS) - A compare-and-swap tool for Cassandra created by Datomic.
