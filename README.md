@@ -313,6 +313,9 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra SStable Tools](https://github.com/instaclustr/cassandra-sstable-tools) - A few different tools combined into one that helps admins get summaries, metadata, partition info, cell info. 
 - [Cassandra-Client](https://github.com/Kindrat/cassandra-client) - A simple gui tool for browsing tables and data in Cassandra. 
 - [CQL Data Modeler](https://www.sestevez.com/sestevez/CassandraDataModeler/) - A very useful tool to test out a CQL schema and visualize what the partition would like in relationship to the columns and rows. 
+- [Cassandra Snapshot Backup](https://github.com/avinash-mishra/cassandra_snapshot_backup) - A quick and easy way to snapshot files in a Cassandra database and back them up using Ansible. 
+- [Cassandra Operator](https://github.com/sky-uk/cassandra-operator) - A Kubernetes operator that manages Cassandra clusters inside Kubernetes. Note: This is still in alpha and not recommended for production environments. 
+- [Slothsandra](https://github.com/MacKittipat/slothsandra) - An integration for Cassandra with the Slack app, which stores old messages that Slack no longer does itself. 
 
 ### Projects
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) - Simplified management for DataStax Enterprise and Cassandra database clusters.
