@@ -316,6 +316,9 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra Snapshot Backup](https://github.com/avinash-mishra/cassandra_snapshot_backup) - A quick and easy way to snapshot files in a Cassandra database and back them up using Ansible. 
 - [Cassandra Operator](https://github.com/sky-uk/cassandra-operator) - A Kubernetes operator that manages Cassandra clusters inside Kubernetes. Note: This is still in alpha and not recommended for production environments. 
 - [Slothsandra](https://github.com/MacKittipat/slothsandra) - An integration for Cassandra with the Slack app, which stores old messages that Slack no longer does itself. 
+- [sandraREST](https://github.com/aksakalli/sandraREST) - A Cassandra manager with a web UI for RESTful APIs.
+- [Cassandra Leadership](https://github.com/paradoxical-io/cassandra.leadership) - A library to help elect leaders using cassandra. Uses paxos to build a leadership election module.
+- [Terraform Cassandra](https://github.com/conrad-mukai/terraform-cassandra) - A terraform module that creates a Cassandra cluster.
 
 ### Projects
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) - Simplified management for DataStax Enterprise and Cassandra database clusters.
