@@ -319,6 +319,9 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [sandraREST](https://github.com/aksakalli/sandraREST) - A Cassandra manager with a web UI for RESTful APIs.
 - [Cassandra Leadership](https://github.com/paradoxical-io/cassandra.leadership) - A library to help elect leaders using cassandra. Uses paxos to build a leadership election module.
 - [Terraform Cassandra](https://github.com/conrad-mukai/terraform-cassandra) - A terraform module that creates a Cassandra cluster.
+- [datadog](https://www.datadoghq.com/blog/monitoring-cassandra-with-datadog/) - A third party tool that allows monitoring and metrics for Cassandra nodes and clusters.
+- [tlp-cluster](http://thelastpickle.com/tlp-cluster/) - A provisioning tool for Apache Cassandra designed for developers looking to benchmark and test Apache Cassandra. It assists with builds and starting instances on AWS.
+- [Helenos](https://github.com/tomekkup/helenos) - A free web based environment that simplifies a data exploring & schema management with Apache Cassandra database.
 
 ### Projects
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) - Simplified management for DataStax Enterprise and Cassandra database clusters.
