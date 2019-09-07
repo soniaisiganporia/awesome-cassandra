@@ -168,6 +168,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra backup util](https://github.com/instaclustr/cassandra-backup) - https://GitHub.com/instaclustr/cassandra-backup
 - [sstable tools](https://github.com/tolbertam/sstable-tools) - A toolkit for parsing, creating and doing other fun stuff with Cassandra 3.x SSTables.
 - [cassandra-sstable-tools](https://github.com/instaclustr/cassandra-sstable-tools) - Tools for working with sstables.
+- [Cassy](https://github.com/scalar-labs/cassy) - A simple and integrated backup tool for Apache Cassandra. 
 
 <!-- - TODO:: Managing Performance -->
 <!-- - TODO:: Caching -->
