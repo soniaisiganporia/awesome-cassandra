@@ -324,6 +324,8 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [datadog](https://www.datadoghq.com/blog/monitoring-cassandra-with-datadog/) - A third party tool that allows monitoring and metrics for Cassandra nodes and clusters.
 - [tlp-cluster](http://thelastpickle.com/tlp-cluster/) - A provisioning tool for Apache Cassandra designed for developers looking to benchmark and test Apache Cassandra. It assists with builds and starting instances on AWS.
 - [Helenos](https://github.com/tomekkup/helenos) - A free web based environment that simplifies a data exploring & schema management with Apache Cassandra database.
+- [KDM by Datafluent](https://www.datafluent.org/) - KDM is a big data modeling tool specialized for Apache Cassandra which allows you to go through the query driven methodology to go from a conceptual data model to an optimized physical data model. 
+- [Hackolade: Datamodeling for noSQL Databases](https://hackolade.com/) - Although not specialized for Cassandra, Hackolade is a general data modeling tool for noSQL databases including Cassandra, and hence Scylla, Cosmos, etc. 
 
 ### Projects
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) - Simplified management for DataStax Enterprise and Cassandra database clusters.
