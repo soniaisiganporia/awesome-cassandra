@@ -325,7 +325,19 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [tlp-cluster](http://thelastpickle.com/tlp-cluster/) - A provisioning tool for Apache Cassandra designed for developers looking to benchmark and test Apache Cassandra. It assists with builds and starting instances on AWS.
 - [Helenos](https://github.com/tomekkup/helenos) - A free web based environment that simplifies a data exploring & schema management with Apache Cassandra database.
 - [KDM by Datafluent](https://www.datafluent.org/) - KDM is a big data modeling tool specialized for Apache Cassandra which allows you to go through the query driven methodology to go from a conceptual data model to an optimized physical data model. 
-- [Hackolade: Datamodeling for noSQL Databases](https://hackolade.com/) - Although not specialized for Cassandra, Hackolade is a general data modeling tool for noSQL databases including Cassandra, and hence Scylla, Cosmos, etc. 
+- [Hackolade: Datamodeling for noSQL Databases](https://hackolade.com/) - Although not specialized for Cassandra, Hackolade is a general data modeling tool for noSQL databases including Cassandra, and hence Scylla, Cosmos, etc.
+- [ValuStor](https://github.com/Sensaphone/ValuStor) - ValuStor is a key-value pair database solution.
+- [C - assKop](https://github.com/Orange-OpenSource/casskop) - This Kubernetes operator automates the Cassandra operations such as deploying a new rack aware cluster, adding/removing nodes, configuring the C* and JVM parameters, upgrading JVM and C* versions, and many more...
+- [Cassandra-Migration](https://github.com/hhandoko/cassandra-migration) - Apache Cassandra / DataStax Enterprise database migration (schema evolution) library.
+- [JanuesGraph-Utils](https://github.com/IBM/janusgraph-utils) - Tool to Develop a graph database app.
+- [Scylla-Migrator](https://github.com/scylladb/scylla-migrator) - Migrate data extract using Spark to Scylla, normally from Cassandra.
+- [Cassandra CA Manager](https://github.com/eevans/cassandra-ca-manager) - Create and sign Java keystores.
+- [Zipkin](https://github.com/openzipkin/zipkin) - A distributed tracing system.
+- [Newts](https://github.com/OpenNMS/newts) - time-series data store based on Apache Cassandra.
+- [Medusa](https://github.com/thelastpickle/cassandra-medusa) - Apache Cassandra backup system.
+- [Heroic](https://github.com/spotify/heroic) - A scalable time series database based on Bigtable, Cassandra, and Elasticsearch.
+- [Express-Cassandra](https://github.com/masumsoft/express-cassandra) - a Cassandra ORM/ODM/OGM for NodeJS with Elassandra & JanusGraph Support.
+
 
 ### Projects
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) - Simplified management for DataStax Enterprise and Cassandra database clusters.
