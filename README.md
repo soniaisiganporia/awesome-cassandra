@@ -226,21 +226,27 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 <!-- - TODO:: Cloud Automations -->
 
 ### Deploying Cassandra
+- [How To Setup A Highly Available Multi-AZ Cassandra Cluster On AWS EC2](http://highscalability.com/blog/2016/8/1/how-to-setup-a-highly-available-multi-az-cassandra-cluster-o.html)
+- [CloudFormation Cassandra AWS](https://github.com/LoyaltyOne/cassandra-aws) - A cassandra cluster for development using Cloud Formation.
+- [tlp-cluster, a tool for launching Cassandra clusters in AWS](https://github.com/thelastpickle/tlp-cluster) - A provisioning tool for Apache Cassandra designed for developers looking to both benchmark and test the correctness of Apache Cassandra. It assists with builds and starting instances on AWS.
 - [Setting Up Cassandra Cluster Through Ansible](https://blog.knoldus.com/setting-up-cassandra-cluster-through-ansible/) - A guide detailing how to set up a Cassandra cluster with automation using Ansible.
+- [Running Cassandra on DC/OS (Mesos)](http://thelastpickle.com/blog/2016/05/07/dcos.html) -  This blog will show how to setup DC/OS in the Amazon cloud, how to install Apache Cassandra on a DC/OS cluster, and finally new ways to interact with and Apache Cassandra after it is installed.
+
+
+### Deploying Cassandra on Docker / Containerized Cassandra
 - [Docker Meet Cassandra. Cassandra Meet Docker](http://thelastpickle.com/blog/2018/01/23/docker-meet-cassandra.html) - Article reviewing how to setup a complete Cassandra application with monitoring on Docker.
 - [Example code from the Docker Meet Cassandra Article](https://github.com/thelastpickle/docker-cassandra-bootstrap)
 - [Docker-Cassandra](https://github.com/nicolasff/docker-cassandra) - A set of scripts and config files to run a Cassandra cluster from Docker.
 - [Cassandra & Zeppelin Notebook on Docker](https://github.com/academyofdata/cassandra-zeppelin) - Docker-Compose script for Cassandra + Zeppelin setup.
 - [Packer: Cassandra Image](https://github.com/cloudurable/cassandra-image) - Cassandra Image using Packer for Docker and EC2 AMI. Covers managing EC2 Cassandra clusters with Ansible.
 - [Cassandra Docker](https://github.com/instaclustr/cassandra-docker) - This is the Instaclustr public docker image for Apache Cassandra. It contains docker images for Cassandra 3.0 and 3.11.1.
-- [Cassandra / Elassandra Docker](https://github.com/zegelin/cassandra-docker) - Apache Cassandra and Elassandra docker images.
+- [Cassandra / Elassandra Docker](https://github.com/zegelin/cassandra-docker) - Apache Cassandra and Elassandra docker images.Cass Operator is maintained by a team at DataStax and it is part of what powers [DataStax Astra](https://astra.datastax.com).
+
+### Deploying Cassandra on Kubernetes / Kubernetized Cassandra 
+- [Datastax - Cassandra Kubernetes Operator](https://github.com/datastax/cass-operator) - Datastax's Cassandra Kubernetes Operator which supports Datastax as well as open source Apache Cassandra containers on Kubernetes. 
 - [Instaclustr - Kubernetes Operator for Cassandra](https://github.com/instaclustr/cassandra-operator) - The Cassandra operator manages Cassandra clusters deployed to Kubernetes and automates tasks related to operating an Cassandra cluster.
 - [Sky UK - Cassandra Kubernetes Operator](https://github.com/sky-uk/cassandra-operator) - Kubernetes operator that manages Cassandra clusters inside Kubernetes. Well designed and organized. 
 - [CassKop - Cassandra operator for Kubernetes](https://github.com/Orange-OpenSource/cassandra-k8s-operator) - This Kubernetes operator automates the Cassandra operations such as deploying a new rack aware cluster, adding/removing nodes, configuring the C and JVM parameters, upgrading JVM and C versions. Written in Go.
-- [Running Cassandra on DC/OS (Mesos)](http://thelastpickle.com/blog/2016/05/07/dcos.html) -  This blog will show how to setup DC/OS in the Amazon cloud, how to install Apache Cassandra on a DC/OS cluster, and finally new ways to interact with and Apache Cassandra after it is installed.
-- [How To Setup A Highly Available Multi-AZ Cassandra Cluster On AWS EC2](http://highscalability.com/blog/2016/8/1/how-to-setup-a-highly-available-multi-az-cassandra-cluster-o.html)
-- [CloudFormation Cassandra AWS](https://github.com/LoyaltyOne/cassandra-aws) - A cassandra cluster for development using Cloud Formation.
-- [tlp-cluster, a tool for launching Cassandra clusters in AWS](https://github.com/thelastpickle/tlp-cluster) - A provisioning tool for Apache Cassandra designed for developers looking to both benchmark and test the correctness of Apache Cassandra. It assists with builds and starting instances on AWS.
 
 ### Integrating with Cassandra
 
@@ -289,6 +295,9 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Scalar DB](https://github.com/scalar-labs/scalardb) - Transaction library for Cassandra.
 
 ### Tools
+- [Hackolade](https://hackolade.com) - Visual data modeling tool for NoSQL databases and stuctures like Apache Cassandra, ElasticSearch, Graph DBs, JSON, APIs.  
+- [JetBrains Datagrip DB IDE](https://www.jetbrains.com/datagrip/) - The Cross-Platform IDE for Databases & SQL by JetBrains, with support for Cassandra 
+- [Datastax - Management API for Apache Cassandra](https://github.com/datastax/management-api-for-apache-cassandra) - The Management API is a sidecar service layer that attempts to build a well supported set of operational actions on Cassandra® nodes that can be administered centrally. 
 - [CassandraCAS](https://github.com/Datomic/CassandraCAS) - A compare-and-swap tool for Cassandra created by Datomic.
 - [peloton](https://github.com/uber/peloton) - A unified resource scheduler created by Uber. This tool can handle many nodes and clusters through resource management and scalability.
 - [ansible-dse](https://github.com/rackerlabs/ansible-dse) - A set of Ansible playbooks that will build a Datastax Enterprise cluster.
@@ -337,6 +346,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Medusa](https://github.com/thelastpickle/cassandra-medusa) - Apache Cassandra backup system.
 - [Heroic](https://github.com/spotify/heroic) - A scalable time series database based on Bigtable, Cassandra, and Elasticsearch.
 - [Express-Cassandra](https://github.com/masumsoft/express-cassandra) - a Cassandra ORM/ODM/OGM for NodeJS with Elassandra & JanusGraph Support.
+
 
 
 ### Projects
