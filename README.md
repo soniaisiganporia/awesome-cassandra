@@ -388,7 +388,8 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [DataStax Documentation](http://docs.datastax.com/en/landing_page/doc/landing_page/current.html) - Documentation and Drivers from DataStax.
 
 ### Books
-- [Cassandra: The Definitive Guide, 2nd Edition](http://shop.oreilly.com/product/0636920043041.do)
+- [Cassandra: The Definitive Guide, 3rd Edition](https://www.amazon.com/gp/product/1098115163/)
+- [Cassandra: The Definitive Guide, 2nd Edition](https://www.amazon.com/gp/product/1491933666/) 
 - [Cassandra High Availability](https://www.packtpub.com/big-data-and-business-intelligence/cassandra-high-availability)
 
 ### Courses 
