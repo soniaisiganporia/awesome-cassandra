@@ -43,6 +43,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 ### Cassandra Distributions
 - [Datastax Enterrpise](https://www.datastax.com/) - Most widely used commercial distribution of Apache Cassandra, integrated with Apache Spark (for SparkSQL, analytics), Apache Solr (for secondary index), Apache TinkerPop based Graph stored in Cassandra, and OpsCenter.
 - [DDACS](https://www.datastax.com/products/datastax-distribution-of-apache-cassandra) - Datastax Distribution of Apache Cassandra, a production ready distribution with a bulk loader supported by Datastax. 
+- [Datastax Astra](https://astra.datastax.com/) - Datastax Astra Cassandra as a Service running on the Kubernetes operator Cassandra. 
 - [Elassandra](http://www.elassandra.io/) - Elassandra = Elasticsearch as a Cassandra secondary index.
 - [ScyllaDB](https://github.com/scylladb/scylla) - NoSQL data store using the seastar framework, compatible with Apache Cassandra.
 - [YugaByte Database](https://github.com/YugaByte/yugabyte-db) - YugaByteDB is a transactional, high-performance database for building distributed cloud services. It supports Cassandra-compatible and Redis-compatible APIs, with PostgreSQL in Beta.
