@@ -49,7 +49,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [ScyllaDB](https://github.com/scylladb/scylla) - NoSQL data store using the seastar framework, compatible with Apache Cassandra.
 - [YugaByte Database](https://github.com/YugaByte/yugabyte-db) - YugaByteDB is a transactional, high-performance database for building distributed cloud services. It supports Cassandra-compatible and Redis-compatible APIs, with PostgreSQL in Beta.
 - [Microsoft Azure Cosmos DB: Apache Cassandra API](https://docs.microsoft.com/en-us/azure/cosmos-db/cassandra-introduction) - Azure Cosmos DB provides the Cassandra API (preview) for applications that are written for Apache Cassandra that need premium capabilities.
-- [Amazon Managed Apache Cassandra Service](https://aws.amazon.com/mcs/) - Amazon Web Services (AWS) Managed Cassandra Service (MCS) provides a CQL compliant access to a "Serverless" auto-scaling datastore. 
+- [Amazon Keyspaces for Apache Cassandra](https://aws.amazon.com/keyspaces) - Amazon Web Services (AWS) Amazon Keyspaces for Apache Cassandra provides a CQL compliant access to a "Serverless" auto-scaling datastore. 
 
 ### Using Cassandra
 
