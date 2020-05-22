@@ -41,15 +41,25 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [An Odyssey of Cassandra](http://hadoopmag.com/an-odyssey-of-cassandra/) - This is an old article republished but talks about transitioning from SQL to NoSQL with Cassandra.
 
 ### Cassandra Distributions
+#### Cassandra / Cassandra Compliant Databases on JVM
 - [Apache Cassandra](http://cassandra.apache.org/) - The original gangster for Cassandra is of course Apache Cassandra. 
 - [Datastax Enterprise](https://www.datastax.com/) - Most widely used commercial distribution of Apache Cassandra, integrated with Apache Spark (for SparkSQL, analytics), Apache Solr (for secondary index), Apache TinkerPop based Graph stored in Cassandra, and OpsCenter.
-- [Datastax Astra](https://astra.datastax.com/) - Datastax Astra Cassandra as a Service running on the Kubernetes operator Cassandra. 
 - [DDACS](https://www.datastax.com/products/datastax-distribution-of-apache-cassandra) - Datastax Distribution of Apache Cassandra, a production ready distribution with a bulk loader supported by Datastax. 
 - [Elassandra](http://www.elassandra.io/) - Elassandra = Elasticsearch as a Cassandra secondary index.
+
+#### Cassandra Compliant Databases on C++
 - [ScyllaDB](https://github.com/scylladb/scylla) - NoSQL data store using the seastar framework, compatible with Apache Cassandra.
 - [YugaByte Database](https://github.com/YugaByte/yugabyte-db) - YugaByteDB is a transactional, high-performance database for building distributed cloud services. It supports Cassandra-compatible and Redis-compatible APIs, with PostgreSQL in Beta.
+
+#### Cassandra as a Service / Managed Cassandra Based on Open Source Cassandra
+- [Datastax Astra](https://astra.datastax.com/) - Datastax Astra Cassandra as a Service running on the Kubernetes operator Cassandra available on AWS and GCP. 
+- [Instaclustr Managed Apache Cassandra as a Service](https://www.instaclustr.com/solutions/managed-apache-cassandra/) - Instaclustr provides a fully managed and SOC 2 certified hosted & managed service for Apache Cassandra® on AWS, Azure, GCP and IBM Cloud.
+- [Aiven for Apache Cassandra](https://aiven.io/cassandra/) - Aiven for Apache Cassandra is a managed and hosted distributed NoSQL database providing scalability, high availability, and excellent fault tolerance. Cassandra as a Service is available on Google Cloud Platform, Amazon Web Services, Microsoft Azure, DigitalOcean, and UpCloud.
+
+#### Cassandra as a Service / Managed Cassandra Based on Proprietary Technology
 - [Microsoft Azure Cosmos DB: Apache Cassandra API](https://docs.microsoft.com/en-us/azure/cosmos-db/cassandra-introduction) - Azure Cosmos DB provides the Cassandra API (preview) for applications that are written for Apache Cassandra that need premium capabilities.
 - [Amazon Keyspaces for Apache Cassandra](https://aws.amazon.com/keyspaces) - Amazon Web Services (AWS) Amazon Keyspaces for Apache Cassandra provides a CQL compliant access to a "Serverless" auto-scaling datastore. 
+
 
 ### Using Cassandra
 
