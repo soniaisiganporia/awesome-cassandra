@@ -42,9 +42,9 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 ### Cassandra Distributions
 #### Cassandra / Cassandra Compliant Databases on JVM
-- [Apache Cassandra](http://cassandra.apache.org/) - The original gangster for Cassandra is of course Apache Cassandra. 
+- [Apache Cassandra](http://cassandra.apache.org/) - The original gangster for Cassandra is of course Apache Cassandra. Community supported.
 - [Datastax Enterprise](https://www.datastax.com/) - Most widely used commercial distribution of Apache Cassandra, integrated with Apache Spark (for SparkSQL, analytics), Apache Solr (for secondary index), Apache TinkerPop based Graph stored in Cassandra, and OpsCenter.
-- [DDACS](https://www.datastax.com/products/datastax-distribution-of-apache-cassandra) - Datastax Distribution of Apache Cassandra, a production ready distribution with a bulk loader supported by Datastax. 
+- [DDAC/Luna](https://luna.datastax.com/) - Datastax Distribution of Apache Cassandra, a production ready distribution with a bulk loader supported by Datastax. DDAC is Deprecated now, but Datastax is still supporting Cassandra with it's new Luna Service.
 - [Elassandra](http://www.elassandra.io/) - Elassandra = Elasticsearch as a Cassandra secondary index.
 
 #### Cassandra Compliant Databases on C++
