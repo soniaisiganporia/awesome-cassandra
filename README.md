@@ -148,6 +148,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Understanding the Nuance of Compaction in Apache Cassandra](http://thelastpickle.com/blog/2017/03/16/compaction-nuance.html) - Overview of how Cassandra manages data on disk.
 - [Guide to Cassandra Thread Pools](https://blog.pythian.com/guide-to-cassandra-thread-pools/) - This guide provides a description of the different thread pools and how to monitor them. Includes what to alert on, common issues and solutions. Old but very useful reference. 
 - [Cassandra Architecture and Operations](https://miguelperez.xyz/blog/2017/2/13/cassandra-architecture-and-operation) - A high level overview in one page of how Cassandra works. 
+- [Improving Apache Cassandra's Front Door and Backpressure](https://dzone.com/articles/improving-apache-cassandras-front-door-and-backpre) - Explore how an incoming request was processed by Cassandra before, see what they changed, and look at new relevant configuration knobs available.
 
 ### Cassandra Monitoring
 - [Resources for Monitoring Datastax, Cassandra, Spark, & Solr Performance](https://blog.anant.us/resources-for-monitoring-datastax-cassandra-spark-solr-performance/)
@@ -255,6 +256,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra / Elassandra Docker](https://github.com/zegelin/cassandra-docker) - Apache Cassandra and Elassandra docker images.Cass Operator is maintained by a team at DataStax and it is part of what powers [DataStax Astra](https://astra.datastax.com).
 
 ### Deploying Cassandra on Kubernetes / Kubernetized Cassandra 
+- [K8ssandra.io - Kubernetes + Cassandra](https://k8ssandra.io/) - K8ssandra provides a production-ready platform for running Apache Cassandra on Kubernetes. This includes automation for operational tasks such as repairs, backups, and monitoring.
 - [Datastax - Cassandra Kubernetes Operator](https://github.com/datastax/cass-operator) - Datastax's Cassandra Kubernetes Operator which supports Datastax as well as open source Apache Cassandra containers on Kubernetes. 
 - [Instaclustr - Kubernetes Operator for Cassandra](https://github.com/instaclustr/cassandra-operator) - The Cassandra operator manages Cassandra clusters deployed to Kubernetes and automates tasks related to operating an Cassandra cluster.
 - [Sky UK - Cassandra Kubernetes Operator](https://github.com/sky-uk/cassandra-operator) - Kubernetes operator that manages Cassandra clusters inside Kubernetes. Well designed and organized. 
@@ -313,9 +315,11 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Hackolade](https://hackolade.com) - Visual data modeling tool for NoSQL databases and stuctures like Apache Cassandra, ElasticSearch, Graph DBs, JSON, APIs.  
 - [JetBrains Datagrip DB IDE](https://www.jetbrains.com/datagrip/) - The Cross-Platform IDE for Databases & SQL by JetBrains, with support for Cassandra 
 - [Datastax - Management API for Apache Cassandra](https://github.com/datastax/management-api-for-apache-cassandra) - The Management API is a sidecar service layer that attempts to build a well supported set of operational actions on Cassandra® nodes that can be administered centrally. 
+- [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) - Simplified management for DataStax Enterprise and Cassandra database clusters.
 - [CassandraCAS](https://github.com/Datomic/CassandraCAS) - A compare-and-swap tool for Cassandra created by Datomic.
 - [peloton](https://github.com/uber/peloton) - A unified resource scheduler created by Uber. This tool can handle many nodes and clusters through resource management and scalability.
 - [ansible-dse](https://github.com/rackerlabs/ansible-dse) - A set of Ansible playbooks that will build a Datastax Enterprise cluster.
+- [dseansible](https://github.com/yabinmeng/dseansible) - DSE Installation and Upgrade Ansible Playbooks/Roles for Ubuntu Linux.
 - [DbSchema - Cassandra Designer](https://www.dbschema.com/cassandra-designer-tool.html) - DbSchema: Cassandra Diagram Designer & GUI Admin Tool which can do Cassandra amongst other databases. 
 - [DBEaver - Free Universal Database Tool](https://dbeaver.io/) - A third party tool for dealing with all sorts of databases including Cassandra. 
 - [RazorSQL - Multi DB Manager Tool](https://razorsql.com/) - A multi-db tool for Linux, Mac, and Windows that works with Apache Cassandra. 
@@ -363,19 +367,12 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 
 ### Projects
-- [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) - Simplified management for DataStax Enterprise and Cassandra database clusters.
 - [Cassandra Cluster Admin](https://github.com/sebgiroux/Cassandra-Cluster-Admin) - Cassandra Cluster Admin is a GUI tool to help people administrate their Apache Cassandra cluster.
-- [Cassandra StatD Agent](https://github.com/lookout/cassandra-statsd-agent) - Java Agent for Cassandra integration with StatsD.
-- [Cassandra Scripts](https://github.com/bart613/cassandra) - Python based cassandra ops scripts to monitor cfstats. 
 - [Cassandra-Tools](https://github.com/CrowdStrike/cassandra-tools) - Python Fabric scripts to help automate the launching and managing of cluster testing on AWS. 
 - [Cassandra Opstools](https://github.com/spotify/cassandra-opstools) - Generic scripts to review and monitor cassandra, from Spotify.  
 - [CCM: Cassandra Cluster Manager)](https://github.com/pcmanus/ccm) - A script/library to create, launch and remove an Apache Cassandra cluster on localhost.
-- [Cassandra Nagios](https://github.com/causes/cassandra-nagios) - Perl Based scripts to get metrics for monitoring using Jolokia.
-- [Cassandra Log Tools](https://github.com/erickramirezDSE/cass_log_tools) - Simple scripts for working with Apache Cassandra logs.
-- [Cassandra CFStats to CSV Parser](https://github.com/jlacefie/cfstats-csv-parser) - Converts the output of CFStats to CSV. 
 - [Netflix-Priam](https://github.com/Netflix/Priam) - Co-Process for backup/recovery, Token Management, and Centralized Configuration management for Cassandra.
 - [CStar](https://github.com/spotify/cstar) - Apache Cassandra cluster orchestration tool for the command line.
-- [ctop](https://github.com/pixonic/ctop) - This is a very simple console tool for monitoring column families read/write activities at remote cassandra host.
 
 ### Queues / Schedulers
 - [CMB](https://github.com/Comcast/cmb) - A highly available, horizontally scalable queuing and notification service compatible with AWS SQS and SNS.
@@ -384,8 +381,16 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [scheduler](https://github.com/PagerDuty/scheduler) - A Scala library for scheduling arbitrary code to run at an arbitrary time.
 
 
-### Logging 
+### Logging /Metrics
 - [cassandra-log4j-appender](https://github.com/datastax/cassandra-log4j-appender) - Cassandra appenders for Log4j.
+- [Metrics Collector for Apache Cassandra](https://github.com/datastax/metric-collector-for-apache-cassandra) - Metric collection and Dashboards for Apache Cassandra (2.2, 3.0, 3.11, 4.0) clusters. Comes with dashboards for Graphana 
+- [Cassandra Log Tools](https://github.com/erickramirezDSE/cass_log_tools) - Simple scripts for working with Apache Cassandra logs.
+- [Cassandra CFStats to CSV Parser](https://github.com/jlacefie/cfstats-csv-parser) - Converts the output of CFStats to CSV. 
+- [Cassandra Scripts](https://github.com/bart613/cassandra) - Python based cassandra ops scripts to monitor cfstats. 
+- [Cassandra Nagios](https://github.com/causes/cassandra-nagios) - Perl Based scripts to get metrics for monitoring using Jolokia.
+- [ctop](https://github.com/pixonic/ctop) - This is a very simple console tool for monitoring column families read/write activities at remote cassandra host.
+- [Cassandra StatD Agent](https://github.com/lookout/cassandra-statsd-agent) - Java Agent for Cassandra integration with StatsD.
+
 
 ### Open Source Applications 
 - [Twissandra](https://github.com/twissandra/twissandra) - Twissandra is an example project, created to learn and demonstrate how to use Cassandra. Running the project will present a website that has similar functionality to Twitter.
