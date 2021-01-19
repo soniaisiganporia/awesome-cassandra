@@ -363,7 +363,15 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Medusa](https://github.com/thelastpickle/cassandra-medusa) - Apache Cassandra backup system.
 - [Heroic](https://github.com/spotify/heroic) - A scalable time series database based on Bigtable, Cassandra, and Elasticsearch.
 - [Express-Cassandra](https://github.com/masumsoft/express-cassandra) - a Cassandra ORM/ODM/OGM for NodeJS with Elassandra & JanusGraph Support.
-
+- [Instaclustr Esop](https://github.com/instaclustr/esop): Swiss knife for backup and restore of your node to GCP, Azure, S3, Ceph etc. Supports backup and restoration of commit logs too. Esop is embedded in [Instaclustr Icarus](https://github.com/instaclustr/icarus) sidecar so you may backup and restore your cluster remotely and on-the-fly with any disruption.
+- [Instaclustr Kerberos plugin](https://github.com/instaclustr/cassandra-kerberos) - A GSSAPI authentication provider for Apache Cassandra
+- [Instaclustr Java Driver for Kerberos](https://github.com/instaclustr/cassandra-java-driver-kerberos) - A GSSAPI authentication provider for the Cassandra Java driver.
+- [Instaclustr Minotaur](https://github.com/instaclustr/instaclustr-minotaur) - Command line tool for consistent rebuilding of a Cassandra cluster.
+- [Instaclustr LDAP Authenticator](https://github.com/instaclustr/cassandra-ldap) - LDAP Authenticator for Apache Cassandra
+- [Instaclustr TTL Remover](https://github.com/instaclustr/cassandra-ttl-remover) - Command line tool for rewriting SSTables to remove TTLs
+- [Instaclustr SSTable Generator](https://github.com/instaclustr/cassandra-sstable-generator) - CLI tool for programmatic generation of Cassandra SSTables
+- [Instaclustr Exporter](https://github.com/instaclustr/cassandra-exporter) - Java agent that exports Cassandra metrics to Prometheus
+- [Instaclustr Go Client for Instaclustr Icarus](https://github.com/instaclustr/instaclustr-icarus-go-client) - Go client for Instaclustr Icarus sidecar
 
 
 ### Projects
