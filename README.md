@@ -85,7 +85,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Top 5 reasons to use the Apache Cassandra Database](https://towardsdatascience.com/top-5-reasons-to-use-the-apache-cassandra-database-d541c6448557) - Few good reasons why you'd want to consider Apache Cassandra. 
 - [Cloud DevOps with Cassandra](http://cloudurable.com/blog/aws-ansible-packer-ssh-for-devops/index.html) - Using Packer, Ansible/SSH and AWS command line tools to create and DBA manage EC2 Cassandra instances in AWS.
 - [How to install Cassandra 2 on CentOS 7 / RHEL 7](https://sharadchhetri.com/2015/04/25/how-to-install-cassandra-2-on-centos-7-rhel-7/) - A guide on hwo to install Cassandra on the popular linux distributions RedHat and CentOS.
-
+- [Apache Cassandra Database (Guide)](https://www.instaclustr.com/education/apache-cassandra-database) - Great guide to learn about Apache Cassandra, from Instaclustr.
 <!-- - TODO:: sql v. cql-->
 <!-- - TODO:: query driven methodology -->
 <!-- - TODO:: schema designs / examples-->
@@ -110,7 +110,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Casandra Time Series Data Modeling for Massive Scale](http://thelastpickle.com/blog/2017/08/02/time-series-data-modeling-massive-scale.html)
 - [Cassandra Data Modeling Notes](https://miguelperez.xyz/blog/2017/2/13/cassandra-data-modeling-notes) - Simple notes on how to estimate the size of your cluster. 
 - [Scalar DB](https://github.com/scalar-labs/scalardb) - Transaction library for Cassandra.
-
+- [Cassandra Data Modeling Best Practices Guide](https://www.instaclustr.com/cassandra-data-modeling/) - Explains five Cassandra data modeling best practices. 
 
 <!-- - TODO: - Data Centers and Racks -->
 <!-- - TODO: - Gossip and Failure Detection -->
@@ -149,6 +149,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Guide to Cassandra Thread Pools](https://blog.pythian.com/guide-to-cassandra-thread-pools/) - This guide provides a description of the different thread pools and how to monitor them. Includes what to alert on, common issues and solutions. Old but very useful reference. 
 - [Cassandra Architecture and Operations](https://miguelperez.xyz/blog/2017/2/13/cassandra-architecture-and-operation) - A high level overview in one page of how Cassandra works. 
 - [Improving Apache Cassandra's Front Door and Backpressure](https://dzone.com/articles/improving-apache-cassandras-front-door-and-backpre) - Explore how an incoming request was processed by Cassandra before, see what they changed, and look at new relevant configuration knobs available.
+- [https://www.instaclustr.com/cassandra-architecture/](https://www.instaclustr.com/cassandra-architecture/)
 
 ### Cassandra Monitoring
 - [Resources for Monitoring Datastax, Cassandra, Spark, & Solr Performance](https://blog.anant.us/resources-for-monitoring-datastax-cassandra-spark-solr-performance/)
@@ -159,6 +160,8 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra Monitoring - Introduction (1/2)](https://softwaremill.com/cassandra-monitoring-part-1/)
 - [Cassandra Monitoring - Graphite/InfluxDB & Grafana on Docker (1/2)](https://softwaremill.com/cassandra-monitoring-part-2/)
 - [Monitoring Cassandra using Intel Snap and Grafana](http://thelastpickle.com/blog/2017/04/13/monitoring-cassandra-using-intel-snap.html) - This blog post describes how to monitor Apache Cassandra using the Intel Snap open source telemetry framework.
+- [https://www.instaclustr.com/cassandra-monitoring-best-practice-guide/](https://www.instaclustr.com/cassandra-monitoring-best-practice-guide/) - This blog post aims to touch all important aspects of Cassandra monitoring.
+
 
 <!-- - TODO:: Health Check -->
 <!-- - TODO:: Basic Maintenance -->
@@ -231,8 +234,10 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [LDAP Authenticator for Apache Cassandra](https://github.com/instaclustr/cassandra-ldap) - This is a pluggable authentication implementation for Apache Cassandra, providing a way to authenticate and create users based on a configured LDAP server. 
 - [Encrypting EC2 ephemeral volumes with LUKS and AWS KMS](https://www.whaletech.co/2016/04/07/encryption-ephemeral-volumes-with-kms.html) - The example used here is Cassandra data stored on ephemeral disks.
 
+### Planning a Cluster Deployment
+- [An Introduction to Cassandra Multi-Data Centers: Part 1](https://www.instaclustr.com/around-the-world-in-approximately-8-data-centres-globally-distributed-storage-streaming-and-search-part-1/) + [Part 2](https://www.instaclustr.com/around-the-world-globally-distributed-storage-streaming-and-search-an-introduction-to-cassandra-multi-data-centers-part-2/) - Learn about how to plan and implement Multi-Data Centers.
 
-<!-- - TODO:: Planning a Cluster Deployment -->
+
 <!-- - TODO:: Container Deployment -->
 <!-- - TODO:: Container Orchestration -->
 <!-- - TODO:: Cloud Deployment -->
@@ -244,7 +249,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [tlp-cluster, a tool for launching Cassandra clusters in AWS](https://github.com/thelastpickle/tlp-cluster) - A provisioning tool for Apache Cassandra designed for developers looking to both benchmark and test the correctness of Apache Cassandra. It assists with builds and starting instances on AWS.
 - [Setting Up Cassandra Cluster Through Ansible](https://blog.knoldus.com/setting-up-cassandra-cluster-through-ansible/) - A guide detailing how to set up a Cassandra cluster with automation using Ansible.
 - [Running Cassandra on DC/OS (Mesos)](http://thelastpickle.com/blog/2016/05/07/dcos.html) -  This blog will show how to setup DC/OS in the Amazon cloud, how to install Apache Cassandra on a DC/OS cluster, and finally new ways to interact with and Apache Cassandra after it is installed.
-
+- [Benchmarking Cassandra with Local Storage on Azure](https://www.instaclustr.com/benchmarking-cassandra-with-local-storage-on-azure/) - Learn about comparing Cassandra on Azure VMs w/ Local vs. Remote storage.  
 
 ### Deploying Cassandra on Docker / Containerized Cassandra
 - [Docker Meet Cassandra. Cassandra Meet Docker](http://thelastpickle.com/blog/2018/01/23/docker-meet-cassandra.html) - Article reviewing how to setup a complete Cassandra application with monitoring on Docker.
@@ -282,7 +287,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Stratio Deep (deprecated)](https://github.com/Stratio/stratio-deep) - Deep is a thin integration layer between Apache Spark and several NoSQL datastores. We actually support Apache Cassandra and MongoDB, but in the near future we will add support for sever other datastores.
 - [sample Spark Job Server Cassandra](https://github.com/instaclustr/sample-SparkJobserverCassandra) - Simple sample job illustrating the use of Spark Jobserver to execute Apache Spark analytics with Cassandra.
 - [fluxcapacitor/pipeline](https://github.com/fluxcapacitor/pipeline) - End-to-End, Real-time, Advanced Analytics Big Data Reference Pipeline using Spark, Spark SQL, Spark ML, GraphX, Spark Streaming, Kafka, NiFi, Cassandra, ElasticSearch, Redis, Tachyon, HDFS, Zeppelin, iPython/Jupyter Notebook, Tableau, Twitter Algebird.
-
+- [Spark + Cassandra Best Practices](https://blog.pythian.com/spark-cassandra-best-practices/) - Outlines general use cases and best practices of Spark & Cassandra together.
 
 #### Search / Secondary Indexes 
 - [Tuning DSE Search](http://www.datastax.com/dev/blog/tuning-dse-search) - Tuning DSE Search – Indexing latency and query latency.
@@ -373,16 +378,18 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Instaclustr Exporter](https://github.com/instaclustr/cassandra-exporter) - Java agent that exports Cassandra metrics to Prometheus
 - [Instaclustr Go Client for Instaclustr Icarus](https://github.com/instaclustr/instaclustr-icarus-go-client) - Go client for Instaclustr Icarus sidecar
 
+### Open Source Applications 
 
-### Projects
+- [Twissandra](https://github.com/twissandra/twissandra) - Twissandra is an example project, created to learn and demonstrate how to use Cassandra. Running the project will present a website that has similar functionality to Twitter.
+- [FiloDB](https://github.com/filodb/FiloDB) - High-performance distributed analytical database + Spark SQL queries + built for streaming.
+- [ChronoServer](https://github.com/cyngn/ChronoServer) - A test server for sampling how long it takes mobile & web clients to make various types of requests to a server doing common request patterns.
+- [Newts](http://opennms.github.io/newts/) - A time-series data store based on Apache Cassandra. This is part of the OpenNMS family of products that are used to monitor systems. 
 - [Cassandra Cluster Admin](https://github.com/sebgiroux/Cassandra-Cluster-Admin) - Cassandra Cluster Admin is a GUI tool to help people administrate their Apache Cassandra cluster.
 - [Cassandra-Tools](https://github.com/CrowdStrike/cassandra-tools) - Python Fabric scripts to help automate the launching and managing of cluster testing on AWS. 
 - [Cassandra Opstools](https://github.com/spotify/cassandra-opstools) - Generic scripts to review and monitor cassandra, from Spotify.  
 - [CCM: Cassandra Cluster Manager)](https://github.com/pcmanus/ccm) - A script/library to create, launch and remove an Apache Cassandra cluster on localhost.
 - [Netflix-Priam](https://github.com/Netflix/Priam) - Co-Process for backup/recovery, Token Management, and Centralized Configuration management for Cassandra.
 - [CStar](https://github.com/spotify/cstar) - Apache Cassandra cluster orchestration tool for the command line.
-
-### Queues / Schedulers
 - [CMB](https://github.com/Comcast/cmb) - A highly available, horizontally scalable queuing and notification service compatible with AWS SQS and SNS.
 - [CassieQ](https://github.com/paradoxical-io/cassieq) - A Distributed queue built off of Cassandra.
 - [Cherami](https://eng.uber.com/cherami/) - Distributed, scalable, durable, and highly available message queue system.
@@ -398,13 +405,6 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra Nagios](https://github.com/causes/cassandra-nagios) - Perl Based scripts to get metrics for monitoring using Jolokia.
 - [ctop](https://github.com/pixonic/ctop) - This is a very simple console tool for monitoring column families read/write activities at remote cassandra host.
 - [Cassandra StatD Agent](https://github.com/lookout/cassandra-statsd-agent) - Java Agent for Cassandra integration with StatsD.
-
-
-### Open Source Applications 
-- [Twissandra](https://github.com/twissandra/twissandra) - Twissandra is an example project, created to learn and demonstrate how to use Cassandra. Running the project will present a website that has similar functionality to Twitter.
-- [FiloDB](https://github.com/filodb/FiloDB) - High-performance distributed analytical database + Spark SQL queries + built for streaming.
-- [ChronoServer](https://github.com/cyngn/ChronoServer) - A test server for sampling how long it takes mobile & web clients to make various types of requests to a server doing common request patterns.
-- [Newts](http://opennms.github.io/newts/) - A time-series data store based on Apache Cassandra. This is part of the OpenNMS family of products that are used to monitor systems. 
 
 
 ## Resources 
@@ -448,7 +448,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Distributed Bytes:Cassandra](https://distributedbytes.timojo.com/search/label/cassandra)
 - [The Netflix Tech Blog](https://medium.com/netflix-techblog)
 - [Ryan Svilha](https://lostechies.com/ryansvihla/tags)
-- [Anant](https://blog.anant.us/tag/datastax/)
+- [Anant](https://blog.anant.us/)
 
 ### Videos 
 - [Best Practices for Running Cassandra on AWS](https://www.youtube.com/watch?v=IuJldwJLyFM)
