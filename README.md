@@ -151,7 +151,8 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Guide to Cassandra Thread Pools](https://blog.pythian.com/guide-to-cassandra-thread-pools/) - This guide provides a description of the different thread pools and how to monitor them. Includes what to alert on, common issues and solutions. Old but very useful reference. 
 - [Cassandra Architecture and Operations](https://miguelperez.xyz/blog/2017/2/13/cassandra-architecture-and-operation) - A high level overview in one page of how Cassandra works. 
 - [Improving Apache Cassandra's Front Door and Backpressure](https://dzone.com/articles/improving-apache-cassandras-front-door-and-backpre) - Explore how an incoming request was processed by Cassandra before, see what they changed, and look at new relevant configuration knobs available.
-- [https://www.instaclustr.com/cassandra-architecture/](https://www.instaclustr.com/cassandra-architecture/)
+- [Cassandra Architecture](https://www.instaclustr.com/cassandra-architecture/) - High level overview of Apache Cassandra from Instaclustr.
+- [The 10 Things I hate about Apache Cassandra](https://blog.pythian.com/the-things-i-hate-about-apache-cassandra/) - Do you really want to use Apache Cassandra? Learn why not to use it. 
 
 ### Cassandra Monitoring
 - [Resources for Monitoring Datastax, Cassandra, Spark, & Solr Performance](https://blog.anant.us/resources-for-monitoring-datastax-cassandra-spark-solr-performance/)
@@ -162,7 +163,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra Monitoring - Introduction (1/2)](https://softwaremill.com/cassandra-monitoring-part-1/)
 - [Cassandra Monitoring - Graphite/InfluxDB & Grafana on Docker (1/2)](https://softwaremill.com/cassandra-monitoring-part-2/)
 - [Monitoring Cassandra using Intel Snap and Grafana](http://thelastpickle.com/blog/2017/04/13/monitoring-cassandra-using-intel-snap.html) - This blog post describes how to monitor Apache Cassandra using the Intel Snap open source telemetry framework.
-- [https://www.instaclustr.com/cassandra-monitoring-best-practice-guide/](https://www.instaclustr.com/cassandra-monitoring-best-practice-guide/) - This blog post aims to touch all important aspects of Cassandra monitoring.
+- [Cassandra Monitoring Best Practice Guide](https://www.instaclustr.com/cassandra-monitoring-best-practice-guide/) - This blog post aims to touch all important aspects of Cassandra monitoring.
 
 
 <!-- - TODO:: Health Check -->
