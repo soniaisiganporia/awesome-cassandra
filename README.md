@@ -85,7 +85,9 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Top 5 reasons to use the Apache Cassandra Database](https://towardsdatascience.com/top-5-reasons-to-use-the-apache-cassandra-database-d541c6448557) - Few good reasons why you'd want to consider Apache Cassandra. 
 - [Cloud DevOps with Cassandra](http://cloudurable.com/blog/aws-ansible-packer-ssh-for-devops/index.html) - Using Packer, Ansible/SSH and AWS command line tools to create and DBA manage EC2 Cassandra instances in AWS.
 - [How to install Cassandra 2 on CentOS 7 / RHEL 7](https://sharadchhetri.com/2015/04/25/how-to-install-cassandra-2-on-centos-7-rhel-7/) - A guide on hwo to install Cassandra on the popular linux distributions RedHat and CentOS.
+- [Cassandra Use Cases: When to use and when not to use Cassandra](https://blog.pythian.com/cassandra-use-cases/) - Practical guide for when to use and when not to use Apache Cassandra.
 - [Apache Cassandra Database (Guide)](https://www.instaclustr.com/education/apache-cassandra-database) - Great guide to learn about Apache Cassandra, from Instaclustr.
+
 <!-- - TODO:: sql v. cql-->
 <!-- - TODO:: query driven methodology -->
 <!-- - TODO:: schema designs / examples-->
@@ -186,6 +188,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [sstable tools](https://github.com/tolbertam/sstable-tools) - A toolkit for parsing, creating and doing other fun stuff with Cassandra 3.x SSTables.
 - [cassandra-sstable-tools](https://github.com/instaclustr/cassandra-sstable-tools) - Tools for working with sstables.
 - [Cassy](https://github.com/scalar-labs/cassy) - A simple and integrated backup tool for Apache Cassandra. 
+- [Intro to CStar](https://thelastpickle.com/blog/2018/10/01/introduction-to-cstar.html) - Tutorial on how to use CStar 
 
 <!-- - TODO:: Managing Performance -->
 <!-- - TODO:: Caching -->
