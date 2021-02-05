@@ -451,6 +451,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Christopher Batey: Cassandra](http://batey.info/cassandra.html)
 - [Distributed Bytes:Cassandra](https://distributedbytes.timojo.com/search/label/cassandra)
 - [The Netflix Tech Blog](https://medium.com/netflix-techblog)
+- [Spotify R&D / Engineering Blog : Apache Cassandra](https://engineering.atspotify.com/tag/apache-cassandra/) 
 - [Ryan Svilha](https://lostechies.com/ryansvihla/tags)
 - [Anant](https://blog.anant.us/)
 
