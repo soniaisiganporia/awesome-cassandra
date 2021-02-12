@@ -300,33 +300,33 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - OLD - [Solandra](https://github.com/tjake/Solandra) - Solandra is a real-time distributed search engine built on Apache Solr and Apache Cassandra.
 - [cassandra-trigger](https://github.com/gradeup/cassandra-trigger) - Cassandra trigger to push realtime updates to elasticsearch.
 
+## Databases (powered by Apache Cassandra)
 
-#### Timeseries Databases
-##### Monitoring / Metrics
-  - <a href="https://github.com/cortexproject/cortex" target="_blank" rel="noreferrer noopener">cortexproject/cortex</a>: A horizontally scalable, highly available, multi-tenant, long term Prometheus storage.
- - <a href="https://github.com/filodb/FiloDB" target="_blank" rel="noreferrer noopener">filodb/FiloDB</a>: Distributed Prometheus time-series database compatible with Prometheus queries. 
- - <a href="https://github.com/cybem/cyanite-iow" target="_blank" rel="noreferrer noopener">cybem/cyanite-iow</a>: Cassandra backed Carbon daemon and metric web service. IPONWEB repository, compatible with Carbon. 
-##### Custom Time Series
-- <a href="https://github.com/spotify/heroic" target="_blank" rel="noreferrer noopener">spotify/heroic</a>: The Heroic Time Series Database
-- <a href="https://spotify.github.io/heroic/docs/overview" target="_blank" rel="noreferrer noopener">Heroic Documentation</a>
-- <a href="https://github.com/kairosdb/kairosdb" target="_blank" rel="noreferrer noopener">kairosdb/kairosdb</a>: Fast scalable time series database<ul>
-- <a href="https://kairosdb.github.io/docs/build/html/CassandraSchema.html" target="_blank" rel="noreferrer noopener">Cassandra Schema — KairosDB 1.0.1 documentation
-- <a href="https://github.com/OpenNMS/newts" target="_blank" rel="noreferrer noopener">OpenNMS/newts</a>: New-fangled Timeseries Data Store
-- <a href="https://opennms.github.io/newts/" target="_blank" rel="noreferrer noopener">Newts</a>
-- <a href="https://github.com/hawkular" target="_blank" rel="noreferrer noopener">Hawkular</a>
-- <a href="https://www.hawkular.org/" target="_blank" rel="noreferrer noopener">Hawkular.org</a>
-- <a href="https://www.hawkular.org/hawkular-metrics/docs/user-guide/" target="_blank" rel="noreferrer noopener">Hawkular - Metrics Documentation</a>
-- <a href="https://github.com/rackerlabs/blueflood" target="_blank" rel="noreferrer noopener">rackerlabs/blueflood</a>: A distributed system designed to ingest and process time series data
- - <a href="https://blueflood.io/" target="_blank" rel="noreferrer noopener">blueflood.io</a>
- - <a href="https://opentsdb.net/" target="_blank" rel="noreferrer noopener">OpenTSDB</a> - A Distributed, Scalable Monitoring System
- - <a href="https://github.com/OpenTSDB/opentsdb" target="_blank" rel="noreferrer noopener">OpenTSDB/opentsdb</a>: A scalable, distributed Time Series Database.
+### Timeseries Databases
+#### Monitoring / Metrics
+- [cortexproject/cortex](https://github.com/cortexproject/cortex) - A horizontally scalable, highly available, multi-tenant, long term Prometheus storage.
+- [filodb/FiloDB](https://github.com/filodb/FiloDB) - Distributed Prometheus time-series database compatible with Prometheus queries. 
+- [cybem/cyanite-iow](https://github.com/cybem/cyanite-iow) - Cassandra backed Carbon daemon and metric web service. IPONWEB repository, compatible with Carbon. 
+
+#### Custom Time Series
+- (https://github.com/spotify/heroic)[spotify/heroic] - The Heroic Time Series Database
+- (https://spotify.github.io/heroic/docs/overview)[Heroic Documentation] - 
+- (https://github.com/kairosdb/kairosdb)[kairosdb/kairosdb] - Fast scalable time series database
+- (https://kairosdb.github.io/docs/build/html/CassandraSchema.html)[Cassandra Schema — KairosDB 1.0.1 documentation
+- (https://github.com/OpenNMS/newts)[OpenNMS/newts] - New-fangled Timeseries Data Store
+- (https://opennms.github.io/newts/)[Newts] - 
+- (https://github.com/hawkular)[Hawkular] - 
+- (https://www.hawkular.org/)[Hawkular.org]
+- (https://www.hawkular.org/hawkular-metrics/docs/user-guide/)[Hawkular - Metrics Documentation]
+- [blueflood.io](https://blueflood.io/) / [rackerlabs/blueflood](https://github.com/rackerlabs/blueflood) - A distributed system designed to ingest and process time series data
+ - [OpenTSDB](https://opentsdb.net/) / [OpenTSDB/opentsdb](https://github.com/OpenTSDB/opentsdb) - A Distributed, Scalable Monitoring System built on a Time Series Database
 
 #### Graph
 
-<ul><li><a href="https://www.datastax.com/products/datastax-graph" target="_blank" rel="noreferrer noopener">Enterprise Distributed Graph Database | Datastax</a></li><li><a href="https://github.com/thinkaurelius/titan" target="_blank" rel="noreferrer noopener">thinkaurelius/titan</a>: Distributed Graph Database<ul><li><a href="https://www.slideshare.net/knoldus/introduction-to-titandb" target="_blank" rel="noreferrer noopener">Introduction to TitanDB</a></li></ul></li><li><a href="https://github.com/JanusGraph/janusgraph" target="_blank" rel="noreferrer noopener">JanusGraph/janusgraph</a>: JanusGraph: an open-source, distributed graph database<ul><li><a href="https://www.slideshare.net/Hadoop_Summit/large-scale-graph-analytics-with-janusgraph-77153443" target="_blank" rel="noreferrer noopener">Large Scale Graph Analytics with JanusGraph - Slide 14</a></li></ul></li><li><a href="https://github.com/hugegraph/hugegraph" target="_blank" rel="noreferrer noopener">hugegraph/hugegraph</a>: HugeGraph Database core component, including graph engine, API, and built-in backends<ul><li><a href="https://hugegraph.github.io/hugegraph-doc/guides/architectural.html" target="_blank" rel="noreferrer noopener">Architecture Overview · GitBook</a></li></ul></li></ul>
+(https://www.datastax.com/products/datastax-graph)[Enterprise Distributed Graph Database | Datastax] - (https://github.com/thinkaurelius/titan)[thinkaurelius/titan] -  Distributed Graph Database(https://www.slideshare.net/knoldus/introduction-to-titandb)[Introduction to TitanDB] - (https://github.com/JanusGraph/janusgraph)[JanusGraph/janusgraph] -  JanusGraph: an open-source, distributed graph database(https://www.slideshare.net/Hadoop_Summit/large-scale-graph-analytics-with-janusgraph-77153443)[Large Scale Graph Analytics with JanusGraph - Slide 14] - (https://github.com/hugegraph/hugegraph)[hugegraph/hugegraph] -  HugeGraph Database core component, including graph engine, API, and built-in backends(https://hugegraph.github.io/hugegraph-doc/guides/architectural.html)[Architecture Overview · GitBook] - 
 
 #### Miscellaneous 
-<ul><li><a href="https://github.com/stargate/stargate" target="_blank" rel="noreferrer noopener">stargate/stargate</a>: An open source data gateway<ul><li><a href="https://www.datastax.com/blog/2020/12/stargate-astra-bringing-modern-data-apis-access-cassandra-service" target="_blank" rel="noreferrer noopener">Stargate in Astra: Bringing Modern Data APIs to Access Cassandra-as-a-Service | Datastax</a></li><li><a href="https://www.zdnet.com/article/meet-stargate-datastaxs-graphql-for-databases-first-stop-cassandra/" target="_blank" rel="noreferrer noopener">Meet Stargate, DataStax's GraphQL for databases. First stop - Cassandra | ZDNet</a></li></ul></li><li><a href="https://github.com/apache/usergrid" target="_blank" rel="noreferrer noopener">apache/usergrid</a>: Mirror of Apache Usergrid<ul><li><a href="http://events17.linuxfoundation.org/sites/events/files/slides/Building%20Your%20Own%20BaaS%20With%20Apache%20Usergrid%20%26%20Docker.pdf" target="_blank" rel="noreferrer noopener">Building Your Own BaaS WithApache Usergrid &amp; Docker: Lessons Learned At Scale</a></li></ul></li><li><a href="https://github.com/scalar-labs/scalardl" target="_blank" rel="noreferrer noopener">scalar-labs/scalardl</a>: Tamper-evident and scalable distributed ledger platform</li><li><a href="https://github.com/scalar-labs/scalardb" target="_blank" rel="noreferrer noopener">scalar-labs/scalardb</a>: A library that makes non-ACID distributed databases/storages ACID-compliant</li><li><a href="https://github.com/wikimedia/restbase" target="_blank" rel="noreferrer noopener">wikimedia/restbase</a>: Distributed storage with REST API &amp; dispatcher for backend services.<ul><li><a href="https://github.com/wikimedia/restbase-mod-table-spec" target="_blank" rel="noreferrer noopener">wikimedia/restbase-mod-table-spec</a>: Shared spec and tests for RESTBase table storage</li></ul></li></ul>
+(https://github.com/stargate/stargate)[stargate/stargate] -  An open source data gateway(https://www.datastax.com/blog/2020/12/stargate-astra-bringing-modern-data-apis-access-cassandra-service)[Stargate in Astra: Bringing Modern Data APIs to Access Cassandra-as-a-Service | Datastax] - (https://www.zdnet.com/article/meet-stargate-datastaxs-graphql-for-databases-first-stop-cassandra/)[Meet Stargate, DataStax's GraphQL for databases. First stop - Cassandra | ZDNet] - (https://github.com/apache/usergrid)[apache/usergrid] -  Mirror of Apache Usergrid(http://events17.linuxfoundation.org/sites/events/files/slides/Building%20Your%20Own%20BaaS%20With%20Apache%20Usergrid%20%26%20Docker.pdf)[Building Your Own BaaS WithApache Usergrid &amp; Docker: Lessons Learned At Scale] - (https://github.com/scalar-labs/scalardl)[scalar-labs/scalardl] -  Tamper-evident and scalable distributed ledger platform(https://github.com/scalar-labs/scalardb)[scalar-labs/scalardb] -  A library that makes non-ACID distributed databases/storages ACID-compliant(https://github.com/wikimedia/restbase)[wikimedia/restbase] -  Distributed storage with REST API &amp; dispatcher for backend services.(https://github.com/wikimedia/restbase-mod-table-spec)[wikimedia/restbase-mod-table-spec] -  Shared spec and tests for RESTBase table storage
 
 ## Packages
 
