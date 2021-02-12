@@ -1,4 +1,6 @@
-# Awesome Cassandra [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Cassandra
+
+[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 Apache Cassandra is a free and open-source, distributed, wide column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
 
@@ -6,26 +8,51 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 ## Contents
 
-- [General](#general)
-<!-- TODO: list out concept subject titles here and link -->
-- [Databases](#databases)
-- [Packages](#packages)
-  - [Libraries](#libraries)  Programming Language Specific Libs for Cassandra.
-  - [Tools](#tools) Applications / Tools that work with Cassandra.
-  - [Projects](#projects) Other projects that use Cassandra.
-  - [Queues / Schedulers](#queues--schedulers)
-  - [Logging](#logging)
-  - [Open Source Applications](#open-source-applications)
+- [Awesome Cassandra](#awesome-cassandra)
+  - [Contents](#contents)
+  - [General](#general)
+    - [Cassandra](#cassandra)
+    - [Cassandra History](#cassandra-history)
+    - [Cassandra Use Cases](#cassandra-use-cases)
+    - [Cassandra Distributions](#cassandra-distributions)
+      - [Cassandra / Cassandra Compliant Databases on JVM](#cassandra--cassandra-compliant-databases-on-jvm)
+      - [Cassandra Compliant Databases on C++](#cassandra-compliant-databases-on-c)
+      - [Cassandra as a Service / Managed Cassandra Based on Open Source Cassandra](#cassandra-as-a-service--managed-cassandra-based-on-open-source-cassandra)
+      - [Cassandra as a Service / Managed Cassandra Based on Proprietary Technology](#cassandra-as-a-service--managed-cassandra-based-on-proprietary-technology)
+    - [Using Cassandra](#using-cassandra)
+    - [Cassandra from Relational](#cassandra-from-relational)
+    - [Cassandra Data Modeling](#cassandra-data-modeling)
+    - [Cassandra Architecture](#cassandra-architecture)
+    - [Cassandra Monitoring](#cassandra-monitoring)
+    - [Cassandra Maintenance](#cassandra-maintenance)
+    - [Cassandra Performance Tuning](#cassandra-performance-tuning)
+    - [Cassandra Security](#cassandra-security)
+    - [Cassandra Deployment](#cassandra-deployment)
+      - [Cassandra Deployment on Docker / Containerized Cassandra](#cassandra-deployment-on-docker--containerized-cassandra)
+      - [Cassandra Deployment on Kubernetes / Kubernetized Cassandra](#cassandra-deployment-on-kubernetes--kubernetized-cassandra)
+    - [Integrating with Cassandra](#integrating-with-cassandra)
+      - [Spark](#spark)
+      - [Search / Secondary Indexes](#search--secondary-indexes)
+  - [Databases](#databases)
+    - [Timeseries Databases](#timeseries-databases)
+      - [Monitoring / Metrics](#monitoring--metrics)
+      - [Custom Time Series](#custom-time-series)
+    - [Graph](#graph)
+    - [Miscellaneous](#miscellaneous)
+  - [Packages](#packages)
+    - [Libraries](#libraries)
+    - [Tools](#tools)
+    - [Open Source Applications](#open-source-applications)
+    - [Logging /Metrics](#logging-metrics)
+  - [Resources](#resources)
+    - [Documentation](#documentation)
+    - [Books](#books)
+    - [Courses](#courses)
+    - [Communities](#communities)
+    - [Blogs](#blogs)
+    - [Videos](#videos)
+    - [Slides](#slides)
   
-- [Resources](#resources)
-  - [Documentation](#documentation) Official / unofficial documentation.
-  - [Books](#books) Popular books about Cassandra.
-  - [Courses](#courses) Step by step tutorials on Cassandra.
-  - [Communities](#communities) Sites ( not blogs ) on Cassandra.
-  - [Blogs](#blogs) from Cassandra experts.
-  - [Videos](#videos) Videos on Cassandra.
-  - [Slides](#slides) Slides on Cassandra / related technologies.
-
 ## General
 
 ### Cassandra
@@ -249,17 +276,14 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [LDAP Authenticator for Apache Cassandra](https://github.com/instaclustr/cassandra-ldap) - This is a pluggable authentication implementation for Apache Cassandra, providing a way to authenticate and create users based on a configured LDAP server.
 - [Encrypting EC2 ephemeral volumes with LUKS and AWS KMS](https://www.whaletech.co/2016/04/07/encryption-ephemeral-volumes-with-kms.html) - The example used here is Cassandra data stored on ephemeral disks.
 
-### Planning a Cluster Deployment
-
-- [An Introduction to Cassandra Multi-Data Centers: Part 1](https://www.instaclustr.com/around-the-world-in-approximately-8-data-centres-globally-distributed-storage-streaming-and-search-part-1/) + [Part 2](https://www.instaclustr.com/around-the-world-globally-distributed-storage-streaming-and-search-an-introduction-to-cassandra-multi-data-centers-part-2/) - Learn about how to plan and implement Multi-Data Centers.
-
 <!-- - TODO:: Container Deployment -->
 <!-- - TODO:: Container Orchestration -->
 <!-- - TODO:: Cloud Deployment -->
 <!-- - TODO:: Cloud Automations -->
 
-### Deploying Cassandra
+### Cassandra Deployment
 
+- [An Introduction to Cassandra Multi-Data Centers: Part 1](https://www.instaclustr.com/around-the-world-in-approximately-8-data-centres-globally-distributed-storage-streaming-and-search-part-1/) + [Part 2](https://www.instaclustr.com/around-the-world-globally-distributed-storage-streaming-and-search-an-introduction-to-cassandra-multi-data-centers-part-2/) - Learn about how to plan and implement Multi-Data Centers.
 - [How To Setup A Highly Available Multi-AZ Cassandra Cluster On AWS EC2](http://highscalability.com/blog/2016/8/1/how-to-setup-a-highly-available-multi-az-cassandra-cluster-o.html)
 - [CloudFormation Cassandra AWS](https://github.com/LoyaltyOne/cassandra-aws) - A cassandra cluster for development using Cloud Formation.
 - [tlp-cluster, a tool for launching Cassandra clusters in AWS](https://github.com/thelastpickle/tlp-cluster) - A provisioning tool for Apache Cassandra designed for developers looking to both benchmark and test the correctness of Apache Cassandra. It assists with builds and starting instances on AWS.
@@ -267,7 +291,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Running Cassandra on DC/OS (Mesos)](http://thelastpickle.com/blog/2016/05/07/dcos.html) -  This blog will show how to setup DC/OS in the Amazon cloud, how to install Apache Cassandra on a DC/OS cluster, and finally new ways to interact with and Apache Cassandra after it is installed.
 - [Benchmarking Cassandra with Local Storage on Azure](https://www.instaclustr.com/benchmarking-cassandra-with-local-storage-on-azure/) - Learn about comparing Cassandra on Azure VMs w/ Local vs. Remote storage.  
 
-### Deploying Cassandra on Docker / Containerized Cassandra
+#### Cassandra Deployment on Docker / Containerized Cassandra
 
 - [Docker Meet Cassandra. Cassandra Meet Docker](http://thelastpickle.com/blog/2018/01/23/docker-meet-cassandra.html) - Article reviewing how to setup a complete Cassandra application with monitoring on Docker.
 - [Example code from the Docker Meet Cassandra Article](https://github.com/thelastpickle/docker-cassandra-bootstrap)
@@ -277,7 +301,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra Docker](https://github.com/instaclustr/cassandra-docker) - This is the Instaclustr public docker image for Apache Cassandra. It contains docker images for Cassandra 3.0 and 3.11.1.
 - [Cassandra / Elassandra Docker](https://github.com/zegelin/cassandra-docker) - Apache Cassandra and Elassandra docker images.Cass Operator is maintained by a team at DataStax and it is part of what powers [DataStax Astra](https://astra.datastax.com).
 
-### Deploying Cassandra on Kubernetes / Kubernetized Cassandra
+#### Cassandra Deployment on Kubernetes / Kubernetized Cassandra
 
 - [K8ssandra.io - Kubernetes + Cassandra](https://k8ssandra.io/) - K8ssandra provides a production-ready platform for running Apache Cassandra on Kubernetes. This includes automation for operational tasks such as repairs, backups, and monitoring.
 - [Datastax - Cassandra Kubernetes Operator](https://github.com/datastax/cass-operator) - Datastax's Cassandra Kubernetes Operator which supports Datastax as well as open source Apache Cassandra containers on Kubernetes.
@@ -335,14 +359,14 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [blueflood.io](https://blueflood.io/) / [rackerlabs/blueflood](https://github.com/rackerlabs/blueflood) - A distributed system designed to ingest and process time series data
 - [OpenTSDB](https://opentsdb.net/) / [OpenTSDB/opentsdb](https://github.com/OpenTSDB/opentsdb) - A Distributed, Scalable Monitoring System built on a Time Series Database
 
-#### Graph
+### Graph
 
 - [DSE Graph | Datastax](https://www.datastax.com/products/datastax-graph) - Successor to TitanDB , Commercial Tinkerpop / Gremlin compatible large scale Graph Database on DSE.
 - [thinkaurelius/titan](https://github.com/thinkaurelius/titan) / [Introduction to TitanDB](https://www.slideshare.net/knoldus/introduction-to-titandb) - Distributed Graph Database, predecessor to DSE Graph, JanusGraph, and now HugeGraph
 - [JanusGraph/janusgraph](https://github.com/JanusGraph/janusgraph) / [Large Scale Graph Analytics with JanusGraph](https://www.slideshare.net/Hadoop_Summit/large-scale-graph-analytics-with-janusgraph-77153443) - JanusGraph: an open-source, distributed graph database, successor to TitanDB
 - [hugegraph/hugegraph](https://github.com/hugegraph/hugegraph) /  [Architecture Overview · GitBook](https://hugegraph.github.io/hugegraph-doc/guides/architectural.html) - HugeGraph Database core component, including graph engine, API, and built-in backends.
 
-#### Miscellaneous
+### Miscellaneous
 
 - [stargate/stargate](https://github.com/stargate/stargate) / [Meet Stargate, DataStax's GraphQL for databases. First stop - Cassandra | ZDNet](https://www.zdnet.com/article/meet-stargate-datastaxs-graphql-for-databases-first-stop-cassandra/)-  An open source data gateway that provides REST/GraphQL interfaces to Cassandra.
 - [apache/usergrid](https://github.com/apache/usergrid) / [Building Your Own BaaS WithApache Usergrid &amp; Docker: Lessons Learned At Scale](http://events17.linuxfoundation.org/sites/events/files/slides/Building%20Your%20Own%20BaaS%20With%20Apache%20Usergrid%20%26%20Docker.pdf) - Open source Backend as a Service (BaaS) on Apache Cassandra, Elasticsearch with client SDKs for iOS/Android/.NET/Java
