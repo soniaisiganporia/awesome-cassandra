@@ -8,7 +8,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 - [General](#general)
 <!-- TODO: list out concept subject titles here and link -->
-- [Databases & Datastores][#databases]
+- [Databases](#databases)
 - [Packages](#packages)
   - [Libraries](#libraries)  Programming Language Specific Libs for Cassandra.
   - [Tools](#tools) Applications / Tools that work with Cassandra.
@@ -316,7 +316,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - OLD - [Solandra](https://github.com/tjake/Solandra) - Solandra is a real-time distributed search engine built on Apache Solr and Apache Cassandra.
 - [cassandra-trigger](https://github.com/gradeup/cassandra-trigger) - Cassandra trigger to push realtime updates to elasticsearch.
 
-## Databases & Data Stores powered by Apache Cassandra
+## Databases
 
 ### Timeseries Databases
 
