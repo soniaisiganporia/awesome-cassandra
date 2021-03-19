@@ -368,7 +368,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 ### Miscellaneous
 
-- [stargate/stargate](https://github.com/stargate/stargate) / [Meet Stargate, DataStax's GraphQL for databases. First stop - Cassandra | ZDNet](https://www.zdnet.com/article/meet-stargate-datastaxs-graphql-for-databases-first-stop-cassandra/)-  An open source data gateway that provides REST/GraphQL interfaces to Cassandra.
+- [stargate/stargate](https://github.com/stargate/stargate) / [Meet Stargate, DataStax's GraphQL for databases. First stop - Cassandra](https://www.zdnet.com/article/meet-stargate-datastaxs-graphql-for-databases-first-stop-cassandra/) - Stargate is an open-source data gateway that provides REST, GraphQL and schemaless JSON interfaces to Cassandra. 
 - [apache/usergrid](https://github.com/apache/usergrid) / [Building Your Own BaaS WithApache Usergrid &amp; Docker: Lessons Learned At Scale](http://events17.linuxfoundation.org/sites/events/files/slides/Building%20Your%20Own%20BaaS%20With%20Apache%20Usergrid%20%26%20Docker.pdf) - Open source Backend as a Service (BaaS) on Apache Cassandra, Elasticsearch with client SDKs for iOS/Android/.NET/Java
 - [scalar-labs/scalardl](https://github.com/scalar-labs/scalardl) - Tamper-evident and scalable distributed ledger platform
 - [scalar-labs/scalardb](https://github.com/scalar-labs/scalardb) - A library that makes non-ACID distributed databases/storages ACID-compliant
