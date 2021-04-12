@@ -1,6 +1,4 @@
-# Awesome Cassandra
-
-[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
+# Awesome Cassandra [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 Apache Cassandra is a free and open-source, distributed, wide column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
 
@@ -61,8 +59,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 ### Cassandra History
 
-- [IDG: 10 Years of Apache Cassandra](https://www.idgconnect.com/abstract/30973/apache-cassandra)
-- [ZDNet: Apache Cassandra Turns 10](https://www.zdnet.com/article/apache-cassandra-turns-10/)
+- [ZDNet: Apache Cassandra Turns 10](https://www.zdnet.com/article/apache-cassandra-turns-10/) - Highlights of the growth of Cassandra over it's first 10 years.
 
 ### Cassandra Use Cases
 
