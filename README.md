@@ -355,14 +355,19 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 ### Graph
 
 - [DSE Graph | Datastax](https://www.datastax.com/products/datastax-graph) - Successor to TitanDB , Commercial Tinkerpop / Gremlin compatible large scale Graph Database on DSE.
-- [thinkaurelius/titan](https://github.com/thinkaurelius/titan) / [Introduction to TitanDB](https://www.slideshare.net/knoldus/introduction-to-titandb) - Distributed Graph Database, predecessor to DSE Graph, JanusGraph, and now HugeGraph
-- [JanusGraph/janusgraph](https://github.com/JanusGraph/janusgraph) / [Large Scale Graph Analytics with JanusGraph](https://www.slideshare.net/Hadoop_Summit/large-scale-graph-analytics-with-janusgraph-77153443) - JanusGraph: an open-source, distributed graph database, successor to TitanDB
-- [hugegraph/hugegraph](https://github.com/hugegraph/hugegraph) /  [Architecture Overview · GitBook](https://hugegraph.github.io/hugegraph-doc/guides/architectural.html) - HugeGraph Database core component, including graph engine, API, and built-in backends.
+- [thinkaurelius/titan](https://github.com/thinkaurelius/titan) - Distributed Graph Database, predecessor to DSE Graph, JanusGraph, and now HugeGraph.
+- [Introduction to TitanDB](https://www.slideshare.net/knoldus/introduction-to-titandb) - Introductory slides about TitanDB.
+- [JanusGraph/janusgraph](https://github.com/JanusGraph/janusgraph) - JanusGraph: an open-source, distributed graph database, successor to TitanDB.
+- [Large Scale Graph Analytics with JanusGraph](https://www.slideshare.net/Hadoop_Summit/large-scale-graph-analytics-with-janusgraph-77153443) - Slides detailing deployment options and technical aspects of JanusGraph.
+- [hugegraph/hugegraph](https://github.com/hugegraph/hugegraph) - HugeGraph Database core component, including graph engine, API, and built-in backends.
+- [Architecture Overview · GitBook](https://hugegraph.github.io/hugegraph-doc/guides/architectural.html) - Documentation for HugeGraph.
 
 ### Miscellaneous
 
-- [stargate/stargate](https://github.com/stargate/stargate) / [Meet Stargate, DataStax's GraphQL for databases. First stop - Cassandra](https://www.zdnet.com/article/meet-stargate-datastaxs-graphql-for-databases-first-stop-cassandra/) - Stargate is an open-source data gateway that provides REST, GraphQL and schemaless JSON interfaces to Cassandra. 
-- [apache/usergrid](https://github.com/apache/usergrid) / [Building Your Own BaaS WithApache Usergrid &amp; Docker: Lessons Learned At Scale](http://events17.linuxfoundation.org/sites/events/files/slides/Building%20Your%20Own%20BaaS%20With%20Apache%20Usergrid%20%26%20Docker.pdf) - Open source Backend as a Service (BaaS) on Apache Cassandra, Elasticsearch with client SDKs for iOS/Android/.NET/Java
+- [Stargate](https://github.com/stargate/stargate) - Stargate is an open-source data gateway that provides REST, GraphQL and schemaless JSON interfaces to Cassandra.
+- [Meet Stargate, DataStax's GraphQL for databases. First stop - Cassandra](https://www.zdnet.com/article/meet-stargate-datastaxs-graphql-for-databases-first-stop-cassandra/) - Introduction and high-level overview of Stargate.
+- [apache/usergrid](https://github.com/apache/usergrid) - Open source Backend as a Service (BaaS) on Apache Cassandra, Elasticsearch with client SDKs for iOS/Android/.NET/Java.
+- [Building Your Own BaaS With Apache Usergrid &amp; Docker: Lessons Learned At Scale](http://events17.linuxfoundation.org/sites/events/files/slides/Building%20Your%20Own%20BaaS%20With%20Apache%20Usergrid%20%26%20Docker.pdf) - Introductory presentation to Apache UserGrid.
 - [scalar-labs/scalardl](https://github.com/scalar-labs/scalardl) - Tamper-evident and scalable distributed ledger platform.
 - [wikimedia/restbase](https://github.com/wikimedia/restbase) -  Distributed storage with REST API &amp; dispatcher for backend services.
 - [wikimedia/restbase-mod-table-spec](https://github.com/wikimedia/restbase-mod-table-spec) - Shared spec and tests for RESTBase table storage.
@@ -395,7 +400,8 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [DataStax OpsCenter](http://www.datastax.com/what-we-offer/products-services/datastax-opscenter) - Simplified management for DataStax Enterprise and Cassandra database clusters.
 - [CassandraCAS](https://github.com/Datomic/CassandraCAS) - A compare-and-swap tool for Cassandra created by Datomic.
 - [peloton](https://github.com/uber/peloton) - A unified resource scheduler created by Uber. This tool can handle many nodes and clusters through resource management and scalability.
-- [ansible-galaxy: cassandra](https://galaxy.ansible.com/community/cassandra) + [ansible-galaxy: cassandra GitHub](https://github.com/ansible-collections/community.cassandra) - This collection called cassandra aims at providing all Ansible modules allowing to interact with Apache Cassandra. 
+- [ansible-galaxy: cassandra GitHub](https://github.com/ansible-collections/community.cassandra) - This collection called cassandra aims at providing all Ansible modules allowed to interact with Apache Cassandra. 
+- [ansible-galaxy: cassandra](https://galaxy.ansible.com/community/cassandra) - Documentation for Ansible-Galaxy: Cassandra.
 - [ansible-dse](https://github.com/rackerlabs/ansible-dse) - A set of Ansible playbooks that will build a Datastax Enterprise cluster.
 - [dseansible](https://github.com/yabinmeng/dseansible) - DSE Installation and Upgrade Ansible Playbooks/Roles for Ubuntu Linux.
 - [DbSchema - Cassandra Designer](https://www.dbschema.com/cassandra-designer-tool.html) - DbSchema: Cassandra Diagram Designer & GUI Admin Tool which can do Cassandra amongst other databases.
