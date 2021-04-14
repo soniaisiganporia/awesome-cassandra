@@ -1,5 +1,5 @@
 # Awesome Cassandra [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
-[<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg" align="right" width="200">](http://cassandra.apache.org/)
+[<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Cassandra_logo.svg" align="right" width="140">](http://cassandra.apache.org/)
 
 Apache Cassandra is a free and open-source, distributed, wide column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.
 
