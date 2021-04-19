@@ -436,7 +436,6 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Datadog](https://www.datadoghq.com/blog/monitoring-cassandra-with-datadog/) - A third party tool that allows monitoring and metrics for Cassandra nodes and clusters.
 - [tlp-cluster](http://thelastpickle.com/tlp-cluster/) - A provisioning tool for Apache Cassandra designed for developers looking to benchmark and test Apache Cassandra. It assists with builds and starting instances on AWS.
 - [Helenos](https://github.com/tomekkup/helenos) - A free web based environment that simplifies a data exploring & schema management with Apache Cassandra database.
-- [KDM by Datafluent](https://www.datafluent.org/) - KDM is a big data modeling tool specialized for Apache Cassandra which allows you to go through the query driven methodology to go from a conceptual data model to an optimized physical data model.
 - [ValuStor](https://github.com/Sensaphone/ValuStor) - ValuStor is a key-value pair database solution.
 - [Cassandra-Migration](https://github.com/hhandoko/cassandra-migration) - Apache Cassandra / DataStax Enterprise database migration (schema evolution) library.
 - [JanuesGraph-Utils](https://github.com/IBM/janusgraph-utils) - Tool to Develop a graph database app.
@@ -450,6 +449,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Instaclustr SSTable Generator](https://github.com/instaclustr/cassandra-sstable-generator) - CLI tool for programmatic generation of Cassandra SSTables.
 - [Instaclustr Exporter](https://github.com/instaclustr/cassandra-exporter) - Java agent that exports Cassandra metrics to Prometheus.
 - [Instaclustr Go Client for Instaclustr Icarus](https://github.com/instaclustr/instaclustr-icarus-go-client) - Go client for Instaclustr Icarus sidecar.
+<!-- Website currently down 4/19/21 - [KDM by Datafluent](https://www.datafluent.org/) - KDM is a big data modeling tool specialized for Apache Cassandra which allows you to go through the query driven methodology to go from a conceptual data model to an optimized physical data model. -->
 <!-- double-link - [Express-Cassandra](https://github.com/masumsoft/express-cassandra) - Cassandra ORM/ODM/OGM for Node.js with Elassandra & JanusGraph Support. -->
 <!-- double-link - [Instaclustr Esop](https://github.com/instaclustr/esop) - Swiss knife for backup and restore of your node to GCP, Azure, S3, Ceph etc. Supports backup and restoration of commit logs too. Esop is embedded in [Instaclustr Icarus](https://github.com/instaclustr/icarus) sidecar so you may backup and restore your cluster remotely and on-the-fly with any disruption. -->
 <!-- double-link - [Instaclustr LDAP Authenticator](https://github.com/instaclustr/cassandra-ldap) - LDAP Authenticator for Apache Cassandra. -->
@@ -468,7 +468,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [CMB](https://github.com/Comcast/cmb) - A highly available, horizontally scalable queuing and notification service compatible with AWS SQS and SNS.
 - [CassieQ](https://github.com/paradoxical-io/cassieq) - A Distributed queue built off of Cassandra.
 - [Cherami](https://eng.uber.com/cherami/) - Distributed, scalable, durable, and highly available message queue system.
-- [scheduler](https://github.com/PagerDuty/scheduler) - A Scala library for scheduling arbitrary code to run at an arbitrary time.
+- [Scheduler](https://github.com/PagerDuty/scheduler) - A Scala library for scheduling arbitrary code to run at an arbitrary time.
 <!-- double-link - [Newts](http://opennms.github.io/newts/) - A time-series data store based on Apache Cassandra. This is part of the OpenNMS family of products that are used to monitor systems. -->
 <!-- double-link - [FiloDB](https://github.com/filodb/FiloDB) - High-performance distributed analytical database + Spark SQL queries + built for streaming.  -->
 
@@ -478,10 +478,10 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Metrics Collector for Apache Cassandra](https://github.com/datastax/metric-collector-for-apache-cassandra) - Metric collection and Dashboards for Apache Cassandra (2.2, 3.0, 3.11, 4.0) clusters. Comes with dashboards for Graphana.
 - [Cassandra Log Tools](https://github.com/erickramirezDSE/cass_log_tools) - Simple scripts for working with Apache Cassandra logs.
 - [Cassandra CFStats to CSV Parser](https://github.com/jlacefie/cfstats-csv-parser) - Converts the output of CFStats to CSV.
-- [Cassandra Scripts](https://github.com/bart613/cassandra) - Python based cassandra ops scripts to monitor cfstats.
 - [Cassandra Nagios](https://github.com/causes/cassandra-nagios) - Perl Based scripts to get metrics for monitoring using Jolokia.
 - [ctop](https://github.com/pixonic/ctop) - This is a very simple console tool for monitoring column families read/write activities at remote cassandra host.
 - [Cassandra StatD Agent](https://github.com/lookout/cassandra-statsd-agent) - Java Agent for Cassandra integration with StatsD.
+<!-- 404 moved or made private - [Cassandra Scripts](https://github.com/bart613/cassandra) - Python based cassandra ops scripts to monitor cfstats. -->
 
 ## Resources
 
@@ -517,7 +517,6 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 ### Blogs
 
 - [Datastax](https://www.datastax.com/blog)
-- [Datastax Academy](https://academy.datastax.com/developer-blog)
 - [Codecentric: Cassandra](https://blog.codecentric.de/en/tag/cassandra/)
 - [Pythian: Cassandra](https://blog.pythian.com/technical-track/cassandra-2/)
 - [Instaclustr](https://www.instaclustr.com/blog/)
@@ -531,20 +530,21 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Spotify R&D / Engineering Blog : Apache Cassandra](https://engineering.atspotify.com/tag/apache-cassandra/)
 - [Ryan Svilha](https://lostechies.com/ryansvihla/tags)
 - [Anant](https://blog.anant.us/)
+<!-- 404 - [Datastax Academy](https://academy.datastax.com/developer-blog) -->
 
 ### Videos
 
-- [Best Practices for Running Cassandra on AWS](https://www.youtube.com/watch?v=IuJldwJLyFM)
-- [Monitoring Cassandra: Don't Miss a Thing (Alain Rodriguez, The Last Pickle) | C* Summit 2016](https://www.youtube.com/watch?v=Q9AAR4UQzMk)
-- [GumGum: Multi-Region Cassandra in AWS](https://academy.datastax.com/resources/Multi-Region-Cassandra-in-AWS)
+- [Best Practices for Running Cassandra on AWS](https://www.youtube.com/watch?v=IuJldwJLyFM) - Joint webinar between Amazon Web Services (AWS) and Stackdriver, an AWS Technology partner, to learn best practices that apply to storing, analyzing and managing queries that equate to over 1+ billion measurements a day.
+- [Monitoring Cassandra: Don't Miss a Thing (Alain Rodriguez, The Last Pickle) | C* Summit 2016](https://www.youtube.com/watch?v=Q9AAR4UQzMk) - In this talk Alain Rodriguez, Consultant at The Last Pickle, will discuss what to monitor in Apache Cassandra, how, and why.
 - [Tuning the Spark Cassandra Connector](https://www.youtube.com/watch?v=cKIHRD6kUOc&feature=youtu.be) - Great talk by Russell Spitzer maintainer of the Spark Cassandra connector.
+<!-- Redirects to datastax.com/dev- [GumGum: Multi-Region Cassandra in AWS](https://academy.datastax.com/resources/Multi-Region-Cassandra-in-AWS) -->
 
 ### Slides
 
-- [Cassandra DataTables Using Restful API](https://www.slideshare.net/SimranKedia2/cassandra-datatables-using-restful-api) - A case on how to create a performant API using Python / Flash.
-- [HAPI Cassandra](https://github.com/victorcouste/hapi-cassandra) - A simple REST API with hapi Node.js framework on top of a Apache Cassandra database.
-- [GumGum: Multi-Region Cassandra in AWS](https://www.slideshare.net/planetcassandra/gumgum-multiregion-cassandra-in-aws)
-- [Hardening cassandra for compliance or paranoia](https://www.slideshare.net/zznate/hardening-cassandra-for-compliance-or-paranoia)
-- [Securing Cassandra](https://www.slideshare.net/planetcassandra/securing-cassandra-the-right-way)
+- [Cassandra DataTables Using Restful API](https://www.slideshare.net/SimranKedia2/cassandra-datatables-using-restful-api) - How to create a performant API using Python / Flash.
+- [HAPI Cassandra](https://github.com/victorcouste/hapi-cassandra) - Simple REST API with hapi Node.js framework on top of a Apache Cassandra database.
+- [GumGum: Multi-Region Cassandra in AWS](https://www.slideshare.net/planetcassandra/gumgum-multiregion-cassandra-in-aws) - This presentation will detail how Gumgum scaled out from one local Cassandra datacenter to a multi-datacenter Cassandra cluster and all the problems they encountered and choices they made while implementing it.
+- [Hardening cassandra for compliance or paranoia](https://www.slideshare.net/zznate/hardening-cassandra-for-compliance-or-paranoia) - Includes details on configuring SSL, setting up a certificate authority and creating certificates and trust chains for the JVM.
+- [Securing Cassandra](https://www.slideshare.net/planetcassandra/securing-cassandra-the-right-way) - Ben Bromhead CTO of Instaclustr, will explore the various ways in which you can setup and secure Cassandra appropriately for your threat environment.
 - [Tuning the Spark Cassandra Connector](https://www.slideshare.net/DataStax/maximum-overdrive-tuning-the-spark-cassandra-connector-russell-spitzer-datastax-c-summit-2016) - Slides by Russell Spitzer maintainer of the Spark Cassandra connector.
 <!-- awesome-lint double link error. - [CQL: This is not the SQL you are Looking For](https://www.slideshare.net/aploetz/cql-this-is-not-the-sql-you-are-loooking-for) -->
