@@ -537,6 +537,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Best Practices for Running Cassandra on AWS](https://www.youtube.com/watch?v=IuJldwJLyFM) - Joint webinar between Amazon Web Services (AWS) and Stackdriver, an AWS Technology partner, to learn best practices that apply to storing, analyzing and managing queries that equate to over 1+ billion measurements a day.
 - [Monitoring Cassandra: Don't Miss a Thing (Alain Rodriguez, The Last Pickle) | C* Summit 2016](https://www.youtube.com/watch?v=Q9AAR4UQzMk) - In this talk Alain Rodriguez, Consultant at The Last Pickle, will discuss what to monitor in Apache Cassandra, how, and why.
 - [Tuning the Spark Cassandra Connector](https://www.youtube.com/watch?v=cKIHRD6kUOc&feature=youtu.be) - Great talk by Russell Spitzer maintainer of the Spark Cassandra connector.
+- [Cassandra.Lunch](https://github.com/Anant/Cassandra.Lunch) - Collection of all past Cassandra.Lunch webinars including videos, slides, and blogposts surrounding all topics Cassandra.
 <!-- Redirects to datastax.com/dev- [GumGum: Multi-Region Cassandra in AWS](https://academy.datastax.com/resources/Multi-Region-Cassandra-in-AWS) -->
 
 ### Slides
