@@ -65,7 +65,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 <!-- double link - [Apache Cassandra](http://cassandra.apache.org/) - The original gangster for Cassandra is of course Apache Cassandra. Community supported. -->
 - [Datastax Enterprise](https://www.datastax.com/) - Most widely used commercial distribution of Apache Cassandra, integrated with Apache Spark (for SparkSQL, analytics), Apache Solr (for secondary index), Apache TinkerPop based Graph stored in Cassandra, and OpsCenter.
 - [DDAC/Luna](https://luna.datastax.com/) - Datastax Distribution of Apache Cassandra, a production ready distribution with a bulk loader supported by Datastax. DDAC is Deprecated now, but Datastax is still supporting Cassandra with it's new Luna Service.
-<!-- - [Elassandra](http://www.elassandra.io/) - Elassandra = Elasticsearch as a Cassandra secondary index.  !Currently down as of 4/16/2021 12:50pm MST -->
+<!-- !double-link - [Elassandra](http://www.elassandra.io/) - Elassandra = Elasticsearch as a Cassandra secondary index. -->
 
 #### Cassandra Compliant Databases on C++
 
@@ -244,7 +244,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Performing User Defined Compactions in Apache Cassandra](http://thelastpickle.com/blog/2016/10/18/user-defined-compaction.html) - Documenting a process by which we tell Cassandra to create a compaction task for one or more tables explicitly.
 - [Graphing cassandra-stress](http://thelastpickle.com/blog/2015/10/23/cassandra-stress-and-graphs.html) - Benchmarking schemas and configuration changes using the cassandra-stress tool, before pushing such changes out to production is one of the things every Cassandra developer should know and regularly practice.
 - [Modeling real life workloads with cassandra-stress is hard](http://thelastpickle.com/blog/2017/02/08/Modeling-real-life-workloads-with-cassandra-stress.html) - Blogpost detailing caveats with cassandra-stress when modeling real workloads.
-- [Gatling DSE Stress](https://github.com/datastax/gatling-dse-stress)
+- [Gatling DSE Stress](https://github.com/datastax/gatling-dse-stress) - Tool for stress testing DSE.
 - [Gatling DSE Plugin for Gatling Load injector](https://github.com/datastax/gatling-dse-plugin) - Plugin for the Gatling load injector. It adds CQL support in Gatling for Datastax Enterprise. It allows for benchmarking Datastax Enterprise features, including DSE Graph Fluent API.
 - [Gatling DSE Stress Simulation Catalog](https://github.com/datastax/gatling-dse-simcatalog) - The goal of the repo is to provide a sample of the Gatling DSE Stress Framework's usage. Feel free to submit a pull request with example simulations.
 <!-- !Now just redirects to https://www.datastax.com/dev - [A Deeper Dive - Diagnosing DSE Performance Issues with Ttop and Multidump](https://academy.datastax.com/support-blog/deeper-dive-diagnosing-dse-performance-issues-ttop-and-multidump) - A good review of how to look deeper into Cassandra threads. -->
@@ -315,7 +315,6 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 #### Spark
 
 - [DataStax Spark Cassandra Connector](https://github.com/datastax/spark-cassandra-connector) - This library lets you expose Cassandra tables as Spark RDDs, write Spark RDDs to Cassandra tables, and execute arbitrary CQL queries in your Spark applications.
-- [Stratio Deep (deprecated)](https://github.com/Stratio/stratio-deep) - Deep is a thin integration layer between Apache Spark and several NoSQL datastores. We actually support Apache Cassandra and MongoDB, but in the near future we will add support for sever other datastores.
 - [sample Spark Job Server Cassandra](https://github.com/instaclustr/sample-SparkJobserverCassandra) - Simple sample job illustrating the use of Spark Jobserver to execute Apache Spark analytics with Cassandra.
 - [fluxcapacitor/pipeline](https://github.com/fluxcapacitor/pipeline) - End-to-End, Real-time, Advanced Analytics Big Data Reference Pipeline using Spark, Spark SQL, Spark ML, GraphX, Spark Streaming, Kafka, NiFi, Cassandra, ElasticSearch, Redis, Tachyon, HDFS, Zeppelin, iPython/Jupyter Notebook, Tableau, Twitter Algebird.
 - [Spark + Cassandra Best Practices](https://blog.pythian.com/spark-cassandra-best-practices/) - Outlines general use cases and best practices of Spark & Cassandra together.
@@ -324,7 +323,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 - [Tuning DSE Search](http://www.datastax.com/dev/blog/tuning-dse-search) - Tuning DSE Search – Indexing latency and query latency.
 - [Cassandra Lucene Index](https://github.com/Stratio/cassandra-lucene-index) - Lucene based secondary indexes for Cassandra.
-- OLD - [Solandra](https://github.com/tjake/Solandra) - Solandra is a real-time distributed search engine built on Apache Solr and Apache Cassandra.
+- [Elassandra](http://www.elassandra.io/) - Elassandra = Elasticsearch as a Cassandra secondary index.
 - [cassandra-trigger](https://github.com/gradeup/cassandra-trigger) - Cassandra trigger to push realtime updates to elasticsearch.
 <!-- double-link - [Elassandra](http://www.elassandra.io/) - Elassandra = Elasticsearch as a Cassandra secondary index. -->
 
@@ -340,8 +339,6 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 #### Custom Time Series
 
-- [Spotify/Heroic](https://github.com/spotify/heroic) - The, now deprecated, Heroic Time Series Database built by Spotify which works on Cassandra and Elasticsearch. The authors mention it will no longer be updated, but should work bug-free.
-- [Heroic Documentation](https://spotify.github.io/heroic/docs/overview) - The Heroic Time Series Database documentation.
 - [kairosdb/kairosdb](https://github.com/kairosdb/kairosdb) - Fast scalable time series database. 
 - [Cassandra Schema — KairosDB 1.0.1 documentation](https://kairosdb.github.io/docs/build/html/CassandraSchema.html) - KairosDB documentation.
 - [Newts](https://opennms.github.io/newts/) - Time-series data store based on Apache Cassandra.
@@ -391,7 +388,6 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Caffinitas](https://bitbucket.org/snazy/caffinitas/src/develop/) - Caffinitas is an advanced object mapper for Apache Cassandra which has been especially designed to work with Datastax Java Driver 2.1+ against Apache Cassandra 2.1, 2.0 or 1.2.
 - [Spring Data for Apache Cassandra](http://projects.spring.io/spring-data-cassandra/) -  Spring Data for Apache Cassandra offers a familiar interface to those who have used other Spring Data modules in the past.
 - [gocql](https://github.com/gocql/gocql) - Package gocql implements a fast and robust Cassandra client for the Go programming language.
-- [Netflix Astyanax](https://github.com/Netflix/astyanax) - This is an old library. Astyanax was a high level Java client for Apache Cassandra, based on Thrift protocol. Not maintained any more.
 
 ### Tools
 
@@ -412,7 +408,6 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra Reaper](http://cassandra-reaper.io/) - Automated repairs for Apache Cassandra. Supports all versions.
 - [cstar perf](https://github.com/datastax/cstar_perf) - Apache Cassandra performance testing platform.
 - [Spark Cassandra Stress](https://github.com/datastax/spark-cassandra-stress) - Tool for testing the DataStax Spark Connector against Apache Cassandra or DSE.
-- [trireme](https://github.com/o19s/trireme) - Migration tool providing support for Apache Cassandra, DataStax Enterprise Cassandra, & DataStax Enterprise Solr.
 - [cqlmigrate](https://github.com/sky-uk/cqlmigrate) -  Cassandra CQL migration tool. cqlmigrate is a library for performing schema migrations on a cassandra cluster.
 - [cassandra-migration-tool-java](https://github.com/smartcat-labs/cassandra-migration-tool-java) - Cassandra migration tool for java is a lightweight tool used to execute schema and data migration on Cassandra database.
 - [Cassalog](https://github.com/hawkular/cassalog) - Cassalog is a schema change management library and tool for Apache Cassandra that can be used with applications running on the JVM.
@@ -457,7 +452,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 
 ### Open Source Applications
 
-- [Twissandra](https://github.com/twissandra/twissandra) -Twissandra is an example project, created to learn and demonstrate how to use Cassandra. Running the project will present a website that has similar functionality to Twitter.
+- [Twissandra](https://github.com/twissandra/twissandra) - Twissandra is an example project, created to learn and demonstrate how to use Cassandra. Running the project will present a website that has similar functionality to Twitter.
 - [ChronoServer](https://github.com/cyngn/ChronoServer) - Test server for sampling how long it takes mobile & web clients to make various types of requests to a server doing common request patterns.
 - [Cassandra Cluster Admin](https://github.com/sebgiroux/Cassandra-Cluster-Admin) - Cassandra Cluster Admin is a GUI tool to help people administrate their Apache Cassandra cluster.
 - [Cassandra-Tools](https://github.com/CrowdStrike/cassandra-tools) - Python Fabric scripts to help automate the launching and managing of cluster testing on AWS.
@@ -545,7 +540,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 - [Cassandra DataTables Using Restful API](https://www.slideshare.net/SimranKedia2/cassandra-datatables-using-restful-api) - How to create a performant API using Python / Flash.
 - [HAPI Cassandra](https://github.com/victorcouste/hapi-cassandra) - Simple REST API with hapi Node.js framework on top of a Apache Cassandra database.
 - [GumGum: Multi-Region Cassandra in AWS](https://www.slideshare.net/planetcassandra/gumgum-multiregion-cassandra-in-aws) - Presentation that details how Gumgum scaled out from one local Cassandra datacenter to a multi-datacenter Cassandra cluster and all the problems they encountered and choices they made while implementing it.
-- [Hardening cassandra for compliance or paranoia](https://www.slideshare.net/zznate/hardening-cassandra-for-compliance-or-paranoia) - Includes details on configuring SSL, setting up a certificate authority and creating certificates and trust chains for the JVM.
+- [Hardening Cassandra for Compliance or Paranoia](https://www.slideshare.net/zznate/hardening-cassandra-for-compliance-or-paranoia) - Includes details on configuring SSL, setting up a certificate authority and creating certificates and trust chains for the JVM.
 - [Securing Cassandra](https://www.slideshare.net/planetcassandra/securing-cassandra-the-right-way) - Ben Bromhead CTO of Instaclustr, will explore the various ways in which you can setup and secure Cassandra appropriately for your threat environment.
 - [Tuning the Spark Cassandra Connector](https://www.slideshare.net/DataStax/maximum-overdrive-tuning-the-spark-cassandra-connector-russell-spitzer-datastax-c-summit-2016) - Slides by Russell Spitzer maintainer of the Spark Cassandra connector.
 <!-- awesome-lint double link error. - [CQL: This is not the SQL you are Looking For](https://www.slideshare.net/aploetz/cql-this-is-not-the-sql-you-are-loooking-for) -->
