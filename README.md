@@ -511,20 +511,20 @@ This is a curated list of awesome [Cassandra](https://github.com/apache/cassandr
 
 ### Blogs
 
-- [Datastax](https://www.datastax.com/blog)
-- [Codecentric: Cassandra](https://blog.codecentric.de/en/tag/cassandra/)
-- [Pythian: Cassandra](https://blog.pythian.com/technical-track/cassandra-2/)
-- [Instaclustr](https://www.instaclustr.com/blog/)
-- [Altheroot:Cassandra](https://blog.alteroot.org/categories/cassandra/index.html)
-- [OpenCredo:Cassandra](https://opencredo.com/tag/cassandra/)
-- [DOAN DuyHai's Blog: Cassandra](http://www.doanduyhai.com/blog/?cat=57)
-- [Amy Tobert](https://tobert.github.io/)
-- [Christopher Batey: Cassandra](http://batey.info/cassandra.html)
-- [Distributed Bytes:Cassandra](https://distributedbytes.timojo.com/search/label/cassandra)
+- [Datastax](https://www.datastax.com/blog) - DataStax, Inc. is a data management company that provides commercial support, software, and cloud database-as-a-service based on Cassandra.
+- [Codecentric: Cassandra](https://blog.codecentric.de/en/tag/cassandra/) - Codecentric is an IT consulting company, these are their blog posts surrounding the topic of Cassandra.
+- [Pythian: Cassandra](https://blog.pythian.com/technical-track/cassandra-2/) - Pythian provides data and cloud-related services. The company provides services for Oracle, SQL Server, MySQL, Hadoop, Cassandra and other databases and their supporting infrastructure.
+- [Instaclustr](https://www.instaclustr.com/blog/) - Managed and supported open source solutions for Cassandra, Kafka, Elasticsearch & Redis.
+- [OpenCredo:Cassandra](https://opencredo.com/tag/cassandra/) - OpenCredo is a consulting company that helps clients make informed decisions around cloud native and open source technologies, as well as public cloud services.
+- [DOAN DuyHai's Blog: Cassandra](http://www.doanduyhai.com/blog/?cat=57) - Duyhai Doan is a freelance big data and cloud architect who values sharing knowledge and contributing to the technology community.
+- [Amy Tobert](https://tobert.github.io/) - Amy Tobert is a full-stack engineer & leader with passion for sustainable systems and people-centered leadership. Her blog details different Cassandra deployments amont other topics.
+- [Christopher Batey: Cassandra](http://batey.info/cassandra.html) - Christopher Batey is a software engineer of over 15 years and is a primary contributor to Akka and occasional contributor to Cassandra.
+- [Distributed Bytes: Cassandra](https://distributedbytes.timojo.com/search/label/cassandra) - Tim Ojo is the creator of Distributed Bytes and software engineer at Capital one. These are a collection of his posts surrounding the topic of Cassandra.
 - [The Netflix Tech Blog](https://medium.com/netflix-techblog)
 - [Spotify R&D / Engineering Blog : Cassandra](https://engineering.atspotify.com/tag/apache-cassandra/)
-- [Ryan Svilha](https://lostechies.com/ryansvihla/tags)
-- [Anant](https://blog.anant.us/)
+- [Ryan Svilha](https://lostechies.com/ryansvihla/tags) - Ryan Svilha is a principle engineer at DataStax. His blog posts covers topics surround Cassandra and associated tools.
+- [Anant](https://blog.anant.us/) - Anant builds and manages business platforms of which they connect customer experiences and information systems with real-time data platforms.
+<!-- Haven't posted about Cassandra since 2015, website not well maintained. - [Altheroot:Cassandra](https://blog.alteroot.org/categories/cassandra/index.html) -->
 <!-- 404 - [Datastax Academy](https://academy.datastax.com/developer-blog) -->
 
 ### Videos
