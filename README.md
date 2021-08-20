@@ -45,7 +45,9 @@ This is a curated list of awesome [Cassandra](https://github.com/apache/cassandr
 
 ### Cassandra
 
-- [Cassandra](https://cassandra.apache.org/cassandra-basics/) - Manage massive amounts of data, fast, without losing sleep.
+
+- [Apache Cassandra](http://cassandra.apache.org/) - Manage massive amounts of data, fast, without losing sleep.
+- [Cassandra.Link](https://cassandra.link/) - Continuously updated database of Cassandra resources.
 
 ### Cassandra History
 
