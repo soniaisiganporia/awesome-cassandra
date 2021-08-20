@@ -46,6 +46,7 @@ This is a curated list of awesome [Apache Cassandra](http://cassandra.apache.org
 ### Cassandra
 
 - [Apache Cassandra](http://cassandra.apache.org/) - Manage massive amounts of data, fast, without losing sleep.
+- [Cassandra.Link](https://cassandra.link/) - Continuously updated database of Cassandra resources.
 
 ### Cassandra History
 
