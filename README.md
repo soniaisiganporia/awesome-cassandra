@@ -45,7 +45,6 @@ This is a curated list of awesome [Cassandra](https://github.com/apache/cassandr
 
 ### Cassandra
 
-
 - [Apache Cassandra](http://cassandra.apache.org/) - Manage massive amounts of data, fast, without losing sleep.
 
 ### Cassandra History
