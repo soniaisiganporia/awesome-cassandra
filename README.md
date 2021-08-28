@@ -74,7 +74,7 @@ This is a curated list of awesome [Cassandra](https://github.com/apache/cassandr
 
 #### Cassandra as a Service / Managed Cassandra Based on Open Source Cassandra
 
-- [Datastax Astra](https://astra.datastax.com?utm_source=awesome-github&utm_medium=referral&utm_campaign=astra-backlinks&utm_term=backend-devplay&utm_content=cassandra-awesome-list) - Datastax Astra Cassandra as a Service running on the Kubernetes operator Cassandra available on AWS and GCP.
+- [Datastax Astra](https://dtsx.io/38htEun) - Datastax Astra Cassandra as a Service running on the Kubernetes operator Cassandra available on AWS and GCP.
 - [Instaclustr Managed Cassandra as a Service](https://www.instaclustr.com/solutions/managed-apache-cassandra/) - Instaclustr provides a fully managed and SOC 2 certified hosted & managed service for Cassandra® on AWS, Azure, GCP and IBM Cloud.
 - [Aiven for Cassandra](https://aiven.io/cassandra/) - Aiven for Cassandra is a managed and hosted distributed NoSQL database providing scalability, high availability, and excellent fault tolerance. Cassandra as a Service is available on Google Cloud Platform, Amazon Web Services, Microsoft Azure, DigitalOcean, and UpCloud.
 - [Microsoft Azure Managed Instance for Cassandra](https://docs.microsoft.com/en-us/azure/managed-instance-apache-cassandra/) - Azure Managed Instance for Cassandra provides automated deployment and scaling operations for managed open-source Cassandra datacenters. It accelerates hybrid scenarios and reduces ongoing maintenance.
